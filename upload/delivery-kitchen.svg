@@ -1,0 +1,23 @@
+<svg width="75" height="75" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M19 38.5H38.5V58H19V38.5Z" fill="white" stroke="#A1A1A1" stroke-width="2"/>
+<path d="M24.0547 48.6182H33.437V52.9417H24.0547V48.6182Z" fill="white" stroke="#A1A1A1" stroke-width="2"/>
+<path d="M37.9727 38.5H56.208V58H37.9727V38.5Z" fill="white" stroke="#A1A1A1" stroke-width="2"/>
+<mask id="path-4-inside-1" fill="white">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M46 39H48V58H46V39Z"/>
+</mask>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M46 39H48V58H46V39Z" fill="white"/>
+<path d="M46 39V37H44V39H46ZM48 39H50V37H48V39ZM48 58V60H50V58H48ZM46 58H44V60H46V58ZM46 41H48V37H46V41ZM46 39V58H50V39H46ZM48 56H46V60H48V56ZM48 58V39H44V58H48Z" fill="#A1A1A1" mask="url(#path-4-inside-1)"/>
+<path d="M37.9727 17H56.208V28.9118H37.9727V17Z" fill="white" stroke="#A1A1A1" stroke-width="2"/>
+<path d="M24.0547 17H30.9076V22.5882H24.0547V17Z" fill="white" stroke="#A1A1A1" stroke-width="2"/>
+<path d="M19.7232 28.912L23.6391 22.0591H31.3314L35.2474 28.912H19.7232Z" fill="white" stroke="#A1A1A1" stroke-width="2"/>
+<mask id="path-9-inside-2" fill="white">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M46 16H48V30H46V16Z"/>
+</mask>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M46 16H48V30H46V16Z" fill="white"/>
+<path d="M46 16V14H44V16H46ZM48 16H50V14H48V16ZM48 30V32H50V30H48ZM46 30H44V32H46V30ZM46 18H48V14H46V18ZM46 16V30H50V16H46ZM48 28H46V32H48V28ZM48 30V16H44V30H48Z" fill="#A1A1A1" mask="url(#path-9-inside-2)"/>
+<mask id="path-11-inside-3" fill="white">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M38 43L38 45L19 45L19 43L38 43Z"/>
+</mask>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M38 43L38 45L19 45L19 43L38 43Z" fill="white"/>
+<path d="M38 43L40 43L40 41L38 41L38 43ZM38 45L38 47L40 47L40 45L38 45ZM19 45L17 45L17 47L19 47L19 45ZM19 43L19 41L17 41L17 43L19 43ZM36 43L36 45L40 45L40 43L36 43ZM38 43L19 43L19 47L38 47L38 43ZM21 45L21 43L17 43L17 45L21 45ZM19 45L38 45L38 41L19 41L19 45Z" fill="#A1A1A1" mask="url(#path-11-inside-3)"/>
+</svg>

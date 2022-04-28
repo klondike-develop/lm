@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="33px" viewBox="0 0 45 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/ic_table6" transform="translate(-15.000000, -21.000000)">
+            <g id="Group">
+                <rect id="Rectangle-13-Copy" x="0" y="0" width="75" height="75"></rect>
+                <g id="table" transform="translate(15.000000, 21.000000)">
+                    <path d="M45,7 L0,7 L0,0 L45,0 L45,7 Z M2,5 L43,5 L43,2 L2,2 L2,5 Z" id="Fill-1" fill="#A1A1A1"></path>
+                    <polygon id="Fill-6" fill="#A1A1A1" points="34.6874959 13 9.68749589 13 9.68749589 11 34.6874959 11"></polygon>
+                    <path d="M3.15300969,32 L5.21922359,32 L11.7192236,6 L6.8672954,6 L3.15300969,32 Z" id="Fill-4" stroke="#A1A1A1" stroke-width="2" fill="#FFFFFF"></path>
+                    <path d="M33.1530097,32 L35.2192236,32 L41.7192236,6 L36.8672954,6 L33.1530097,32 Z" id="Fill-4-Copy" stroke="#A1A1A1" stroke-width="2" fill="#FFFFFF" transform="translate(37.500000, 19.000000) scale(-1, 1) translate(-37.500000, -19.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/ic_hint">
+            <g id="Group">
+                <path d="M6,10 L8,10 L8,9 L6,9 L6,10 Z M6.42239686,8 L7.37328094,8 L7.4675835,7.4699793 C8.33988212,7.24637681 9,6.79917184 9,5.75569358 C9,4.66252588 8.19056974,4 7.03536346,4 C6.13163065,4 5.47937132,4.36438923 5,4.86956522 L5.78585462,5.96273292 C6.15520629,5.61490683 6.56385069,5.41614907 6.93320236,5.41614907 C7.31041257,5.41614907 7.52259332,5.59006211 7.52259332,5.87163561 C7.52259332,6.23602484 7.20039293,6.45962733 6.28880157,6.54244306 L6.2259332,6.61697723 L6.42239686,8 Z" id="?" fill="#686868"></path>
+            </g>
+        </g>
+    </g>
+</svg>

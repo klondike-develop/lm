@@ -1,0 +1,179 @@
+.search-results {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 4px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #E1E1E1;
+}
+.search-results-title {
+    padding: 0 20px 15px 0;
+    h1,
+    h2 {
+        font-size: 20px;
+        line-height: 1.3;
+        color: $dgr;
+    }
+}
+.search-results-sorting {
+    flex-shrink: 0;
+}
+.search-results-categories {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    &.open {
+        margin-bottom: 15px;
+        border-bottom: 1px solid #E1E1E1;
+        .search-results-categories-more-button {
+            &:before {
+                transform: rotate(-180deg);
+            }
+        }
+        .search-results-categories-list {
+            display: none;
+        }
+        .search-results-categories-hidden {
+            display: block;
+        }
+    }
+}
+.search-results-categories-content {
+    flex-grow: 1;
+}
+.search-results-categories-list {
+    display: block;
+    margin-left: -10px;
+    li {
+        float: left;
+        margin-right: 10px;
+        a {
+            display: block;
+            padding: 10px;
+            font-weight: 500;
+            color: $b;
+            &:hover {
+                color: $text;
+            }
+            span {
+                font-weight: normal;
+                color: $t;
+            }
+        }
+    }
+}
+.search-results-categories-hidden {
+    display: none;
+    padding-right: 40px;
+    margin-left: -20px;
+}
+.search-results-categories-col {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+    & > li {
+        margin-bottom: 10px;
+        & > a {
+            display: block;
+            padding: 10px 0;
+            font-weight: 500;
+            color: $b;
+            &:hover {
+                color: $text;
+            }
+        }
+        ul {
+            display: block;
+            padding: 4px 0 18px 18px;
+            li {
+                a {
+                    display: block;
+                    line-height: 1.7;
+                    padding: 4px 0;
+                    color: $dgr;
+                    &:hover {
+                        color: $text;
+                    }
+                    span {
+                        color: $t;
+                    }
+                }
+            }
+        }
+    }
+}
+.search-results-categories-more {
+    flex-shrink: 0;
+}
+.search-results-categories-more-button {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    font-weight: 500;
+    color: $b;
+    margin-right: -10px;
+    padding: 10px 10px 10px 23px;
+    &:before {
+        content: "";
+        position: absolute;
+        top: 17px;
+        left: 5px;
+        width: 8px;
+        height: 5px;
+        background: $tr url('../upload/down.svg') 0 0 no-repeat;
+        background-size: 100% 100%;
+        transition: transform $d $f;
+    }
+    &:hover {
+        color: $text;
+    }
+}
+.search-results-main {
+    margin-bottom: 16px;
+    padding: 40px 0 12px;
+    background: $w;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1);
+    .global-title {
+        text-align: left;
+        margin-bottom: 14px;
+    }
+}
+.search-results-main-content {
+    padding: 0 86px;
+}
+.search-results-main-categories {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -20px;
+}
+.search-results-main-category {
+    flex: 0 0 28.1%;
+    max-width: 28.1%;
+    padding-left: 20px;
+    & > li {
+        margin-bottom: 10px;
+        & > a {
+            display: block;
+            padding: 10px 0;
+            font-weight: 500;
+            color: $b;
+            &:hover {
+                color: $text;
+            }
+        }
+        ul {
+            display: block;
+            padding: 4px 0 5px 30px;
+            li {
+                a {
+                    display: block;
+                    line-height: 1.7;
+                    padding: 4px 0;
+                    color: $dgr;
+                    &:hover {
+                        color: $text;
+                    }
+                }
+            }
+        }
+    }
+}

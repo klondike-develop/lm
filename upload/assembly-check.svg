@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="21px" viewBox="0 0 27 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 9</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 27 0 27 21 0 21"></polygon>
+    </defs>
+    <g id="new-pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_website_page_sborka_moscow_2" transform="translate(-452.000000, -1171.000000)">
+            <g id="Group-8" transform="translate(446.000000, 1162.000000)">
+                <g id="Group-9" transform="translate(6.000000, 9.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M26.6044922,0.418656605 C26.0774297,-0.139552202 25.2227109,-0.139552202 24.6953672,0.418656605 L8.52152344,17.5485032 L2.30463281,10.9642307 C1.77728906,10.4057241 0.922570312,10.4057241 0.395507812,10.9642307 C-0.131835938,11.5224395 -0.131835938,12.4277416 0.395507812,12.9862483 L7.56682031,20.5813434 C8.09388281,21.13985 8.94944531,21.1392543 9.47622656,20.5813434 L26.6044922,2.44059971 C27.1318359,1.8823909 27.1318359,0.977163281 26.6044922,0.418656605" id="Fill-1" fill="#83C150" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

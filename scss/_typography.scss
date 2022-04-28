@@ -1,0 +1,176 @@
+/* typography */
+a {
+    color: $link;
+    text-decoration: none;
+    background-color: $tr;
+    transition: color $d $f, background-color $d $f, border-color $d $f, box-shadow $d $f;
+    &:hover {
+        color: $link-hover;
+    }
+    &.underline {
+        text-decoration: underline;
+    }
+}
+.clear20,
+.clear30 {
+    clear: both;
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    height: 30px;
+}
+.clear20 {
+    height: 20px;
+}
+.wysiwyg {
+    font-size: 13px;
+    line-height: 1.85;
+    color: $dgr;
+    @extend .clearfix;
+    h1 {
+        font-size: 30px;
+        line-height: 1.2;
+        color: $b;
+        margin-bottom: 35px;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 1.5;
+        color: $b;
+        padding-top: 18px;
+        margin-bottom: 44px;
+    }
+    h3 {
+        font-size: 30px;
+        line-height: 1.2;
+        color: $b;
+        margin-bottom: 28px;
+    }
+    h4 {
+        font-size: 15px;
+        line-height: 1.4;
+        font-weight: 500;
+        color: $b;
+        padding-top: 18px;
+        margin-bottom: 12px;
+    }
+    h5,
+    h6 {
+        font-size: 13px;
+        line-height: 1.85;
+        font-weight: 500;
+        color: $b;
+        margin-bottom: 24px;
+    }
+    p {
+        margin-bottom: 24px;
+    }
+    a {
+        font-weight: 500;
+        -ms-word-break: break-all;
+        word-break: break-all;
+        word-break: break-word;
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        hyphens: auto;
+        &:hover {
+            color: $link;
+            text-decoration: underline;
+        }
+        &:visited {
+            color: #AC50C1;
+        }
+    }
+    img {
+        margin-bottom: 24px;
+        &.alignleft {
+            margin-right: 40px;
+        }
+        &.alignright {
+            margin-left: 40px;
+        }
+        &.aligncenter {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    blockquote {
+        margin-bottom: 24px;
+        padding-left: 24px;
+        font-style: italic;
+        p {
+            margin-bottom: 0;
+        }
+    }
+    hr {
+        clear: both;
+        margin-bottom: 24px;
+        border: 0;
+        border-bottom: 1px solid $light-gray;
+        &.transparent {
+            border-bottom-color: $transparent;
+        }
+    }
+    ul {
+        display: block;
+        li {
+            font-size: 13px;
+            line-height: 1.54;
+            margin-bottom: 20px;
+            padding-left: 20px;
+            position: relative;
+            &:before {
+                content: "";
+                position: absolute;
+                top: 7px;
+                left: 0;
+                width: 3px;
+                height: 3px;
+                background: $b;
+                border-radius: 50%;
+            }
+        }
+    }
+    ol {
+        display: block;
+        list-style: outside decimal;
+        margin-left: 15px;
+        li {
+            font-size: 13px;
+            line-height: 1.54;
+            margin-bottom: 20px;
+            padding-left: 5px;
+        }
+    }
+    table {
+        width: 100%;
+        margin-bottom: 24px;
+        th {
+            font-size: 15px;
+            line-height: 1.33334;
+            font-weight: 500;
+            color: $w;
+            letter-spacing: -0.1px;
+            padding: 30px 20px 30px 10%;
+            border: 0;
+            vertical-align: middle;
+            background: $p;
+        }
+        td {
+            font-size: 13px;
+            line-height: 1.231;
+            color: $dgr;
+            padding: 30px 20px 30px 10%;
+            border: 0;
+            vertical-align: middle;
+            background: rgba(131, 193, 80, 0.1);
+        }
+        tr {
+            &:nth-child(even) {
+                td {
+                    background: $w;
+                }
+            }
+        }
+    }
+}

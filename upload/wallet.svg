@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="21px" viewBox="0 0 16 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>wallet</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="price-unit/credit-2" transform="translate(-30.000000, -273.000000)">
+            <g id="credit" transform="translate(30.000000, 273.000000)">
+                <g id="Group">
+                    <g id="Group-3">
+                        <g id="wallet">
+                            <g>
+                                <path d="M0.000226415094,10.3840108 C0.000226415094,9.20853763 0.0990188679,8.46262366 2.53992453,6.6454086 C4.56075472,5.14101075 11.0380377,0 11.0380377,0 L11.0380377,8.582 L15.9638491,8.582 L15.9638491,20.9336882 L1.53879245,20.9336882 C0.692603774,20.9336882 0,20.2429462 0,19.398957 L0.000226415094,10.3840108" id="Fill-1" fill="#FACA22"></path>
+                                <polyline id="Fill-4" fill="#C9A521" points="11.0380377 8.582 11.0380377 13.5546344 1.98649057 19.7044731 13.430566 15.9909355 13.430566 8.582 11.0380377 8.582"></polyline>
+                                <path d="M6.90173585,8.32480645 C7.43101887,7.69578495 8.20407547,7.47366667 8.6285283,7.82893548 C9.05298113,8.1842043 8.96815094,8.9822043 8.43879245,9.61122581 C7.90981132,10.240172 7.1365283,10.4619892 6.71207547,10.1067204 C6.28754717,9.75152688 6.37260377,8.95375269 6.90173585,8.32480645" id="Fill-5" fill="#000000"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,164 @@
+.partnership {
+    &-banner {
+        background: $p 50% 50% no-repeat;
+        background-size: cover;
+        .row {
+            min-height: 329px;
+        }
+        &-title {
+            padding: 40px 0 52px;
+            font-size: 33px;
+            line-height: 1.1;
+            font-weight: bold;
+            letter-spacing: -0.8px;
+            color: $w;
+            text-align: center;
+            h1 {
+                font-size: 100%;
+                font-weight: bold;
+                margin: 0;
+            }
+            strong {
+                display: block;
+                font-size: 73px;
+                line-height: 1.083;
+                font-weight: 900;
+                letter-spacing: -0.46px;
+            }
+        }
+    }
+    &-advantages {
+        text-align: center;
+        padding-bottom: 20px;
+        &-gray {
+            padding: 61px 0 90px;
+            background: $s;
+            .partnership-advantages-icon {
+                width: 100px;
+                height: 100px;
+                background: $w;
+            }
+        }
+        &-caption {
+            font-size: 20px;
+            line-height: 1.2;
+            font-weight: bold;
+            color: $b;
+            margin-bottom: 24px;
+            h2 {
+                font-size: 100%;
+                font-weight: bold;
+                margin: 0;
+            }
+        }
+        &-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0 -20px;
+        }
+        &-item {
+            flex: 0 0 20%;
+            max-width: 20%;
+            padding: 0 20px 40px;
+        }
+        &-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 126px;
+            height: 126px;
+            background: $s;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 20px;
+        }
+        &-title {
+            font-size: 15px;
+            line-height: 1.334;
+            font-weight: bold;
+            color: $b;
+        }
+        &-info {
+            font-size: 13px;
+            line-height: 1.54;
+            color: $dgr;
+            padding-top: 8px;
+        }
+    }
+    &-form {
+        margin: -64px 0 61px;
+        &-content {
+            max-width: 1216px;
+            margin: 0 auto;
+            padding: 61px 30px 64px;
+            background: $w;
+            box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+        }
+        &-block {
+            max-width: 848px;
+            margin: 0 auto;
+        }
+        &-title {
+            font-size: 20px;
+            line-height: 1.2;
+            font-weight: bold;
+            color: $b;
+            margin-bottom: 23px;
+        }
+        &-row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -8px;
+        }
+        &-col {
+            flex: 0 0 50%;
+            max-width: 50%;
+            padding: 0 8px;
+        }
+        &-button {
+            text-align: center;
+            padding-top: 30px;
+            .button {
+                width: 100%;
+                max-width: 331px;
+                font-size: 15px;
+                padding: 15px;
+            }
+        }
+    }
+    &-contacts {
+        padding-bottom: 15px;
+        &-title {
+            font-size: 20px;
+            line-height: 1.2;
+            font-weight: bold;
+            text-align: center;
+            color: $b;
+            margin-bottom: 25px;
+        }
+        &-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 0 -33px;
+        }
+        &-item {
+            flex: 0 1 auto;
+            max-width: 100%;
+            padding: 0 33px 40px;
+            font-size: 13px;
+            line-height: 1.54;
+            color: $dgr;
+            a {
+                display: block;
+                font-size: 16px;
+                line-height: 1.375;
+                color: $b;
+                &:hover {
+                    color: $p;
+                }
+            }
+        }
+    }
+}

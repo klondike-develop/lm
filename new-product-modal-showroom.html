@@ -1,0 +1,61 @@
+<div class="new-product-modal-showroom modal-center">
+    <a href="#" class="new-product-modal-close" data-dismiss="modal" aria-hidden="true" title="Закрыть"></a>
+    <div class="new-product-modal-showroom-caption">Шоурум на карте</div>
+    <div class="new-product-modal-showroom-content">
+        <div class="new-product-modal-showroom-title">Как нас найти</div>
+        <div class="new-product-modal-showroom-map-block">
+            <div id="new-product-modal-showroom-map" class="new-product-modal-showroom-map"></div>
+            <script>
+                ymaps.ready(function () {
+                    var myMap = new ymaps.Map('new-product-modal-showroom-map', {
+                        center: [55.751131, 37.637388],
+                        zoom: 16,
+                        controls: []
+                    }, {
+                        searchControlProvider: 'yandex#search'
+                    }),
+
+                    myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+                    }, {
+                        iconLayout: 'default#image',
+                        iconImageHref: 'upload/new-pin3.svg',
+                        iconImageSize: [345, 75],
+                        iconImageOffset: [-27, -37]
+                    });
+
+                    myMap.geoObjects.add(myPlacemark);
+                });
+            </script>
+        </div>
+        <!-- /.new-product-modal-showroom-map-block -->
+        <div class="new-product-modal-showroom-route-list">
+            <div class="new-product-modal-showroom-route-item">
+                <div class="new-product-modal-showroom-route-icon"><img src="upload/new-showroom-icon1.svg" alt=""></div>
+                <div class="new-product-modal-showroom-route-title">Адрес</div>
+                <div class="new-product-modal-showroom-route-info">
+                    <p>г. Москва, Дмитровское шоссе, <br>д. 73, стр. 2 (ТЦ Метромолл)</p>
+                </div>
+            </div>
+            <!-- /.new-product-modal-showroom-route-item -->
+            <div class="new-product-modal-showroom-route-item">
+                <div class="new-product-modal-showroom-route-icon"><img src="upload/new-showroom-icon6.svg" alt=""></div>
+                <div class="new-product-modal-showroom-route-title">Как найти?</div>
+                <div class="new-product-modal-showroom-route-info">
+                    <p>Пройдите через главный вход в торговый центр Метромолл насквозь, после выхода во внутренний двор идите прямо, с левой стороны будет спуск по лестнице вниз. <br>Пройдите через стеклянные двери и идите прямо. <br>Все, вы на месте!</p>
+                </div>
+            </div>
+            <!-- /.new-product-modal-showroom-route-item -->
+            <div class="new-product-modal-showroom-route-item">
+                <div class="new-product-modal-showroom-route-icon"><img src="upload/new-showroom-icon5.svg" alt=""></div>
+                <div class="new-product-modal-showroom-route-title">м. Верхние Лихоборы</div>
+                <div class="new-product-modal-showroom-route-info">
+                    <p>Первый (1й) вагон из центра, выход №1</p>
+                </div>
+            </div>
+            <!-- /.new-product-modal-showroom-route-item -->
+        </div>
+        <!-- /.new-product-modal-showroom-route-list -->
+    </div>
+    <!-- /.new-product-modal-showroom-content -->
+</div>
+<!-- /.new-product-modal-showroom -->

@@ -1,0 +1,46 @@
+.info-panel {
+    color: $dgr;
+    text-align: center;
+    background: $s;
+    min-height: 40px;
+    .row {
+        position: relative;
+    }
+    strong {
+        font-weight: 500;
+        line-height: normal;
+    }
+}
+.info-panel-content {
+    padding: 12px 40px 10px;
+}
+.info-panel-note {}
+.info-panel-order {
+    display: flex;
+    justify-content: center;
+}
+.info-panel-order-info {
+    padding: 0 23px;
+}
+.info-panel-order-sep {
+    position: relative;
+    flex: 0 0 1px;
+    max-width: 1px;
+    &:after {
+        content: "";
+        position: absolute;
+        top: 3px;
+        bottom: 5px;
+        left: 0;
+        right: 0;
+        background: $t;
+        opacity: 0.5;
+    }
+}
+.info-panel-order-more {
+    margin-left: -17px;
+    padding: 0 23px;
+    letter-spacing: -0.24px;
+    text-decoration: underline;
+    align-self: center;
+}

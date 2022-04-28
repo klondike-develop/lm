@@ -1,0 +1,408 @@
+.assembly {
+    display: flex;
+    flex-wrap: wrap;
+    &-content {
+        flex: 0 0 66.52%;
+        max-width: 66.52%;
+    }
+    &-categories {
+        margin-bottom: 73px;
+        &-narrow {
+            .assembly-category-prices {
+                flex: 0 0 38.723%;
+                max-width: 38.723%;
+            }
+            .assembly-category-price-percent {
+                flex: 0 0 40%;
+                max-width: 40%;
+            }
+            .assembly-category-price-min {
+                flex: 0 0 60%;
+                max-width: 60%;
+                padding-right: 0;
+            }
+        }
+    }
+    &-category {
+        display: flex;
+        align-items: center;
+        padding: 40px 0;
+        border-bottom: 1px solid #E1E1E1;
+        &-icon {
+            flex: 0 0 110px;
+            max-width: 110px;
+            padding-right: 15px;
+            align-self: flex-start;
+        }
+        &-caption {
+            flex-grow: 1;
+            padding-right: 15px;
+        }
+        &-title {
+            font-size: 20px;
+            line-height: 1.2;
+            color: $b;
+            margin-bottom: 5px;
+            .filter-item-hint {
+                margin-top: 6px;
+            }
+        }
+        &-include {
+            display: block;
+            padding-left: 14px;
+            margin-bottom: 10px;
+            li {
+                font-size: 13px;
+                line-height: 1.77;
+            }
+        }
+        &-prices {
+            flex: 0 0 62.914%;
+            max-width: 62.914%;
+            &-note {
+                display: flex;
+                align-items: center;
+                margin-top: 27px;
+                padding: 9px 10px 5px 70px;
+                min-height: 60px;
+                background: $s;
+                font-size: 13px;
+                line-height: 1.77;
+                position: relative;
+                &:before {
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    margin-top: -19px;
+                    left: 14px;
+                    width: 39px;
+                    height: 39px;
+                    background: $w url('../upload/assembly-check.svg') 50% 50% no-repeat;
+                    background-size: 27px 21px;
+                    border-radius: 50%;
+                }
+                p {
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                }
+            }
+        }
+        &-prices-in {
+            display: flex;
+            align-items: center;
+            color: $b;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+        &-price-percent {
+            flex: 0 0 30%;
+            max-width: 30%;
+            font-size: 18px;
+            line-height: 1.3334;
+            padding-right: 15px;
+        }
+        &-price-min {
+            flex: 0 0 40%;
+            max-width: 40%;
+            font-size: 24px;
+            line-height: 1;
+            padding-right: 15px;
+        }
+        &-price-max {
+            flex: 0 0 30%;
+            max-width: 30%;
+            font-size: 24px;
+            line-height: 1;
+        }
+        &-header {
+            padding: 1px 0 4px;
+            .assembly-category-caption {
+                padding-left: 110px;
+            }
+            .assembly-category-title {
+                font-size: 13px;
+                line-height: 1.77;
+                color: $dgr;
+                font-weight: bold;
+                margin-bottom: 0;
+            }
+            .assembly-category-prices-in {
+                color: $dgr;
+                font-weight: bold;
+                margin-bottom: 0;
+            }
+            .assembly-category-price-percent,
+            .assembly-category-price-min,
+            .assembly-category-price-max {
+                font-size: 13px;
+                line-height: 1.77;
+            }
+        }
+    }
+    &-sidebar {
+        flex: 0 0 33.48%;
+        max-width: 33.48%;
+        padding-left: 48px;
+        padding-top: 29px;
+    }
+    &-details {
+        padding-bottom: 22px;
+        &-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 46px;
+        }
+        &-icon {
+            flex: 0 0 67px;
+            max-width: 67px;
+            padding-right: 10px;
+        }
+        &-info {
+            flex-grow: 1;
+            h3 {
+                font-size: 20px;
+                line-height: 1.2;
+                color: $b;
+                margin-bottom: 13px;
+            }
+            p {
+                font-size: 13px;
+                line-height: 1.77;
+            }
+        }
+    }
+    &-banner {
+        margin-bottom: 50px;
+        a {
+            display: block;
+            img {
+                margin: 0 auto;
+            }
+        }
+    }
+    &-comments {
+        margin-bottom: 50px;
+        .product-comments-info {
+            margin-bottom: 0;
+            padding-top: 54px;
+            padding-bottom: 75px;
+            p {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 1.6875;
+                margin-bottom: 20px;
+            }
+            .button {
+                max-width: 196px;
+            }
+        }
+        .product-comments-info-ico {
+            width: 75px;
+            height: 75px;
+            margin-bottom: 33px;
+        }
+    }
+    &-order {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 52px;
+        text-align: center;
+        a.button {
+            min-width: 224px;
+        }
+    }
+}
+.modal-assembly {
+    .modal-content {
+        width: 912px;
+    }
+}
+.assembly {
+    &-form {
+        display: flex;
+        align-items: flex-start;
+        padding: 73px 75px 60px 30px;
+        &-block {
+            flex: 0 0 50.186%;
+            max-width: 50.186%;
+            padding: 18px 20px 15px;
+            &-gray {
+                padding-bottom: 22px;
+                background: $s;
+                .assembly-form-button {
+                    padding-top: 7px;
+                    text-align: center;
+                    .button {
+                        min-width: 198px;
+                    }
+                }
+            }
+        }
+        &-button {
+            padding-top: 14px;
+            .button {
+                min-width: 218px;
+            }
+        }
+        .input-wrapper {
+            margin-bottom: 14px;
+            & > label {
+                padding-bottom: 6px;
+            }
+        }
+        textarea.textarea,
+        input.input-text {
+            padding-top: 12px;
+            padding-bottom: 13px;
+        }
+        .filter-item-hint {
+            margin-left: 2px;
+        }
+        &-choose {
+            flex: 0 0 49.814%;
+            max-width: 49.814%;
+            padding-left: 20px;
+        }
+        &-choose-block {
+            min-height: 423px;
+            padding: 12px 20px 14px 24px;
+            background: $w;
+            box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+        }
+        &-month {
+            font-weight: 500;
+            color: $b;
+            text-align: center;
+            margin-bottom: 7px;
+        }
+        &-day-slider {
+            padding: 0 49px;
+            margin-bottom: 8px;
+            .slick-center {
+                .assembly-form-day {
+                    padding-top: 7px;
+                    color: $w;
+                    background: $p;
+                    strong {
+                        font-size: 22px;
+                        line-height: 1;
+                        color: $w;
+                    }
+                }
+            }
+            .slick-prev,
+            .slick-next {
+                width: 49px;
+                height: 100%;
+                background: $tr;
+                &:after {
+                    width: 14px;
+                    height: 23px;
+                    margin-top: -15px;
+                    margin-left: -7px;
+                    background-image: url('../upload/assembly-next.svg');
+                }
+            }
+        }
+        &-day {
+            cursor: pointer;
+            padding-top: 10px;
+            height: 40px;
+            text-align: center;
+            font-size: 8px;
+            line-height: 1.25;
+            color: $t;
+            text-transform: uppercase;
+            border-radius: 3px;
+            strong {
+                display: block;
+                font-size: 13px;
+                line-height: 1.308;
+                color: $text;
+                font-weight: normal;
+            }
+        }
+        &-time {
+            padding-top: 11px;
+            padding-bottom: 7px;
+            border-top: 1px solid #DFDEDE;
+            &.closed {
+                .assembly-form-time-list {
+                    display: none;
+                }
+                .assembly-form-time-period {
+                    &:before {
+                        transform: rotate(0);
+                    }
+                }
+            }
+        }
+        &-time-period {
+            cursor: pointer;
+            font-weight: bold;
+            color: $dgr;
+            position: relative;
+            padding-right: 20px;
+            margin-bottom: 9px;
+            &:before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                margin-top: -2px;
+                right: 0;
+                width: 10px;
+                height: 7px;
+                background: $tr url('../upload/assembly-down.svg') 50% 50% no-repeat;
+                background-size: 100% 100%;
+                transition: transform $d $f;
+                transform: rotate(-180deg);
+            }
+        }
+        &-time-list {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -5px;
+        }
+        &-time-choose {
+            padding: 0 5px 8px;
+            flex: 0 0 25%;
+            max-width: 25%;
+            input {
+                display: none;
+                &:checked + label {
+                    background: $p;
+                    color: $w;
+                    &:before {
+                        background-image: url('../upload/assembly-right-white.svg');
+                    }
+                }
+                &:disabled + label {
+                    cursor: default;
+                }
+            }
+            label {
+                cursor: pointer;
+                display: block;
+                padding: 3px 12px 2px;
+                color: $t;
+                text-align: center;
+                background: $s;
+                border-radius: 3px;
+                user-select: none;
+                transition: color $d $f, background-color $d $f;
+                position: relative;
+                &:before {
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    margin-top: -4px;
+                    right: 3px;
+                    width: 5px;
+                    height: 9px;
+                    background: $tr url('../upload/assembly-right.svg') 50% 50% no-repeat;
+                    background-size: 100% 100%;
+                }
+            }
+        }
+    }
+}

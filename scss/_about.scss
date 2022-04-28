@@ -1,0 +1,139 @@
+.about {
+    padding: 8px 0 13px;
+}
+.about-intro {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 33px;
+}
+.about-info {
+    flex-grow: 1;
+    padding-right: 20px;
+    max-width: 700px;
+    p {
+        font-size: 13px;
+        line-height: 1.85;
+        color: $dgr;
+        margin-bottom: 24px;
+    }
+}
+.about-rating {
+    flex: 0 0 200px;
+    max-width: 200px;
+    padding-top: 5px;
+}
+.about-rating-yandex {
+    margin-bottom: 25px;
+}
+.about-rating-button {
+    margin-bottom: 25px;
+    .button {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+.about-video {
+    margin-bottom: 71px;
+    background: #e1e1e1;
+}
+.about-video-link {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    img {
+        width: 100%;
+        transition: transform $d*2 $f;
+    }
+    .play-icon {
+        width: 80px;
+        height: 80px;
+    }
+    &:hover {
+        img {
+            transform: scale(1.05);
+        }
+    }
+}
+.about-reasons {
+    max-width: 850px;
+    .global-title {
+        margin-bottom: 51px;
+    }
+}
+.about-reason {
+    display: flex;
+    padding: 50px 0 30px;
+    border-bottom: 1px solid #e1e1e1;
+    &:last-child {
+        border-bottom: 0;
+    }
+}
+.about-reason-img {
+    flex: 0 0 165px;
+    max-width: 165px;
+    padding-right: 50px;
+    span {
+        display: flex;
+        height: 115px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.about-reason-content {
+    flex-grow: 1;
+    p {
+        font-size: 15px;
+        line-height: 1.4667;
+        color: $b;
+        margin-bottom: 22px;
+    }
+}
+.about-reason-title {
+    padding-top: 3px;
+    margin-bottom: 21px;
+    h3 {
+        font-size: 20px;
+        line-height: 1.3;
+        font-weight: 500;
+        color: $dgr;
+    }
+    span {
+        min-width: 30px;
+        padding-right: 10px;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+.about-reason-catalog {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+    padding-top: 3px;
+}
+.about-reason-catalog-item {
+    padding: 0 10px 20px;
+    .button {
+        padding-left: 10px;
+        padding-right: 10px;
+        min-width: 100px;
+    }
+}
+.about-reason-catalog-link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 -10px;
+    padding: 11px 10px;
+    color: $dgr;
+    &:hover {
+        color: $b;
+    }
+}
+.about-reason-button {
+    margin-bottom: 20px;
+    .button {
+        padding-left: 10px;
+        padding-right: 10px;
+        min-width: 160px;
+    }
+}

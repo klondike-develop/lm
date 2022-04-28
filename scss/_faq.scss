@@ -1,0 +1,129 @@
+.faq-menu {
+    margin-bottom: 22px;
+}
+.faq-feedback-link {
+    padding: 0 10px 30px;
+    .button {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+}
+.faq {
+    padding: 8px 0 3px;
+    max-width: 850px;
+    .global-title {
+        margin-bottom: 33px;
+    }
+}
+.faq-category {
+    padding: 22px 0 0;
+}
+.faq-category-title {
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: 500;
+    color: $dgr;
+    padding-bottom: 27px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #E1E1E1;
+}
+.faq-item {
+    margin-bottom: 28px;
+    &.open {
+        margin-bottom: 0;
+        .faq-item-text {
+            display: block;
+        }
+        .faq-item-caption {
+            &:before {
+                transform: rotate(-90deg);
+            }
+        }
+    }
+}
+.faq-item-caption {
+    display: block;
+    font-size: 15px;
+    line-height: 1.4667;
+    color: $b;
+    padding: 11px 40px 10px;
+    position: relative;
+    &:before {
+        content: "";
+        position: absolute;
+        top: 13px;
+        left: 4px;
+        width: 12px;
+        height: 20px;
+        background: $tr url('../upload/right-small.svg') 50% 50% no-repeat;
+        background-size: 100% 100%;
+        transition: transform $d $f;
+        will-change: transform;
+        transform: rotate(90deg);
+    }
+    &:hover {
+        color: $text;
+    }
+}
+.faq-item-text {
+    display: none;
+    padding: 8px 40px;
+    font-size: 13px;
+    line-height: 1.54;
+    p {
+        margin-bottom: 20px;
+    }
+}
+.faq-feedback {
+    padding: 64px 0 74px;
+    margin-bottom: 93px;
+    background: $s;
+    .global-title {
+        text-align: left;
+        margin-bottom: 44px;
+    }
+}
+.faq-feedback-block {
+    max-width: 510px;
+    margin: 0 auto;
+    p {
+        font-size: 13px;
+        line-height: 1.54;
+        color: $dgr;
+        margin-bottom: 20px;
+        a {
+            color: $dgr;
+            font-weight: 500;
+            &:hover {
+                color: $b;
+            }
+        }
+    }
+}
+.faq-feedback-form {
+    padding-top: 21px;
+    .input-wrapper {
+        margin-bottom: 16px;
+    }
+}
+textarea.faq-feedback-question {
+    height: 90px;
+}
+.faq-feedback-button {
+    padding: 24px 0 20px;
+    max-width: 288px;
+    .button {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+}
+.faq-feedback-agree {
+    max-width: 320px;
+    font-size: 11px;
+    line-height: 1.55;
+    a {
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,245 @@
+.catalog-menu-v2 {
+    display: block;
+    margin-bottom: 40px;
+    border-top: 1px solid #e3e3e3;
+    & > li {
+        position: relative;
+        border-bottom: 1px solid #e3e3e3;
+        & > a {
+            display: block;
+            padding: 16px 0;
+            font-size: 15px;
+            line-height: 1.6;
+            font-weight: 500;
+            color: $b;
+            &:hover {
+                color: $text;
+            }
+            &.catalog-menu-dropdown-toggle {
+                position: absolute;
+                z-index: 2;
+                top: 0;
+                right: 0;
+                width: 40px;
+                height: 56px;
+                padding: 0 !important;
+                font-size: 0;
+                line-height: 0;
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 24px;
+                    right: 14px;
+                    width: 12px;
+                    height: 8px;
+                    background: $tr url('../upload/arrow-down.svg') 50% 50% no-repeat;
+                    background-size: 100% 100%;
+                    transition: transform $d $f;
+                    will-change: transform;
+                }
+            }
+        }
+        &.active {
+            & > a {
+                color: $p;
+            }
+        }
+        &.catalog-menu-dropdown {
+            & > a {
+                padding-right: 40px;
+            }
+            &.open {
+                & > a {
+                    &.catalog-menu-dropdown-toggle {
+                        &::after {
+                            transform: rotate(-180deg);
+                        }
+                    }
+                }
+                & > ul {
+                    display: block;
+                }
+            }
+        }
+        & > ul {
+            display: none;
+            margin: -4px 0 0;
+            padding: 0 0 11px;
+            & > li {
+                padding: 0 0 11px 20px;
+                & > a {
+                    display: block;
+                    font-size: 15px;
+                    line-height: 1.6;
+                    color: $b;
+                    &:hover {
+                        color: $text;
+                    }
+                }
+                &.active {
+                    & > a {
+                        font-weight: 500;
+                        color: $p;
+                    }
+                    & > ul {
+                        display: block;
+                    }
+                }
+                & > ul {
+                    display: none;
+                    padding: 5px 0 2px 16px;
+                    & > li {
+                        & > a {
+                            display: block;
+                            font-size: 15px;
+                            line-height: 1.6;
+                            color: $b;
+                            padding: 2px 0;
+                            &:hover {
+                                color: $text;
+                            }
+                        }
+                        &.active {
+                            & > a {
+                                font-weight: 500;
+                                color: $p;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.catalog-categories {
+    margin: 0 -8px 8px;
+    .slick-prev,
+    .slick-next {
+        z-index: 10;
+        right: -19px;
+        top: 50%;
+        margin-top: -38px;
+        width: 54px;
+        height: 54px;
+        box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+        &:after {
+            margin: 0;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: $tr url('../upload/next.svg') 50% 50% no-repeat;
+            background-size: 20px 14px;
+        }
+    }
+    .slick-prev {
+        right: auto;
+        left: -19px;
+        top: 50%;
+        bottom: auto;
+    }
+    &-item {
+        display: block;
+        margin: 0 8px 16px;
+        padding: 20px 20px 28px;
+        border-radius: 3px;
+        border: 1px solid #e1e1e1;
+        &:hover {
+            border-color: #a1a1a1;
+        }
+        &.active {
+            border-color: #a1a1a1;
+            box-shadow: inset 0 0 0 1px #a1a1a1, 0 2px 6px 0 rgba(0, 0, 0, 0.15);
+        }
+    }
+    &-img {
+        display: block;
+        width: 70px;
+        margin: 0 auto 18px;
+        img {
+            width: 100%;
+        }
+    }
+    &-title {
+        display: block;
+        height: 32px;
+        font-size: 13px;
+        line-height: 1.231;
+        font-weight: 500;
+        color: $dgr;
+        text-align: center;
+    }
+}
+.catalog-country {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 15px;
+    margin: 0 -5px 24px;
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        left: 5px;
+        right: 5px;
+        bottom: 0;
+        height: 1px;
+        background: #e3e3e3;
+    }
+    li {
+        flex: 0 0 20%;
+        max-width: 20%;
+        padding: 0 5px 10px;
+    }
+    &-item {
+        display: flex;
+        align-items: center;
+        position: relative;
+        padding: 9px 30px 9px 12px;
+        border-radius: 3px;
+        border: solid 1px #e1e1e1;
+        &::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            margin-top: -4px;
+            right: 13px;
+            width: 12px;
+            height: 8px;
+            background: $tr url('../upload/arrow-down.svg') 50% 50% no-repeat;
+            background-size: 100% 100%;
+            transform: rotate(-90deg);
+        }
+        &:hover {
+            border-color: #a1a1a1;
+        }
+        &.active {
+            border-color: #a1a1a1;
+            box-shadow: inset 0 0 0 1px #a1a1a1, 0 2px 6px 0 rgba(0, 0, 0, 0.15);
+        }
+    }
+    &-img {
+        flex: 0 0 20px;
+        max-width: 20px;
+        img {
+            width: 100%;
+            border-radius: 50%;
+        }
+    }
+    &-title {
+        flex-grow: 1;
+        padding-left: 10px;
+        padding-bottom: 2px;
+        font-weight: 500;
+        color: $dgr;
+    }
+}
+@media (max-width: 1325px) {
+    .catalog-country {
+        li {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+}

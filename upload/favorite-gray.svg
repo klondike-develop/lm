@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="22px" viewBox="0 0 24 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Catalog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lifemebel_catalog-listing" transform="translate(-1146.000000, -464.000000)" fill="#E1E1E1" fill-rule="nonzero">
+            <g id="item-hover1" transform="translate(882.000000, 434.000000)">
+                <path d="M285.950424,32.0597515 C284.638243,30.7472374 282.858464,30.0098635 281.002666,30.0098635 C279.146868,30.0098635 277.367089,30.7472374 276.054908,32.0597515 L276.004931,32.1097364 L275.954954,32.0597515 C273.227903,29.3212435 268.79753,29.3122919 266.059438,32.0397575 C263.321347,34.7672231 263.312396,39.1982702 266.039447,41.9367782 L275.280259,51.6888425 C275.468968,51.8875135 275.730944,52 276.004931,52 C276.278918,52 276.540894,51.8875135 276.729603,51.6888425 L285.950424,41.9567722 C287.262738,40.6443921 288,38.8643423 288,37.0082618 C288,35.1521814 287.262738,33.3721316 285.950424,32.0597515 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

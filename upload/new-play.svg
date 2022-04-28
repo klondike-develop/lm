@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="16px" viewBox="0 0 12 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="play-white" transform="translate(-21.000000, -17.000000)" fill="#83C150" fill-rule="nonzero">
+            <path d="M32.663729,25.5596333 L22.0687834,32.0343223 C21.737738,32.2366279 21.3053717,32.1322636 21.1030661,31.8012182 C21.035664,31.6909238 21,31.5641707 21,31.4349117 L21,18.4855336 C21,18.0975664 21.3145096,17.7830568 21.7024768,17.7830568 C21.8317359,17.7830568 21.958489,17.8187208 22.0687834,17.8861229 L32.663729,24.3608119 C32.9947744,24.5631175 33.0991386,24.9954838 32.8968332,25.3265292 C32.8387218,25.4216206 32.7588204,25.5015219 32.663729,25.5596333 Z" id="Triangle"></path>
+        </g>
+    </g>
+</svg>

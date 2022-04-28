@@ -1,0 +1,178 @@
+.new-delivery {
+    .contact-caption {
+        border-bottom: 0;
+        margin-bottom: 42px;
+        h1 {
+            color: $b;
+            font-weight: 900;
+        }
+        &-select-link {
+            font-weight: 900;
+        }
+    }
+    &-title {
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: bold;
+        color: $b;
+        padding-bottom: 19px;
+        margin-bottom: 21px;
+        border-bottom: 1px solid #e1e1e1;
+        h2, h3, h4 {
+            font-size: 100%;
+            font-weight: bold;
+        }
+    }
+    &-rate {
+        padding: 26px 0 50px;
+        max-width: 890px;
+        table {
+            width: 100%;
+            table-layout: fixed;
+            td {
+                font-size: 13px;
+                line-height: 1.54;
+                color: $b;
+                padding: 10px 0 10px 10px;
+                border: 0;
+                vertical-align: middle;
+                &:first-child {
+                    padding-left: 0;
+                    width: 266px;
+                }
+                strong {
+                    font-weight: 500;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+    &-payment {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -100px;
+        .new-delivery-title {
+            display: inline-block;
+            vertical-align: top;
+        }
+        &-item {
+            padding: 0 0 43px 100px;
+        }
+        &-info {
+            font-size: 13px;
+            line-height: 1.54;
+            color: $b;
+            p {
+                margin-bottom: 10px;
+            }
+            strong {
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+    }
+    &-note {
+        display: flex;
+        align-items: flex-start;
+        padding: 36px 36px 14px;
+        margin-bottom: 51px;
+        background: $s;
+        &-img {
+            flex: 0 0 182px;
+            max-width: 182px;
+            padding: 12px 35px 0 0;
+            img {
+                width: 100%;
+            }
+        }
+        &-text {
+            font-size: 13px;
+            line-height: 1.54;
+            color: $b;
+            p {
+                margin-bottom: 20px;
+            }
+            strong {
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+    }
+    &-companies {
+        &-title {
+            font-size: 20px;
+            line-height: 1.2;
+            font-weight: bold;
+            color: $b;
+            margin-bottom: 33px;
+            h2, h3, h4 {
+                font-size: 100%;
+                font-weight: bold;
+            }
+        }
+        &-list {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin: 0 -30px;
+            li {
+                padding: 15px 30px 30px;
+                a {
+                    font-size: 13px;
+                    line-height: 1.54;
+                    color: $b;
+                    img {
+                        height: 30px;
+                        width: auto;
+                        filter: grayscale(100%);
+                        transition: filter $d $f;
+                        will-change: filter;
+                    }
+                    &:hover {
+                        color: $p;
+                        img {
+                            filter: grayscale(0%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1079px) {
+    .new-delivery {
+        &-rate {
+            table {
+                td {
+                    &:first-child {
+                        width: 120px;
+                    }
+                }
+            }
+        }
+        &-payment {
+            margin-left: -30px;
+            &-item {
+                padding-left: 30px;
+            }
+        }
+        &-note {
+            padding-left: 20px;
+            padding-right: 20px;
+            &-img {
+                flex: 0 0 140px;
+                max-width: 140px;
+                padding-right: 20px;
+            }
+        }
+        &-companies {
+            &-list {
+                margin: 0 -15px 15px;
+                li {
+                    padding: 15px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="173px" height="70px" viewBox="0 0 173 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11.9333333,3.55271368e-13 L149,0 C151.761424,-5.07265313e-16 154,2.23857625 154,5 L154,45 C154,47.7614237 151.761424,50 149,50 L11.9333333,50 L-3.98972522e-13,25 L11.9333333,3.55271368e-13 Z" id="path-1"></path>
+        <filter x="-10.7%" y="-27.0%" width="121.4%" height="166.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Catalog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lifemebel_catalog-listing-4" transform="translate(-293.000000, -1198.000000)">
+            <g id="Group-3" transform="translate(302.000000, 1205.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

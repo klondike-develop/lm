@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="31px" viewBox="0 0 45 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/ic_table5" transform="translate(-15.000000, -23.000000)">
+            <g id="Group-2">
+                <rect id="Rectangle-13-Copy" x="0" y="0" width="75" height="75"></rect>
+                <g id="Group" transform="translate(15.000000, 23.000000)">
+                    <g id="chair">
+                        <path d="M1,1 L1,20 L12,20 L12,16 L5,16 L5,1 L1,1 Z" id="Rectangle-8" stroke="#A1A1A1" stroke-width="2" fill="#FFFFFF"></path>
+                        <path d="M2,22 L11,22 L11,18 L13,18 L13,31 L11,31 L11,24 L2,24 L2,31 L0,31 L0,18 L2,18 L2,22 Z" id="Combined-Shape" fill="#A1A1A1"></path>
+                        <path d="M33,1 L33,20 L44,20 L44,16 L37,16 L37,1 L33,1 Z" id="Rectangle-8" stroke="#A1A1A1" stroke-width="2" fill="#FFFFFF" transform="translate(38.500000, 10.500000) scale(-1, 1) translate(-38.500000, -10.500000) "></path>
+                        <path d="M34,22 L43,22 L43,18 L45,18 L45,31 L43,31 L43,24 L34,24 L34,31 L32,31 L32,18 L34,18 L34,22 Z" id="Combined-Shape" fill="#A1A1A1"></path>
+                    </g>
+                    <rect id="Rectangle-9" stroke="#A1A1A1" stroke-width="2" fill="#FFFFFF" x="10" y="7" width="25" height="3"></rect>
+                    <path d="M24,10 L21,10 L21,30 L24,30 L24,10 Z" id="Rectangle-9-Copy" stroke="#A1A1A1" stroke-width="2" fill="#FFFFFF"></path>
+                    <path d="M18,27 L18,30 L27,30 L27,27 L18,27 Z" id="Rectangle-9-Copy-2" stroke="#A1A1A1" stroke-width="2" fill="#FFFFFF"></path>
+                </g>
+                <path d="M33,30 L42,30 L42,28.5 C42,26.0147186 39.9852814,24 37.5,24 C35.0147186,24 33,26.0147186 33,28.5 L33,30 Z" id="Rectangle-10" stroke="#A1A1A1" stroke-width="2" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

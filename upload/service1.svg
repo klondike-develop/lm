@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="49px" viewBox="0 0 47 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/assortment" transform="translate(-14.000000, -13.000000)">
+            <g id="Group-4">
+                <rect id="Rectangle-12" x="0" y="0" width="75" height="75"></rect>
+                <g id="Group-3" transform="translate(14.000000, 13.000000)">
+                    <g id="Group-2" fill="#FFFFFF" stroke="#83C150" stroke-width="2">
+                        <path d="M8.41421356,9 L1,16.4142136 L1,17 L46,17 L46,16.4142136 L38.5857864,9 L8.41421356,9 Z" id="Rectangle"></path>
+                        <path d="M9,9 L38,9 L38,2 C38,1.44771525 37.5522847,1 37,1 L10,1 C9.44771525,1 9,1.44771525 9,2 L9,9 Z" id="Rectangle-2"></path>
+                    </g>
+                    <path d="M6,21 L6,47 C6,47.5522847 6.44771525,48 7,48 L40,48 C40.5522847,48 41,47.5522847 41,47 L41,21 L6,21 Z" id="Rectangle-3" stroke="#83C150" stroke-width="2" fill="#FFFFFF"></path>
+                    <path d="M17,48 L30,48 L30,33 C30,32.4477153 29.5522847,32 29,32 L18,32 C17.4477153,32 17,32.4477153 17,33 L17,48 Z" id="Rectangle-4" stroke="#83C150" stroke-width="2" fill="#FFFFFF"></path>
+                    <rect id="Rectangle-5" fill="#83C150" x="6" y="40" width="11" height="2"></rect>
+                    <rect id="Rectangle-5-Copy" fill="#83C150" x="30" y="40" width="11" height="2"></rect>
+                    <g id="Group" transform="translate(2.000000, 18.000000)" fill="#FFFFFF" stroke="#83C150" stroke-width="2">
+                        <path d="M3.5,9 C1.01471863,9 -1,6.98528137 -1,4.5 L-1,-1 L8,-1 L8,4.5 C8,6.98528137 5.98528137,9 3.5,9 Z M12.5,9 C10.0147186,9 8,6.98528137 8,4.5 L8,-1 L17,-1 L17,4.5 C17,6.98528137 14.9852814,9 12.5,9 Z M21.5,9 C19.0147186,9 17,6.98528137 17,4.5 L17,-1 L26,-1 L26,4.5 C26,6.98528137 23.9852814,9 21.5,9 Z M30.5,9 C28.0147186,9 26,6.98528137 26,4.5 L26,-1 L35,-1 L35,4.5 C35,6.98528137 32.9852814,9 30.5,9 Z M39.5,9 C37.0147186,9 35,6.98528137 35,4.5 L35,-1 L44,-1 L44,4.5 C44,6.98528137 41.9852814,9 39.5,9 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

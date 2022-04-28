@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="44px" viewBox="0 0 48 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 9</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5" transform="translate(-14.000000, -16.000000)">
+            <g id="Group-9">
+                <g transform="translate(15.000000, 16.000000)">
+                    <polyline id="Stroke-1" stroke="#A1A1A1" stroke-width="2" points="13.1889 14.0002 0.7539 35.0002 44.7539 35.0002 32.3199 14.0002"></polyline>
+                    <polygon id="Stroke-3" stroke="#A1A1A1" stroke-width="2" points="12.754 14 32.754 14 32.754 11 12.754 11"></polygon>
+                    <g id="Group-8" transform="translate(15.000000, 0.000000)">
+                        <path d="M4.754,11 L8.754,11 L8.754,2 L4.754,2 L4.754,11 Z M6.754,13 L8.754,13 L8.754,9 L6.754,9 L6.754,13 Z M6.754,11 L10.754,11 L10.754,2 L6.754,2 L6.754,11 Z M6.754,4 L8.754,4 L8.754,0 L6.754,0 L6.754,4 Z M4.754,13 L6.754,13 L6.754,11 L4.754,11 L4.754,13 Z M8.754,13 L10.754,13 L10.754,11 L8.754,11 L8.754,13 Z M8.754,2 L10.754,2 L10.754,0 L8.754,0 L8.754,2 Z M4.754,2 L6.754,2 L6.754,0 L4.754,0 L4.754,2 Z" id="Fill-4" fill="#A1A1A1"></path>
+                        <path d="M0.7543,35.0002 L0.7543,35.5002 C0.7543,39.6422 4.1123,43.0002 8.2543,43.0002 C12.3973,43.0002 15.7543,39.6422 15.7543,35.5002 L15.7543,35.0002" id="Stroke-6" stroke="#A1A1A1" stroke-width="2"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

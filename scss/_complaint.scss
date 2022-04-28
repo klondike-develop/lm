@@ -1,0 +1,237 @@
+.complaint {
+    padding-top: 16px;
+    margin-bottom: 100px;
+    &-block {
+        padding: 69px 92px 73px;
+        max-width: 996px;
+        margin: 0 auto;
+        background: $w;
+        box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+        .global-title {
+            margin-bottom: 60px;
+            h1 {
+                font-size: 26px;
+                line-height: 1.154;
+                font-weight: 900;
+            }
+        }
+    }
+    &-form {
+        display: flex;
+        &-col-rating {
+            flex: 0 0 45.3%;
+            max-width: 45.3%;
+            padding-right: 10px;
+        }
+        &-col {
+            flex: 0 0 54.7%;
+            max-width: 54.7%;
+        }
+        &-title {
+            margin-bottom: 17px;
+            color: $dgr;
+        }
+        &-radio {
+            flex: 0 0 50%;
+            max-width: 50%;
+            padding: 0 8px;
+            &-row {
+                display: flex;
+                margin: 0 -8px 36px;
+            }
+            input {
+                appearance: none;
+                position: absolute;
+                left: -9999px;
+                &:checked + label {
+                    border-color: $t;
+                    background-color: $w;
+                    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
+                    &:before {
+                        border-color: $p;
+                        background-color: $p;
+                    }
+                    &:after {
+                        opacity: 1;
+                    }
+                }
+                &:disabled + label {
+                    cursor: default;
+                    pointer-events: none;
+                    opacity: 0.3;
+                }
+            }
+            label {
+                cursor: pointer;
+                display: block;
+                margin: 0;
+                padding: 18px 14px 18px 50px;
+                position: relative;
+                user-select: none;
+                color: $dgr;
+                border: 2px solid $tr;
+                border-radius: 5px;
+                background: $s;
+                transition: border-color $d $f, background-color $d $f, box-shadow $d $f;
+                will-change: border-color, background-color, box-shadow;
+                &:before {
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    margin-top: -8px;
+                    left: 18px;
+                    width: 16px;
+                    height: 16px;
+                    border: 1px solid $t;
+                    background: $w;
+                    border-radius: 50%;
+                    transition: border-color $d $f, background-color $d $f;
+                    will-change: border-color, background-color;
+                }
+                &:after {
+                    opacity: 0;
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    margin-top: -3px;
+                    left: 23px;
+                    width: 6px;
+                    height: 6px;
+                    background: $w;
+                    border-radius: 50%;
+                    transition: opacity $d $f;
+                    will-change: opacity;
+                }
+            }
+        }
+        .input-wrapper {
+            margin-bottom: 24px;
+            & > label {
+                padding-top: 0;
+                padding-bottom: 8px;
+            }
+        }
+        .input-note {
+            color: $text;
+        }
+        .input-note,
+        .input-error {
+            margin-top: -17px;
+            margin-bottom: 21px;
+        }
+        textarea.complaint-textarea {
+            height: 124px;
+        }
+        .new-product-modal-review-photo {
+            margin-top: 0;
+            margin-bottom: 21px;
+            &-list {
+                justify-content: flex-start;
+                margin-right: -10px;
+            }
+            &-item {
+                margin-left: 0;
+                margin-right: 10px;
+            }
+            &-upload {
+                text-align: left;
+                label {
+                    padding-left: 34px;
+                    &::before {
+                        left: 0;
+                    }
+                }
+            }
+        }
+    }
+    &-rating {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 25px;
+        &-title {
+            flex: 0 0 100%;
+            max-width: 100%;
+            color: $b;
+            margin-bottom: 13px;
+        }
+        &-block {
+            padding: 0 3px 10px 0;
+            & > input {
+                display: none;
+            }
+            label {
+                cursor: pointer;
+                float: right;
+                width: 33px;
+                height: 24px;
+                padding-right: 7px;
+                svg {
+                    display: block;
+                }
+            }
+        }
+        &-value {
+            margin-bottom: 10px;
+            font-size: 11px;
+            line-height: 1.364;
+            color: rgba(57, 57, 57, 0.5);
+        }
+    }
+    &-button {
+        margin-bottom: 19px;
+        .button {
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 100%;
+        }
+    }
+    &-agree {
+        text-align: center;
+        font-size: 11px;
+        line-height: 1.273;
+        a {
+            font-weight: 500;
+        }
+    }
+}
+.complaint-rating-block > input:checked ~ label,
+.complaint-rating-block:not(:checked) > label:hover,
+.complaint-rating-block:not(:checked) > label:hover ~ label {
+    .svg-fill {
+        fill: #F3B800;
+    }
+}
+.complaint-rating-block > input:checked + label:hover,
+.complaint-rating-block > input:checked + label:hover ~ label,
+.complaint-rating-block > input:checked ~ label:hover,
+.complaint-rating-block > input:checked ~ label:hover ~ label,
+.complaint-rating-block > label:hover ~ input:checked ~ label {
+    .svg-fill {
+        fill: darken(#F3B800, 5%);
+    }
+}
+@media (max-width: 1079px) {
+    .complaint {
+        &-block {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        &-form {
+            &-col-rating {
+                flex: 0 0 40%;
+                max-width: 40%;
+            }
+            &-col {
+                flex: 0 0 60%;
+                max-width: 60%;
+            }
+        }
+        &-rating {
+            &-value {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+    }
+}

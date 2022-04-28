@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="5px" viewBox="0 0 8 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="header-new" transform="translate(-339.000000, -18.000000)" fill="#7F7F7F">
+            <g transform="translate(-25.000000, 0.000000)" id="phone">
+                <g transform="translate(229.000000, 0.000000)">
+                    <polygon id="Combined-Shape" points="139 21 142 18 143 19 139 23 135 19 136 18"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

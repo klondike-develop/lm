@@ -1,0 +1,183 @@
+.assembly-review {
+    max-width: 628px;
+    padding: 69px 92px 73px;
+    margin: 16px auto 100px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+    background: $w;
+    text-align: center;
+    &-title {
+        font-size: 26px;
+        line-height: 1.154;
+        font-weight: 900;
+        color: $b;
+        margin-bottom: 28px;
+        h1 {
+            font-size: 100%;
+            font-weight: 900;
+            margin: 0;
+        }
+    }
+    &-intro {
+        margin: 0 -62px;
+        padding-bottom: 24px;
+        color: $dgr;
+        p {
+            margin-bottom: 18px;
+        }
+    }
+    &-question {
+        color: $dgr;
+        margin-bottom: 17px;
+        text-align: left;
+    }
+    &-row {
+        display: flex;
+        margin: 0 -8px 29px;
+    }
+    &-radio {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0 8px;
+        text-align: left;
+        input {
+            appearance: none;
+            position: absolute;
+            left: -9999px;
+            &:checked + label {
+                border-color: $t;
+                background-color: $w;
+                box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
+                &:before {
+                    border-color: $p;
+                    background-color: $p;
+                }
+                &:after {
+                    opacity: 1;
+                }
+            }
+            &:disabled + label {
+                cursor: default;
+                pointer-events: none;
+                opacity: 0.3;
+            }
+        }
+        label {
+            cursor: pointer;
+            display: block;
+            margin: 0;
+            padding: 18px 14px 18px 50px;
+            position: relative;
+            user-select: none;
+            color: $dgr;
+            border: 2px solid $tr;
+            border-radius: 5px;
+            background: $s;
+            transition: border-color $d $f, background-color $d $f, box-shadow $d $f;
+            will-change: border-color, background-color, box-shadow;
+            &:before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                margin-top: -8px;
+                left: 18px;
+                width: 16px;
+                height: 16px;
+                border: 1px solid $t;
+                background: $w;
+                border-radius: 50%;
+                transition: border-color $d $f, background-color $d $f;
+                will-change: border-color, background-color;
+            }
+            &:after {
+                opacity: 0;
+                content: "";
+                position: absolute;
+                top: 50%;
+                margin-top: -3px;
+                left: 23px;
+                width: 6px;
+                height: 6px;
+                background: $w;
+                border-radius: 50%;
+                transition: opacity $d $f;
+                will-change: opacity;
+            }
+        }
+    }
+    &-form {
+        &-button {
+            padding-top: 7px;
+            margin-bottom: 19px;
+            .button {
+                padding-left: 10px;
+                padding-right: 10px;
+                width: 100%;
+            }
+        }
+        &-note {
+            text-align: center;
+            font-size: 11px;
+            line-height: 1.273;
+            a {
+                font-weight: 500;
+            }
+        }
+        .input-wrapper {
+            text-align: left;
+            margin-bottom: 24px;
+            & > label {
+                padding-top: 0;
+                padding-bottom: 8px;
+            }
+        }
+        textarea.textarea {
+            height: 124px;
+        }
+    }
+    &-thanks {
+        &-icon {
+            margin: -5px auto 29px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 130px;
+            height: 130px;
+            background: $s;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        &-title {
+            font-size: 26px;
+            line-height: 1.154;
+            font-weight: 900;
+            color: $b;
+            margin: 0 -62px 43px;
+            h1 {
+                font-size: 100%;
+                font-weight: 900;
+                margin: 0;
+            }
+        }
+    }
+    &-shop {
+        margin-bottom: -9px;
+        .button {
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 100%;
+        }
+    }
+    .complaint-rating {
+        margin: -1px 0 23px;
+        justify-content: center;
+        &-title {
+            flex: 0 1 auto;
+            max-width: 100%;
+            margin-bottom: 0;
+            padding: 4px 10px 0 8px;
+        }
+        &-block {
+            padding: 0;
+        }
+    }
+}

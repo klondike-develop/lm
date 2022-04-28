@@ -1,0 +1,639 @@
+.delivery {
+    margin-bottom: 93px;
+    .contact-caption {
+        margin-bottom: 0;
+        border-bottom: 0;
+        h1 {
+            color: $b;
+        }
+    }
+}
+.delivery-info {
+    padding: 38px 0 20px;
+    font-size: 15px;
+    line-height: 1.3334;
+    color: $b;
+    background: $s;
+    .row {
+        flex-wrap: wrap;
+        margin: 0 -15px;
+    }
+    .col {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+        padding: 0 15px;
+    }
+    p {
+        margin-bottom: 20px;
+    }
+}
+.delivery-info-partner {
+    margin-top: -16px;
+    margin-bottom: 14px;
+}
+.delivery-info-orders {
+    display: flex;
+    margin-bottom: 20px;
+}
+.delivery-info-orders-number {
+    padding-right: 20px;
+    font-size: 30px;
+    line-height: 1.0667;
+    font-weight: 500;
+    letter-spacing: -0.52px;
+}
+.delivery-info-orders-title {
+    flex-grow: 1;
+}
+.delivery-no-service {
+    padding: 40px 0;
+    .row {
+        margin: 0 -15px;
+    }
+}
+.delivery-no-service-payment-wrapper {
+    flex: 0 0 66.6666%;
+    max-width: 66.6666%;
+    padding: 0 15px;
+}
+.delivery-no-service-payment {
+    max-width: 790px;
+    margin-top: -3px;
+    .row {
+        flex-wrap: wrap;
+        margin: 0 -34px;
+    }
+    .col {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+        padding: 0 34px;
+    }
+}
+.delivery-no-service-payment-item {
+    padding-bottom: 30px;
+    p {
+        font-size: 13px;
+        line-height: 1.31;
+        color: $dgr;
+        margin-bottom: 10px;
+    }
+}
+.delivery-no-service-payment-title {
+    font-size: 15px;
+    line-height: 1.3334;
+    color: $b;
+    font-weight: 500;
+    padding-bottom: 4px;
+    margin-bottom: 11px;
+    border-bottom: 1px solid #CBCFD3;
+}
+.delivery-no-service-payment-price {
+    font-size: 15px;
+    line-height: 1.3334;
+    color: $b;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-bottom: 8px;
+}
+.delivery-no-service-near-city-wrapper {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    padding: 0 15px;
+}
+.delivery-no-service-near-city {
+    margin-left: -10px;
+    padding: 26px 30px 20px;
+    background: #FFF1BD;
+    color: $dgr;
+    strong {
+        font-weight: 500;
+        line-height: normal;
+    }
+    p {
+        margin-bottom: 9px;
+    }
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+        li {
+            padding: 0 15px 10px;
+            a {
+                display: block;
+                padding: 10px;
+                margin: -10px;
+                font-weight: 500;
+                letter-spacing: -0.2px;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+.delivery-payment {
+    padding: 55px 0 30px;
+    background: $s;
+}
+.delivery-payment-caption {
+    text-align: center;
+    margin-bottom: 29px;
+    h3 {
+        font-size: 20px;
+        line-height: 1.3;
+        color: $b;
+    }
+}
+.delivery-payment-list {
+    .row {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 -60px;
+    }
+    .col {
+        flex: 0 1 auto;
+        padding: 0 60px;
+    }
+}
+.delivery-payment-item {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.delivery-payment-img {
+    display: flex;
+    align-items: center;
+    min-height: 75px;
+    margin-bottom: 9px;
+    img {
+        margin: 0 auto;
+    }
+}
+.delivery-payment-title {
+    font-size: 15px;
+    line-height: 1.3334;
+    color: $b;
+    margin-bottom: 10px;
+    .filter-item-hint {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 3px;
+        margin-top: 3px;
+    }
+    .filter-item-hint-text {
+        bottom: auto;
+        top: 100%;
+        padding-bottom: 0;
+        padding-top: 10px;
+    }
+    .filter-item-hint-block {
+        background: $dgr;
+        &:before {
+            top: auto;
+            bottom: 100%;
+            border-top-color: $tr;
+            border-bottom-color: $dgr;
+        }
+    }
+}
+.delivery-rate {
+    padding-bottom: 50px;
+}
+.delivery-rate-separator {
+    clear: both;
+    display: block;
+    line-height: 0;
+    font-size: 0;
+    height: 0;
+    border-bottom: 1px solid #CBCFD3;
+    margin-bottom: 14px;
+}
+.delivery-rate-caption {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-right: -30px;
+    margin-bottom: 28px;
+    h3 {
+        font-size: 20px;
+        line-height: 1.3;
+        color: $b;
+        padding-right: 30px;
+    }
+}
+.delivery-rate-address {
+    padding-right: 30px;
+}
+.delivery-rate-address-toggle {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin: -4px -10px -8px;
+    font-weight: 500;
+    text-decoration: underline;
+    letter-spacing: -0.2px;
+}
+.delivery-rate-list-wrapper {
+    display: flex;
+}
+.delivery-rate-list {
+    flex-grow: 1;
+    padding-right: 20px;
+    max-width: calc(100% - 227px);
+}
+.delivery-rate-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+.delivery-rate-col {
+    padding: 21px 20px 0;
+}
+.delivery-rate-item {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 27px;
+    .filter-item-hint {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 3px;
+        margin-top: 3px;
+    }
+}
+.delivery-rate-item-img {
+    flex: 0 0 85px;
+    max-width: 85px;
+    padding-right: 10px;
+    img {
+        margin: 0 auto;
+    }
+}
+.delivery-rate-item-info {
+    flex-grow: 1;
+    padding-top: 2px;
+}
+.delivery-rate-item-title {
+    font-size: 15px;
+    line-height: 1.3334;
+    font-weight: 500;
+    color: $b;
+    margin-bottom: 4px;
+}
+.delivery-rate-item-price {
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: $b;
+    white-space: nowrap;
+    margin-bottom: 5px;
+}
+.delivery-rate-item-note {
+    font-size: 13px;
+    line-height: 1.31;
+    color: $dgr;
+    margin-bottom: 14px;
+}
+.delivery-rate-item-floor {
+    font-size: 15px;
+    line-height: 1.2;
+    color: $b;
+    padding-top: 10px;
+    margin-bottom: 6px;
+    strong {
+        font-weight: 500;
+    }
+}
+.delivery-rate-item-inside {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+}
+.delivery-rate-item-inside-col {
+    padding: 0 12px;
+}
+.delivery-rate-outside {
+    flex: 0 0 227px;
+    max-width: 227px;
+    align-self: flex-start;
+    padding: 25px 20px 26px;
+    text-align: center;
+    color: $b;
+    background: #FFF1BD;
+}
+.delivery-rate-outside-title {
+    font-size: 15px;
+    line-height: 1.3334;
+    font-weight: 500;
+    margin-bottom: 11px;
+}
+.delivery-rate-outside-price {
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: -0.52px;
+    margin-bottom: 9px;
+    strong {
+        font-weight: 500;
+    }
+}
+.delivery-rate-outside-on-map {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin: -10px;
+    font-weight: 500;
+    text-decoration: underline;
+    letter-spacing: -0.2px;
+}
+.delivery-lift {}
+.delivery-lift-wrapper {
+    padding: 44px 0 12px;
+    border-top: 1px solid #CBCFD3;
+}
+.delivery-lift-inverse {
+    .col-9 {
+        order: 2;
+    }
+    .delivery-lift-content {
+        padding-right: 0;
+        padding-left: 40px;
+    }
+}
+.delivery-lift-content {
+    padding-right: 40px;
+}
+.delivery-lift-caption {
+    margin-bottom: 39px;
+    h2 {
+        font-size: 30px;
+        line-height: 1.2;
+        color: $b;
+    }
+}
+.delivery-lift-manual {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+.delivery-lift-manual-col {
+    padding: 0 10px;
+}
+.delivery-lift-automatic {
+    padding-top: 2px;
+    h4 {
+        font-size: 15px;
+        line-height: 1.3334;
+        font-weight: 500;
+        color: $b;
+        margin-bottom: 25px;
+    }
+}
+.delivery-lift-automatic-block {
+    padding: 26px 30px 16px;
+    margin-bottom: 38px;
+    color: $dgr;
+    background: #FFF1BD;
+    p {
+        margin-bottom: 18px;
+    }
+}
+.delivery-lift-free {
+    padding: 24px 30px 16px;
+    margin-bottom: 38px;
+    color: $dgr;
+    background: $s;
+    p {
+        margin-bottom: 18px;
+    }
+    strong {
+        font-weight: 500;
+    }
+}
+.delivery-detail {
+    padding: 45px 0 5px;
+    .row {
+        flex-wrap: wrap;
+    }
+}
+.delivery-detail-item {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 31px;
+    padding-right: 80px;
+}
+.delivery-detail-item-img {
+    flex: 0 0 115px;
+    max-width: 115px;
+    padding-right: 40px;
+    padding-top: 5px;
+    img {
+        margin: 0 auto;
+    }
+}
+.delivery-detail-item-info {
+    flex-grow: 1;
+    color: $dgr;
+    p {
+        margin-bottom: 18px;
+    }
+    ul {
+        display: block;
+        margin-bottom: 18px;
+        li {
+            padding-left: 18px;
+            position: relative;
+            &:before {
+                content: "";
+                position: absolute;
+                top: 7px;
+                left: 5px;
+                width: 3px;
+                height: 3px;
+                background: $dgr;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+.delivery-detail-item-title {
+    font-size: 20px;
+    line-height: 1.3;
+    color: $b;
+    margin-bottom: 10px;
+}
+#delivery-map {
+    height: 540px;
+}
+.delivery-address {
+    display: none;
+    margin-bottom: -1px;
+    position: relative;
+    &.delivery-address-map-hidden {
+        .delivery-address-map,
+        .delivery-address-options-map-info {
+            display: none;
+        }
+        .delivery-address-options-map-show {
+            display: inline-block;
+            vertical-align: top;
+        }
+    }
+}
+.delivery-address-block {
+    padding-top: 40px;
+    padding-bottom: 5px;
+    background: $s;
+    .col-16 {
+        max-width: 1250px;
+    }
+}
+.delivery-address-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.delivery-address-input-title {
+    flex: 0 0 200px;
+    max-width: 200px;
+    padding-right: 15px;
+    padding-bottom: 6px;
+    font-size: 20px;
+    line-height: 1.2;
+    color: $b;
+}
+.delivery-address-input-wrapper {
+    flex-grow: 1;
+    padding-right: 50px;
+    .input-wrapper {
+        margin-bottom: 0;
+    }
+}
+.delivery-address-input-button {
+    flex: 0 0 215px;
+    max-width: 215px;
+    .button {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+.delivery-address-options {
+    display: flex;
+    padding-left: 200px;
+    margin-bottom: 30px;
+}
+.delivery-address-options-map {
+    flex-grow: 1;
+    padding-right: 50px;
+}
+.delivery-address-options-map-show {
+    display: none;
+    padding: 10px;
+    margin: -10px -10px -8px;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+    text-decoration: underline;
+}
+.delivery-address-options-map-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.delivery-address-options-map-title {
+    font-size: 15px;
+    line-height: 1.3334;
+    color: $b;
+    padding-right: 20px;
+}
+.delivery-address-options-map-hide {
+    white-space: nowrap;
+}
+.delivery-address-options-hide {
+    flex: 0 0 215px;
+    max-width: 215px;
+    text-align: right;
+}
+.delivery-address-options-map-hide,
+.delivery-address-options-hide-button {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin: -10px;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+    text-decoration: underline;
+}
+.delivery-address-map {}
+.delivery-pickup {
+    padding-top: 40px;
+}
+#delivery-pickup-map {
+    height: 276px;
+}
+.delivery-pickup-map {
+    margin-bottom: 30px;
+}
+.delivery-pickup-separator {
+    clear: both;
+    display: block;
+    line-height: 0;
+    font-size: 0;
+    height: 0;
+    border-bottom: 1px solid #CBCFD3;
+}
+.delivery-pickup-content {
+    padding: 14px 30px 20px 0;
+    color: $b;
+    p {
+        font-size: 15px;
+        line-height: 1.3334;
+        margin-bottom: 12px;
+        strong {
+            font-weight: 500;
+        }
+    }
+}
+.delivery-pickup-title {
+    margin-bottom: 15px;
+    h2 {
+        font-size: 30px;
+        line-height: 1.2;
+        color: $b;
+    }
+}
+.delivery-pickup-coordinates {
+    margin-bottom: 12px;
+    a {
+        display: inline-block;
+        vertical-align: top;
+        padding: 10px;
+        margin: -10px;
+        font-weight: 500;
+        letter-spacing: -0.2px;
+        text-decoration: underline;
+    }
+}
+.delivery-pickup-worktime {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+.delivery-pickup-worktime-item {
+    padding: 0 10px 13px;
+    font-size: 13px;
+    line-height: 18px;
+    strong {
+        font-weight: normal;
+        font-size: 15px;
+    }
+}
+.delivery-rate-item-note + .delivery-rate-item-footnote {
+    margin-top: -6px;
+}
+.delivery-rate-item-footnote {
+    font-size: 11px;
+    line-height: 1.455;
+    margin-bottom: 10px;
+}
+.delivery-rate-item-feature {
+    font-size: 11px;
+    line-height: 1.455;
+    color: $b;
+    margin-bottom: 13px;
+}

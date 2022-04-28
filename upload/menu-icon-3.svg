@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="34px" viewBox="0 0 46 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/ic_table1" transform="translate(-15.000000, -21.000000)">
+            <g id="Group-2">
+                <rect id="Rectangle-13-Copy" x="0" y="0" width="75" height="75"></rect>
+                <g id="Group" transform="translate(15.000000, 21.000000)">
+                    <path d="M1,1 L1,5 L45,5 L45,1 L1,1 Z" id="Rectangle-6" stroke="#A1A1A1" stroke-width="2" fill="#FFFFFF"></path>
+                    <path d="M4,5 L4,15 L42,15 L42,5 L4,5 Z" id="Rectangle-6-Copy" stroke="#A1A1A1" stroke-width="2" fill="#FFFFFF"></path>
+                    <rect id="Rectangle-2" stroke="#A1A1A1" stroke-width="2" fill="#FFFFFF" x="4" y="15" width="3" height="18"></rect>
+                    <rect id="Rectangle-2-Copy" stroke="#A1A1A1" stroke-width="2" fill="#FFFFFF" x="39" y="15" width="3" height="18"></rect>
+                    <polygon id="Rectangle" fill="#A1A1A1" points="22 4 24 4 24 16 22 16"></polygon>
+                    <rect id="Rectangle-7" fill="#A1A1A1" x="11" y="9" width="5" height="2"></rect>
+                    <rect id="Rectangle-7-Copy" fill="#A1A1A1" x="30" y="9" width="5" height="2"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

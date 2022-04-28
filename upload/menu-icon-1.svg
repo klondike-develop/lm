@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="34px" viewBox="0 0 46 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/ic_table3" transform="translate(-15.000000, -21.000000)">
+            <g id="Group">
+                <rect id="Rectangle-13-Copy" x="0" y="0" width="75" height="75"></rect>
+                <g id="table-2" transform="translate(15.000000, 21.000000)" fill="#A1A1A1">
+                    <path d="M46,4.16333634e-16 L0,4.16333634e-16 L0,2 L1,2 L1,5 L1,6 L3,6 L3,34 L9,34 L9,23 L37,23 L37,34 L43,34 L43,6 L45,6 L45,5 L45,2 L46,2 L46,4.16333634e-16 Z M9,21 L37,21 L37,10 L9,10 L9,21 Z M41,32 L39,32 L39,8 L38,8 L8,8 L7,8 L7,32 L5,32 L5,6 L41,6 L41,32 Z M3,4 L3,2 L43,2 L43,4 L3,4 Z" id="Fill-1"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

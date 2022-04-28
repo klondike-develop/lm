@@ -1,0 +1,125 @@
+.categories-caption {
+    margin-bottom: 27px;
+    h1 {
+        font-size: 30px;
+        line-height: 1.2;
+        color: $b;
+    }
+}
+.categories {
+    margin-bottom: 93px;
+}
+.category {
+    position: relative;
+    overflow: hidden;
+    &:hover {
+        .category-img {
+            transform: scale(1.1);
+        }
+    }
+    &-gray {
+        &:before {
+            content: "";
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.04);
+        }
+    }
+}
+.category-img {
+    transition: transform $d*2 $f;
+    a {
+        display: block;
+        position: relative;
+    }
+    img {
+        width: 100%;
+    }
+}
+.category-caption {
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translate3d(0, 0, 0);
+    padding: 0 40px 50px;
+}
+.category-title {
+    font-size: 20px;
+    line-height: 1.3;
+    color: $b;
+    font-weight: 500;
+    a {
+        display: inline-block;
+        vertical-align: top;
+        padding: 13px 10px;
+        color: $b;
+        &:hover {
+            color: $text;
+        }
+    }
+}
+.category-list {
+    display: block;
+    padding: 0 4px;
+    li {
+        font-size: 0;
+        line-height: 0;
+        a {
+            display: inline-block;
+            vertical-align: top;
+            padding: 0 6px;
+            font-size: 13px;
+            line-height: 1.93;
+            color: $text;
+            &:hover {
+                color: $t;
+            }
+        }
+    }
+}
+.category-info {
+    padding: 0 10px;
+    min-height: 60px;
+    font-size: 13px;
+    line-height: 1.54;
+    color: $dgr;
+}
+.wholesale-customers {
+    .breadcrumbs-push {
+        height: 73px;
+    }
+    .global-title {
+        padding-top: 8px;
+        margin-bottom: 40px;
+    }
+    .category-caption {
+        padding-bottom: 30px;
+    }
+    .category {
+        &-gray {
+            &:before {
+                display: none;
+            }
+            .category-img {
+                a {
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        z-index: 2;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background: rgba(0, 0, 0, 0.04);
+                    }
+                }
+            }
+        }
+    }
+}

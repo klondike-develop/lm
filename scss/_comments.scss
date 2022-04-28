@@ -1,0 +1,204 @@
+.comment-info {
+    margin-bottom: 21px;
+}
+.comment-date {
+    font-size: 11px;
+    line-height: 1.37;
+    margin-bottom: 3px;
+}
+.comment-person {
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: $dgr;
+    letter-spacing: -0.3px;
+    margin-bottom: 13px;
+}
+.comment-rating {
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    li {
+        display: inline-block;
+        vertical-align: top;
+        width: 12px;
+        margin-right: 3px;
+        img {
+            width: 100%;
+        }
+    }
+}
+.product-comments {
+    background: $s;
+    margin-bottom: 93px;
+    padding: 64px 0 70px;
+    &-white {
+        padding: 0;
+        background: $w;
+        .product-comment-answer {
+            background: $s;
+        }
+    }
+}
+.product-comments-list {}
+.product-comment {
+    display: flex;
+    align-items: flex-start;
+    padding: 30px 0 10px;
+    border-top: 1px solid rgba(203, 207, 211, 0.7);
+    &:first-child {
+        padding-top: 0;
+        border-top: 0;
+    }
+    .comment-info {
+        margin-bottom: 0;
+        padding: 2px 20px 20px 0;
+        flex: 0 0 18.182%;
+        max-width: 18.182%;
+    }
+    .comment-person {
+        color: $b;
+        letter-spacing: 0;
+    }
+}
+.product-comment-content {
+    flex: 0 0 81.818%;
+    max-width: 81.818%;
+}
+.product-comment-text {
+    font-size: 13px;
+    line-height: 1.54;
+    color: $dgr;
+    padding-bottom: 1px;
+    p {
+        margin-bottom: 29px;
+    }
+    strong {
+        font-weight: 500;
+    }
+}
+.product-comment-advice {
+    margin-bottom: 20px;
+}
+a.product-comment-recommend,
+a.product-comment-discommend {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+    color: $p;
+    padding: 5px 20px 7px 50px;
+    position: relative;
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 5px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: $w url('../upload/recommend.svg') 50% 50% no-repeat;
+        background-size: 100% 100%;
+    }
+    span {
+        text-decoration: underline;
+    }
+}
+a.product-comment-discommend {
+    color: $red;
+    &:before {
+        background-image: url('../upload/discommend.svg');
+    }
+}
+.product-comment-photo {
+    padding-bottom: 10px;
+    a {
+        float: left;
+        margin: 0 10px 10px 0;
+        img {
+            width: 90px;
+        }
+    }
+}
+.product-comment-answer {
+    padding: 27px 25px 9px 78px;
+    margin: 9px 0 20px;
+    background: #e9ebed;
+    border-radius: 5px;
+    position: relative;
+}
+.product-comment-answer-ico {
+    position: absolute;
+    left: 28px;
+    top: 25px;
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background: $w;
+    border-radius: 50%;
+    img {
+        margin: 1px auto 0;
+    }
+}
+.product-comment-answer-content {
+    p {
+        font-size: 13px;
+        line-height: 1.54;
+        color: $dgr;
+        margin-bottom: 20px;
+    }
+}
+.product-comment-answer-date {
+    font-size: 11px;
+    line-height: 1.37;
+    margin-bottom: 3px;
+}
+.product-comment-answer-person {
+    color: $dgr;
+    margin-bottom: 20px;
+    strong {
+        font-weight: 500;
+    }
+}
+.product-comments-info {
+    margin-bottom: 30px;
+    padding: 43px 25px 40px;
+    background: $p;
+    text-align: center;
+    p {
+        color: $w;
+        font-weight: bold;
+        margin-bottom: 37px;
+    }
+    .button {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 160px;
+        padding-left: 5px;
+        padding-right: 5px;
+        &.secondary {
+            box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.15);
+        }
+    }
+}
+.product-comments-info-ico {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 20px;
+    width: 56px;
+    height: 56px;
+    background: #538D22;
+    border-radius: 50%;
+    img {
+        margin: 1px auto 0;
+    }
+}
+.product-comments-more {
+    text-align: center;
+    padding-top: 10px;
+    .button {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}

@@ -1,0 +1,404 @@
+.thumbs {
+    padding: 40px 0 93px;
+}
+.thumb {
+    &-gray {
+        .thumb-link {
+            &:before {
+                content: "";
+                position: absolute;
+                z-index: 2;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(0, 0, 0, 0.04);
+            }
+        }
+    }
+}
+.thumb-link {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    &:hover {
+        .thumb-img {
+            transform: scale(1.1);
+        }
+    }
+}
+.thumb-img {
+    display: block;
+    transition: transform $d*2 $f;
+    img {
+        width: 100%;
+    }
+}
+.thumb-title,
+.thumb-subtitle {
+    display: block;
+}
+.thumb-arrow {
+    display: inline-block;
+    vertical-align: top;
+    width: 16px;
+    height: 18px;
+    background: $tr url('../upload/arrow-white.svg') 50% calc(50% + 1px) no-repeat;
+    background-size: 5px 10px;
+}
+.thumb-caption-v1,
+.thumb-caption-v2,
+.thumb-caption-v3,
+.thumb-caption-v4,
+.thumb-caption-v5,
+.thumb-caption-v6,
+.thumb-caption-v7,
+.thumb-caption-v8,
+.thumb-caption-v9,
+.thumb-caption-v10,
+.thumb-caption-v11,
+.thumb-caption-v12,
+.thumb-caption-v13,
+.thumb-caption-v14,
+.thumb-caption-v15,
+.thumb-caption-v16,
+.thumb-caption-v17,
+.thumb-caption-v18,
+.thumb-caption-v19,
+.thumb-caption-v20,
+.thumb-caption-v21,
+.thumb-caption-v22,
+.thumb-caption-v23,
+.thumb-caption-v24,
+.thumb-caption-v25,
+.thumb-caption-v26 {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translate3d(0, 0, 0);
+}
+.thumb-caption-v1,
+.thumb-caption-v2 {
+    color: $w;
+    padding: 48px 20px 0 50px;
+    .thumb-title {
+        font-size: 15px;
+        line-height: 1.2;
+        font-weight: 500;
+        margin-bottom: 3px;
+    }
+    .thumb-subtitle {
+        font-size: 31px;
+        line-height: 1.13;
+    }
+}
+.thumb-caption-v2 {
+    color: $dgr;
+    .thumb-title {
+        color: $text;
+    }
+}
+.thumb-caption-v3 {
+    color: $text;
+    padding: 47px 20px 0;
+    text-align: center;
+    .thumb-title {
+        font-size: 17px;
+        line-height: 1.12;
+        font-weight: 500;
+    }
+    .thumb-subtitle {
+        font-size: 48px;
+        line-height: 1;
+        font-weight: 900;
+        color: $w;
+        letter-spacing: -2.4px;
+        text-transform: uppercase;
+    }
+}
+.thumb-caption-v4 {
+    color: $text;
+    padding: 53px 20px 0 50px;
+    .thumb-title {
+        font-size: 15px;
+        line-height: 1.2;
+        font-weight: 500;
+        margin-bottom: 2px;
+    }
+    .thumb-subtitle {
+        font-size: 48px;
+        line-height: 0.75;
+        color: #8B9691;
+        letter-spacing: -2.15px;
+    }
+}
+.thumb-caption-v5 {
+    color: $text;
+    padding: 50px 20px 0 50px;
+    .thumb-title {
+        font-size: 48px;
+        line-height: 0.75;
+        color: $p;
+        letter-spacing: -2.15px;
+        margin-bottom: 7px;
+    }
+    .thumb-subtitle {
+        font-size: 17px;
+        line-height: 1.12;
+        font-weight: 500;
+    }
+}
+.thumb-caption-v6 {
+    color: $text;
+    padding: 47px 20px 0;
+    text-align: center;
+    .thumb-title {
+        font-size: 31px;
+        line-height: 1.13;
+        letter-spacing: -0.29px;
+        font-weight: 900;
+        color: $p;
+        margin-bottom: 1px;
+    }
+    .thumb-subtitle {
+        font-size: 15px;
+        line-height: 1.2;
+        font-weight: 500;
+    }
+}
+.thumb-caption-v7 {
+    top: auto;
+    bottom: 0;
+    padding: 0 20px 25px;
+    text-align: center;
+    color: $b;
+    .thumb-title {
+        color: $text;
+        margin-bottom: 7px;
+    }
+    .thumb-subtitle {
+        font-size: 15px;
+        line-height: 1.2;
+        font-weight: 500;
+        white-space: nowrap;
+    }
+}
+.thumb-caption-v8 {
+    color: #645F58;
+    padding: 35px 20px 0;
+    text-align: center;
+    .thumb-title {
+        font-size: 15px;
+        line-height: 1.2;
+        font-weight: 500;
+    }
+    .thumb-subtitle {
+        font-size: 34px;
+        line-height: 1.12;
+        font-weight: 900;
+        color: $w;
+        letter-spacing: -0.3px;
+        text-transform: uppercase;
+    }
+}
+.thumb-caption-v9 {
+    top: auto;
+    bottom: 0;
+    color: $w;
+    padding: 0 20px 41px 50px;
+    .thumb-title {
+        font-size: 15px;
+        line-height: 1.2;
+        font-weight: 500;
+    }
+    .thumb-subtitle {
+        font-size: 39px;
+        line-height: 1;
+        letter-spacing: -1px;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+}
+.thumb-caption-v10 {
+    color: $text;
+    padding: 62px 20px 0;
+    text-align: center;
+    .thumb-title {
+        font-size: 17px;
+        line-height: 1.12;
+        font-weight: 500;
+        margin-bottom: 1px;
+    }
+    .thumb-subtitle {
+        font-size: 47px;
+        line-height: 1;
+        font-weight: 900;
+        color: #A3B29A;
+        letter-spacing: -2.4px;
+        text-transform: uppercase;
+    }
+}
+.thumb-caption-v11 {
+    top: auto;
+    bottom: 0;
+    color: $w;
+    padding: 0 20px 51px;
+    text-align: center;
+    .thumb-title {
+        font-size: 15px;
+        line-height: 1.2;
+        font-weight: 500;
+        margin-bottom: 2px;
+    }
+    .thumb-subtitle {
+        font-size: 44px;
+        line-height: 1;
+        letter-spacing: -2.2px;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+}
+.thumb-caption-v12,
+.thumb-caption-v13,
+.thumb-caption-v14,
+.thumb-caption-v15,
+.thumb-caption-v16,
+.thumb-caption-v17,
+.thumb-caption-v18,
+.thumb-caption-v22 {
+    color: $w;
+    padding: 53px 20px 0 50px;
+    .thumb-subtitle {
+        font-size: 15px;
+        line-height: 1.2;
+        font-weight: 500;
+        margin-bottom: 2px;
+    }
+    .thumb-title {
+        font-size: 42px;
+        line-height: 0.9524;
+        letter-spacing: -1.88px;
+        margin-bottom: 5px;
+    }
+}
+.thumb-caption-v13,
+.thumb-caption-v15,
+.thumb-caption-v16,
+.thumb-caption-v17,
+.thumb-caption-v18,
+.thumb-caption-v22 {
+    .thumb-subtitle {
+        color: $text;
+    }
+    .thumb-arrow {
+        background-image: url('../upload/arrow-gray.svg');
+    }
+}
+.thumb-caption-v14 {
+    color: $dgr;
+    .thumb-arrow {
+        background-image: url('../upload/arrow-dark.svg');
+    }
+}
+.thumb-caption-v15,
+.thumb-caption-v17 {
+    color: $p;
+}
+.thumb-caption-v16,
+.thumb-caption-v17,
+.thumb-caption-v22 {
+    top: auto;
+    bottom: 0;
+    padding-top: 0;
+    padding-bottom: 42px;
+}
+.thumb-caption-v18,
+.thumb-caption-v22 {
+    color: $text;
+}
+.thumb-caption-v19,
+.thumb-caption-v20,
+.thumb-caption-v21 {
+    top: auto;
+    bottom: 0;
+    padding: 0 20px 25px;
+    text-align: center;
+    color: $w;
+    .thumb-title {
+        margin-bottom: 7px;
+    }
+    .thumb-subtitle {
+        font-size: 15px;
+        line-height: 1.2;
+        font-weight: 500;
+        white-space: nowrap;
+    }
+}
+.thumb-caption-v20,
+.thumb-caption-v21 {
+    color: $b;
+    .thumb-title {
+        color: $dgr;
+    }
+}
+.thumb-caption-v21 {
+    top: 0;
+    bottom: auto;
+    padding-bottom: 0;
+    padding-top: 25px;
+}
+.thumb-caption-v23 {
+    top: auto;
+    bottom: 0;
+    color: $w;
+    padding: 0 20px 47px 50px;
+    .thumb-title {
+        font-size: 60px;
+        line-height: 1;
+        letter-spacing: -2.7px;
+    }
+}
+.thumb-caption-v24 {
+    color: $text;
+    padding: 47px 20px 0;
+    text-align: center;
+    .thumb-title {
+        font-size: 17px;
+        line-height: 1.12;
+        font-weight: 500;
+        margin-bottom: 3px;
+    }
+    .thumb-subtitle {
+        font-size: 31px;
+        line-height: 1.13;
+        font-weight: 900;
+        color: $w;
+        letter-spacing: -0.3px;
+        text-transform: uppercase;
+    }
+}
+.thumb-caption-v25 {
+    color: $text;
+    padding: 43px 20px 0 50px;
+    .thumb-title {
+        font-size: 31px;
+        line-height: 0.91;
+    }
+}
+.thumb-caption-v26 {
+    color: $dgr;
+    padding: 50px 20px 0 50px;
+    .thumb-title {
+        font-size: 48px;
+        line-height: 0.75;
+        letter-spacing: -2.15px;
+        margin-bottom: 7px;
+    }
+    .thumb-subtitle {
+        font-size: 17px;
+        line-height: 1.12;
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>play</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="new-pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lifemebel_product" transform="translate(-233.000000, -1431.000000)">
+            <g id="char" transform="translate(92.000000, 1290.000000)">
+                <g id="play" transform="translate(141.000000, 141.000000)">
+                    <circle id="Oval" stroke="#FFFFFF" stroke-width="4" cx="30" cy="30" r="28"></circle>
+                    <path d="M39.6037206,30.8532818 L24.52145,40.070225 C24.0501955,40.3582139 23.4347071,40.2096477 23.1467182,39.7383932 C23.0507689,39.5813853 23,39.4009479 23,39.2169432 L23,20.7830568 C23,20.2307721 23.4477153,19.7830568 24,19.7830568 C24.1840048,19.7830568 24.3644421,19.8338257 24.52145,19.929775 L39.6037206,29.1467182 C40.0749752,29.4347071 40.2235413,30.0501955 39.9355525,30.52145 C39.8528289,30.6568159 39.7390865,30.7705582 39.6037206,30.8532818 Z" id="Triangle" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

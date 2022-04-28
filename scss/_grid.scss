@@ -1,0 +1,97 @@
+/* grid */
+.main {
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 1000px;
+}
+.container {
+    padding-left: 39px;
+    padding-right: 39px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    &.align-center {
+        align-items: center;
+    }
+}
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    min-height: 1px;
+}
+$total-columns: 16;
+$col-widths: ();
+@for $i from 1 through $total-columns {
+    .col-#{$i} {
+        flex: 0 0 100% / $total-columns * $i;
+        max-width: 100% / $total-columns * $i;
+        min-height: 1px;
+    }
+    $col-widths: append($col-widths, comma);
+}
+.offset-1 {
+    margin-left: 100% / $total-columns;
+}
+.no-js {
+    .outside-slider-prev,
+    .outside-slider-next {
+        display: none;
+    }
+    .tv,
+    .product-photos-slider {
+        @extend .clearfix;
+        .slide-js {
+            display: none;
+            &:nth-child(1),
+            &:nth-child(2),
+            &:nth-child(3),
+            &:nth-child(4) {
+                display: block;
+                float: left;
+                width: 25%;
+            }
+        }
+    }
+    .advices,
+    .catalog-product-img-slider,
+    .product-gallery-slider {
+        .slide-js {
+            display: none;
+            &:nth-child(1) {
+                display: block;
+            }
+        }
+    }
+    .recently-viewed {
+        @extend .clearfix;
+        .slide-js {
+            display: none;
+            &:nth-child(1),
+            &:nth-child(2),
+            &:nth-child(3),
+            &:nth-child(4),
+            &:nth-child(5),
+            &:nth-child(6) {
+                display: block;
+                float: left;
+                width: 16.6666%;
+            }
+        }
+    }
+    .product-gallery-thumbs-slider {
+        .slide-js {
+            display: none;
+            &:nth-child(1),
+            &:nth-child(2),
+            &:nth-child(3),
+            &:nth-child(4),
+            &:nth-child(5),
+            &:nth-child(6) {
+                display: block;
+            }
+        }
+    }
+}

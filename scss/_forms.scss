@@ -1,0 +1,461 @@
+/* forms */
+.error {
+    color: $error !important;
+    border-color: rgba(243, 0, 0, 0.5) !important;
+}
+.success {
+    color: $success !important;
+    border-color: $success !important;
+}
+.disabled {
+    color: $t !important;
+    border-color: $s !important;
+    cursor: default !important;
+    pointer-events: none;
+}
+.input-note,
+.input-error {
+    margin-top: -14px;
+    margin-bottom: 21px;
+    font-size: 11px;
+    line-height: 1.55;
+    color: rgba(57, 57, 57, 0.5);
+}
+.input-error {
+    color: $red;
+}
+.input-wrapper {
+    margin-bottom: 20px;
+    & > label {
+        display: block;
+        padding: 1px 0 4px;
+        color: $dgr;
+    }
+    &.success {
+        position: relative;
+        &:before {
+            content: "";
+            position: absolute;
+            bottom: 16px;
+            right: 16px;
+            width: 10px;
+            height: 8px;
+            background: $w url('../upload/check-green.svg') 50% 50% no-repeat;
+            background-size: 100% 100%;
+        }
+        textarea.textarea,
+        input.input-text {
+            border-color: $p;
+            padding-right: 29px;
+        }
+        select.select {
+            border-color: $p;
+        }
+        input.datepicker {
+            background: $w;
+        }
+    }
+    &.error {
+        & > label {
+            color: $error;
+        }
+        textarea.textarea,
+        input.input-text {
+            color: $error;
+            border-color: rgba(243, 0, 0, 0.5);
+            &::placeholder {
+                color: $error;
+            }
+        }
+        select.select {
+            color: $error;
+            border-color: rgba(243, 0, 0, 0.5);
+            background-image: url('../upload/select-error.svg');
+        }
+    }
+}
+textarea.textarea,
+input.input-text {
+    float: left;
+    width: 100%;
+    padding: 10px 14px;
+    line-height: $lineHeight;
+    color: $b;
+    background: $w;
+    border: 1px solid $t;
+    border-radius: 2px;
+    transition: color $d $f, background-color $d $f, border-color $d $f, box-shadow $d $f;
+    &::placeholder {
+        color: $t;
+    }
+    &:hover,
+    &:focus {
+        border-color: $p;
+    }
+    &.error {
+        &::placeholder {
+            color: $error;
+        }
+    }
+    &.success {
+        color: $b !important;
+    }
+    &:disabled {
+        cursor: default;
+        color: $t !important;
+        border-color: $s !important;
+        background-color: $s;
+        &::placeholder {
+            color: $t;
+        }
+    }
+}
+textarea.textarea {
+    font-family: $fontFamily;
+    overflow: auto;
+    height: auto;
+}
+select.select {
+    cursor: pointer;
+    float: left;
+    width: 100%;
+    padding: 10px 29px 10px 14px;
+    font-size: 13px;
+    line-height: 1.385;
+    font-family: $ff;
+    color: $b;
+    white-space: nowrap;
+    background: $w url('../upload/select.svg') 100% 50% no-repeat;
+    background-size: 24px 8px;
+    border: 1px solid $t;
+    border-radius: 2px;
+    transition: color $d $f, background-color $d $f, border-color $d $f, box-shadow $d $f;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    &:hover,
+    &:focus {
+        border-color: $p;
+    }
+    &:disabled {
+        cursor: default;
+        color: $t !important;
+        border-color: $s !important;
+        background-color: $s;
+    }
+    &.success {
+        color: $b !important;
+    }
+    &.error {
+        background-image: url('../upload/select-error.svg');
+    }
+}
+select.select::-ms-expand {
+    display: none;
+}
+.checkbox,
+.radio {
+    display: block;
+    input {
+        display: none;
+        &:checked + label {
+            &:before {
+                border-color: $p;
+                background-color: $p;
+            }
+            &:after {
+                opacity: 1;
+            }
+            &:hover {
+                &:before {
+                    border-color: #569F29;
+                    background-color: #569F29;
+                }
+            }
+        }
+        &:disabled + label {
+            cursor: default;
+            &:before {
+                border-color: rgba(161, 161, 161, 0.3);
+            }
+        }
+        &:checked:disabled + label {
+            &:before {
+                border-color: $tr;
+                background-color: rgba(131, 193, 80, 0.3);
+            }
+        }
+    }
+    label {
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        padding: 2px 0 3px 43px;
+        font-size: 11px;
+        line-height: 1.37;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20px;
+            height: 20px;
+            background: $w;
+            border: 1px solid $t;
+            border-radius: 2px;
+            transition: background-color $d $f, border-color $d $f;
+        }
+        &:after {
+            opacity: 0;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20px;
+            height: 20px;
+            background: $tr url('../upload/check.svg') 0 0 no-repeat;
+            background-size: 100% 100%;
+            transition: opacity $d $f;
+        }
+        &:hover {
+            &:before {
+                border-color: $dgr;
+            }
+        }
+    }
+    &.error {
+        label {
+            color: $error !important;
+            &:before {
+                border-color: $error;
+            }
+        }
+    }
+}
+.radio {
+    margin-bottom: 20px;
+    label {
+        display: block;
+        padding: 0 0 0 40px;
+        font-size: 13px;
+        line-height: 1.54;
+        color: $dgr;
+        &:before {
+            border-radius: 50%;
+        }
+        &:after {
+            top: 6px;
+            left: 6px;
+            width: 8px;
+            height: 8px;
+            background: $w;
+            border-radius: 50%;
+        }
+    }
+}
+a.button,
+input.button,
+button.button {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 45px 12px;
+    line-height: $lineHeight;
+    font-weight: 500;
+    color: $b;
+    text-align: center;
+    background: $w;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.05);
+    transition: color $d $f, background-color $d $f, border-color $d $f, box-shadow $d $f;
+    position: relative;
+    &:after {
+        display: none;
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 24px;
+        height: 24px;
+        margin: -12px 0 0 -12px;
+        background: $tr url('../upload/loader-green.svg') 50% 50% no-repeat;
+        background-size: 100% 100%;
+    }
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+    &:active {
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    &:disabled,
+    &.disabled {
+        cursor: default;
+        color: $t !important;
+        box-shadow: inset 0 0 0 2px #E1E1E1;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+    &.loading {
+        color: $tr !important;
+        background-color: $w;
+        &:after {
+            display: block;
+            animation: rotation 0.8s infinite linear;
+        }
+    }
+    &.big {
+        padding-top: 12px;
+        padding-bottom: 14px;
+        font-size: 18px;
+        line-height: 1.3334;
+        letter-spacing: -0.12px;
+    }
+    &.secondary {
+        color: $b;
+        background: #F5F5F5;
+        box-shadow: none;
+        &:hover {
+            color: $text;
+            background-color: #F5F5F5;
+        }
+        &:active {
+            color: $b;
+            background-color: #E9EBED;
+        }
+        &:disabled,
+        &.disabled {
+            cursor: default;
+            color: #E1E1E1 !important;
+            background-color: #F5F5F5;
+        }
+        &.loading {
+            color: $tr !important;
+            background-color: #F5F5F5;
+            &:after {
+                background-image: url('../upload/loader.svg');
+            }
+        }
+    }
+    &.primary {
+        color: $w;
+        background: $p;
+        box-shadow: none;
+        &:hover {
+            background-color: #9cd365;
+        }
+        &:active {
+            background-color: #569F29;
+        }
+        &:disabled,
+        &.disabled {
+            cursor: default;
+            color: $w !important;
+            background-color: #D9ECCA;
+        }
+        &.loading {
+            color: $tr !important;
+            background-color: #569F29;
+            &:after {
+                background-image: url('../upload/loader-white.svg');
+            }
+        }
+    }
+    &.orange {
+        color: $w;
+        background: #F3B800;
+        box-shadow: none;
+        &:hover {
+            background-color: #F7CC00;
+        }
+        &:active {
+            background-color: #E78400;
+        }
+        &:disabled,
+        &.disabled {
+            cursor: default;
+            color: $w !important;
+            background-color: #f9db7f;
+        }
+        &.loading {
+            color: $tr !important;
+            background-color: #E78400;
+            &:after {
+                background-image: url('../upload/loader-white.svg');
+            }
+        }
+    }
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.jspContainer {
+    overflow: hidden;
+    position: relative;
+}
+.jspPane {
+    position: absolute;
+}
+.jspCap {
+    display: none;
+}
+.jspTrack {
+    background: $tr;
+    position: relative;
+}
+.jspDrag {
+    background: #E1E1E1;
+    position: relative;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.jspCorner {
+    background: $tr;
+    float: left;
+    height: 100%;
+}
+.jspVerticalBar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 6px;
+    height: 100%;
+}
+.jspHorizontalBar {
+    position: absolute;
+    top: 224px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    .jspCap {
+        display: block;
+        float: left;
+        width: 20px;
+        height: 100%;
+    }
+    .jspTrack {
+        float: left;
+        height: 100%;
+        background: #EBEBEB;
+    }
+    .jspDrag {
+        float: left;
+        top: -2px;
+        height: 9px;
+        background: $t;
+        border-radius: 5px;
+    }
+}

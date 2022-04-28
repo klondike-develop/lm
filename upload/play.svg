@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/ic_play" stroke="#83C150" stroke-width="2">
+            <g id="Group">
+                <circle id="Oval" fill="#FFFFFF" cx="20" cy="20" r="19"></circle>
+                <path d="M26.1312149,20.2619608 L16,14.1626871 L16,26.3612346 L26.1312149,20.2619608 Z" id="Triangle" fill="#83C150"></path>
+            </g>
+        </g>
+    </g>
+</svg>
