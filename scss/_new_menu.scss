@@ -141,6 +141,8 @@
 
     min-height: 50px;
 
+    padding-right: 30px;
+
     font-weight: 500;
     font-size: 15px;
     line-height: 140%;
@@ -236,16 +238,13 @@
         &:not(:last-child) {
             margin-bottom: 25px;
         }
-        & > a {
+        & > span {
             display: inline-block;
             margin-bottom: 10px;
             font-weight: 500;
             font-size: 13px;
             line-height: 154%;
             color: #000000;
-            &:hover {
-                color: #83C150;
-            }
         }
 
         & ul {
