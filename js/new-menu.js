@@ -12,10 +12,9 @@ $(document).ready(function () {
     substrNameCat(".menu-catalog-name > span", 27);
 
     $(".js-toggle-menu-catalog").on("click", function() {
-        if (!$(this).hasClass("show")) {
+
+        if (!$('.menu-catalog-list > li').hasClass("hover")) {
             openSubmenuCategory($('.menu-catalog-list > li:first-child'));
-        } else {
-            closeSubmenuCategory($('.menu-catalog-list > li'));
         }
 
         $(this).toggleClass("show");
@@ -25,14 +24,10 @@ $(document).ready(function () {
 
     var timer;
 
-    // $('.menu-catalog-wrapper').mouseleave(function() {
-    //     clearTimeout(timer);
-    //     closeSubmenuCategory($('.menu-catalog-list > li'));
-    // });
-
     $('.menu-catalog-list > li').mouseenter(function() {
         if (!$(this).hasClass("hover")) {
             clearTimeout(timer);
+            closeSubmenuCategory($('.menu-catalog-dropdown'));
             closeSubmenuCategory($('.menu-catalog-list > li'));
     
             thisLi = $(this);
@@ -45,7 +40,9 @@ $(document).ready(function () {
     })
 
     function openSubmenuCategory(value) {
+        var menuId = $(value).attr("data-id-cat");
         $(value).addClass('hover');
+        $("#" + menuId).addClass('hover');
     }
     function closeSubmenuCategory(value) {
         $(value).removeClass('hover');

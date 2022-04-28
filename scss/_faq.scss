@@ -27,7 +27,7 @@
     font-size: 20px;
     line-height: 1.3;
     font-weight: 700;
-    color: $dgr;
+    color: $b;
     margin-bottom: 30px;
 }
 .faq-item {
@@ -56,6 +56,12 @@
     color: $b;
     padding: 11px 60px 10px 0;
     position: relative;
+
+    & span {
+        display: inline-block;
+        max-width: 570px;
+    }
+
     &:before {
         content: "";
         position: absolute;
@@ -70,7 +76,7 @@
         transform: translate(0, -50%) rotate(0);
     }
     &:hover {
-        color: $text;
+        color: $p;
     }
 }
 .faq-item-text {
@@ -97,11 +103,26 @@
     }
 }
 .faq-feedback-block {
+    position: relative;
     max-width: 815px;
     width: 100%;
     padding: 80px 0 70px 0;
     margin: 0 auto;
     box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+        background: $w url("../upload/new-faq/icon-feed-form.svg") no-repeat center / 40px 40px;
+    }
+
     p {
         text-align: center;
         font-size: 13px;
@@ -127,6 +148,9 @@
     padding-top: 12px;
     .input-wrapper {
         margin-bottom: 20px;
+        & > label {
+            padding: 1px 0 8px;
+        }
     }
 }
 textarea.faq-feedback-question {
@@ -141,11 +165,13 @@ textarea.faq-feedback-question {
     }
 }
 .faq-feedback-agree {
-    max-width: 320px;
     font-size: 11px;
     line-height: 1.55;
     a {
         font-weight: 500;
+    }
+    & .checkbox label {
+        padding: 2px 0 3px 28px;
     }
 }
 
