@@ -484,6 +484,11 @@ $(document).ready(function () {
     });
     function openSubmenu(value) {
         $(value).addClass('hover');
+
+        if (!$(".menu-catalog-wrapper").is(":hidden")) {
+            $(".js-toggle-menu-catalog").toggleClass("show");
+            $(".menu-catalog-wrapper").fadeToggle();
+        }
     }
     function closeSubmenu(value) {
         $(value).removeClass('hover');
