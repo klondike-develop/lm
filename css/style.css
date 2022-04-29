@@ -12249,8 +12249,26 @@ a.order-completion-phone:hover {
   min-width: 160px;
 }
 
-.faq-menu {
-  margin-bottom: 22px;
+.info-menu .sidebar-menu {
+  padding-bottom: 0;
+}
+.info-menu .sidebar-menu li {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 160%;
+}
+.info-menu .sidebar-menu li a {
+  padding: 5px 0px 7px;
+}
+.info-menu .sidebar-menu li a:hover {
+  color: #83C150;
+}
+.info-menu .sidebar-menu li.active a {
+  background: none;
+  color: #83C150;
+}
+.info-menu .sidebar-menu:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 .faq-feedback-link {
@@ -12295,9 +12313,6 @@ a.order-completion-phone:hover {
 }
 .faq-item.open {
   margin-bottom: 0;
-}
-.faq-item.open .faq-item-text {
-  display: block;
 }
 .faq-item.open .faq-item-caption:before {
   -webkit-transform: translate(0, -50%) rotate(180deg);
@@ -12363,10 +12378,9 @@ a.order-completion-phone:hover {
 
 .faq-feedback-block {
   position: relative;
-  max-width: 815px;
-  width: 100%;
+  max-width: 850px;
   padding: 80px 0 70px 0;
-  margin: 0 auto;
+  margin-left: 255px;
   -webkit-box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
 }

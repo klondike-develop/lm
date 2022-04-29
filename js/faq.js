@@ -20,6 +20,7 @@ $(document).ready(function(){
     $('.faq-item-caption').on('click', function(event) {
         event.preventDefault();
         $(this).parents('.faq-item').toggleClass('open');
+        $(this).parents('.faq-item').find(".faq-item-text").slideToggle(300);
     });
 
     //------------------------------------------------------------------------//
