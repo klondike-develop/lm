@@ -28255,7 +28255,6 @@ a.new-product-brand-feature:hover .new-product-brand-feature-title {
   left: 0;
   right: 0;
   top: 100%;
-  min-height: calc(100vh - 200px);
   z-index: 4000;
   padding: 32px 0 40px;
   background: #ffffff;
@@ -28335,7 +28334,7 @@ a.new-product-brand-feature:hover .new-product-brand-feature-title {
   margin-right: 40px;
 }
 
-.menu-catalog-discount .menu-catalog-dropdown .row .col:not(:last-child) {
+.menu-catalog-dropdown-discount.menu-catalog-dropdown .row .col:not(:last-child) {
   margin-right: 20px;
 }
 
