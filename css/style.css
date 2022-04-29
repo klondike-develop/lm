@@ -12433,7 +12433,7 @@ textarea.faq-feedback-question {
 }
 
 .faq-feedback-button {
-  padding: 24px 0 20px;
+  margin-top: 40px;
 }
 .faq-feedback-button .button {
   padding-left: 10px;
