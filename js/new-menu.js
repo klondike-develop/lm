@@ -22,6 +22,13 @@ $(document).ready(function () {
 
     });
 
+    $(document).on("click", function(e) {
+        if ($(e.target).closest(".menu-catalog-wrapper").length === 0 && $(e.target).closest(".js-toggle-menu-catalog").length === 0) {
+            $(".js-toggle-menu-catalog").removeClass("show");
+            $(".menu-catalog-wrapper").fadeOut();
+        }
+    });
+
     var timer;
 
     $('.menu-catalog-list > li').mouseenter(function() {
