@@ -28770,6 +28770,9 @@ a.warranty-email:hover {
           flex: 0 0 calc(25% - 8px);
   max-width: calc(25% - 8px);
 }
+.new-collections .catalog-product-img-link {
+  max-width: 100%;
+}
 .new-collections .catalog-product {
   padding: 0;
   margin: 0;
@@ -28898,4 +28901,13 @@ a.warranty-email:hover {
   color: #000000;
   background: #F4F5F6;
   border-radius: 3px;
+}
+
+@media (max-width: 1499px) {
+  .new-collections-wrapper .swiper-button-prev {
+    left: -46px;
+  }
+  .new-collections-wrapper .swiper-button-next {
+    right: -46px;
+  }
 }
