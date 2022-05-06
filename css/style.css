@@ -28845,6 +28845,12 @@ a.warranty-email:hover {
           flex-direction: column;
   height: 100%;
 }
+.new-collections-all:hover .new-collections-all-btn {
+  color: #83C150;
+}
+.new-collections-all:hover .new-collections-all-text {
+  color: #83C150;
+}
 
 .new-collections-all-link {
   position: absolute;
@@ -28890,6 +28896,8 @@ a.warranty-email:hover {
   color: #000000;
   border-radius: 50%;
   background: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .new-collections-all-btn {
@@ -28901,6 +28909,8 @@ a.warranty-email:hover {
   color: #000000;
   background: #F4F5F6;
   border-radius: 3px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 @media (max-width: 1499px) {
