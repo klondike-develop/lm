@@ -28970,3 +28970,82 @@ a.warranty-email:hover {
             flex-grow: 0.65;
   }
 }
+.new-product-share {
+  cursor: pointer;
+  position: absolute;
+  top: 24px;
+  right: 93px;
+  z-index: 10;
+}
+
+.new-product-share-icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fff;
+}
+.new-product-share-icon::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 24px;
+  height: 22px;
+  background: url("../upload/new-share/icon-share.svg") no-repeat center/contain;
+}
+
+.new-product-share-wrap {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  min-width: 181px;
+  top: calc(100% + 15px);
+  right: 0;
+  background: #FFFFFF;
+  border-radius: 5px;
+  z-index: 11;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.new-product-share-wrap::before {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: -19px;
+  border: 10px solid transparent;
+  border-bottom: 15px solid #FFFFFF;
+  z-index: -1;
+}
+.new-product-share-wrap.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.new-product-share-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 16px;
+  margin: 0 -6px -12px -6px;
+}
+
+.new-product-share-item {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin: 0 6px 12px 6px;
+}
+
+@media (max-width: 1325px) {
+  .new-product-share {
+    top: 15px;
+    right: 70px;
+  }
+}
