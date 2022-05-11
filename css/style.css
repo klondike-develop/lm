@@ -28872,6 +28872,7 @@ a.warranty-email:hover {
 }
 
 .new-collections-all {
+  cursor: pointer;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -28899,23 +28900,18 @@ a.warranty-email:hover {
 }
 
 .new-collections-all-group {
-  -webkit-box-flex: 0.56;
-      -ms-flex-positive: 0.56;
-          flex-grow: 0.56;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  padding-top: 72.97%;
+  position: relative;
   margin-bottom: 20px;
   background: #F4F5F6;
 }
 
 .new-collections-all-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   width: 100px;
   height: 100px;
   display: -webkit-box;
@@ -28961,13 +28957,6 @@ a.warranty-email:hover {
   }
   .new-collections-wrapper .swiper-button-next {
     right: -46px;
-  }
-}
-@media (max-width: 1326px) {
-  .new-collections-all-group {
-    -webkit-box-flex: 0.65;
-        -ms-flex-positive: 0.65;
-            flex-grow: 0.65;
   }
 }
 .new-product-share {

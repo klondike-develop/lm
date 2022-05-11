@@ -84,6 +84,7 @@
 }
 
 .new-collections-all {
+    cursor: pointer;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -109,15 +110,17 @@
 }
 
 .new-collections-all-group {
-    flex-grow: 0.56;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding-top: 72.97%;
+    position: relative;
     margin-bottom: 20px;
     background: #F4F5F6;
 }
 
 .new-collections-all-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 100px;
     height: 100px;
     display: flex;
@@ -157,10 +160,3 @@
         }
     }
 }
-
-@media (max-width: 1326px) {
-    .new-collections-all-group {
-        flex-grow: 0.65;
-    }
-}
-
