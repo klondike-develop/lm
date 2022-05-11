@@ -17,9 +17,16 @@
         &:hover {
             z-index: 100;
             .catalog-product-bg,
-            .catalog-product-info {
+            .catalog-product-info,
+            .catalog-product-favorite {
                 display: none;
             }
+        }
+
+        & .catalog-product-price-old {
+            font-size: 11px;
+            vertical-align: middle;
+            font-weight: 500;
         }
     }
 }
@@ -44,13 +51,17 @@
     max-width: 200px;
     width: 100%;
     padding: 10px;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 13px;
     line-height: 155%;
     text-align: center;
     border-radius: 2px;
     color: #000000;
     background: #F4F5F6;
+    &:hover {
+        color: #686868;
+        background-color: #F5F5F5;
+    }
 }
 
 .new-collections-wrapper {
@@ -79,11 +90,12 @@
     height: 100%;
     &:hover {
         & .new-collections-all-btn {
-            color: #83C150;
+            color: #686868;
+            background-color: #F5F5F5;
         }
 
         & .new-collections-all-text {
-            color: #83C150;
+            color: #686868;
         }
     }
 }
@@ -97,7 +109,7 @@
 }
 
 .new-collections-all-group {
-    flex-grow: 1;
+    flex-grow: 0.56;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,6 +121,7 @@
     width: 100px;
     height: 100px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     font-weight: 700;
@@ -144,3 +157,10 @@
         }
     }
 }
+
+@media (max-width: 1326px) {
+    .new-collections-all-group {
+        flex-grow: 0.65;
+    }
+}
+
