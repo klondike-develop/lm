@@ -6,6 +6,7 @@ $(document).ready(function () {
 
 		var newCollectionsSlider = new Swiper(slider[0], {
 			slidesPerView: 3,
+			slidesPerGroup: 3,
 			watchOverflow: true,
 			spaceBetween: 15,
 
@@ -17,6 +18,7 @@ $(document).ready(function () {
 			breakpoints: {
 				1326: {
 					slidesPerView: 5,
+					slidesPerGroup: 5,
 				},
 			},
 		});
