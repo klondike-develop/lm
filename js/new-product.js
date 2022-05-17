@@ -1,4 +1,21 @@
 $(document).ready(function () {
+    var newProductSmallGall,
+    newProductSmallGallLength = $('.new-product-gallery-small-slider').length;
+    if (newProductSmallGallLength) {
+        newProductSmallGall = new Swiper('.new-product-gallery-small-slider', {
+            navigation: {
+                nextEl: '.new-product-gallery-small .swiper-button-next',
+                prevEl: '.new-product-gallery-small .swiper-button-prev',
+            },
+            watchOverflow: true,
+            speed: 500,
+            spaceBetween: 5,
+            slidesPerView: 'auto',
+            observeParents:true,
+            oserveSlideChildren:true,
+            observer:true,
+        });
+    }
 
     //new product gallery
     var newProductGalleryCurrent = 0;
@@ -10,15 +27,15 @@ $(document).ready(function () {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
+
             // убираем свайп
             // simulateTouch: false,
             // allowTouchMove: false,
             watchOverflow: true,
             speed: 500,
+            observeParents:true,
+            oserveSlideChildren:true,
+            observer:true,
             on: {
                 init: function () {
                     console.log("Инициализация слайдера, текущий слайд: 0");
@@ -46,8 +63,14 @@ $(document).ready(function () {
                     console.log("Конец смены слайда: " + newProductGallery.activeIndex);
                 }
             },
+            thumbs: {
+                swiper: newProductSmallGall,
+                autoScrollOffset: true,
+            }
         });
     }
+
+
 
     //------------------------------------------------------------------------//
 

@@ -13,11 +13,16 @@
     margin-top: -14px;
     margin-bottom: 20px;
     position: relative;
-    &-gallery {
+
+    &-wrap {
         flex: 0 0 73.21%;
         max-width: 73.21%;
-        background: $s;
         margin-bottom: 30px;
+    }
+    
+    &-gallery {
+ 
+        background: $s;
         &:hover {
             .new-product-gallery-zoom {
                 opacity: 1;
@@ -3689,9 +3694,12 @@ a.new-product-brand-feature {
 }
 @media (max-width: 1325px) {
     .new-product {
-        &-gallery {
+        &-wrap {
             flex: 0 0 60%;
             max-width: 60%;
+        }
+        &-gallery {
+
             .swiper-button-prev {
                 left: 15px;
             }
