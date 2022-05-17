@@ -61,3 +61,14 @@
     }
     
 }
+
+@media (max-width: 1325px) {
+    .new-product-gallery-small {
+        & .swiper-button-next {
+            right: 0;
+            &::before {
+                right: -10px;
+            }
+        }
+    }
+}

@@ -29108,3 +29108,12 @@ a.warranty-email:hover {
 .new-product-gallery-small .swiper-button-next.swiper-button-disabled {
   display: none;
 }
+
+@media (max-width: 1325px) {
+  .new-product-gallery-small .swiper-button-next {
+    right: 0;
+  }
+  .new-product-gallery-small .swiper-button-next::before {
+    right: -10px;
+  }
+}
