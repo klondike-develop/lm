@@ -29065,6 +29065,9 @@ a.warranty-email:hover {
 .new-product-gallery-small-slider .swiper-slide.swiper-slide-thumb-active img {
   border-color: #A1A1A1;
 }
+.new-product-gallery-small-photo {
+  cursor: pointer;
+}
 .new-product-gallery-small .swiper-button-prev {
   left: 0;
 }

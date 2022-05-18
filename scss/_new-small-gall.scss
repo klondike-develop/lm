@@ -18,6 +18,10 @@
         } 
     }
 
+    &-photo {
+        cursor: pointer;
+    }
+
     & .swiper-button-prev {
         left: 0;
         &::before {
