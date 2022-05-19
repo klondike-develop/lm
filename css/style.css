@@ -29202,3 +29202,36 @@ a.warranty-email:hover {
   font-size: 11px;
   vertical-align: middle;
 }
+.section-fav-empty {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 625px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+.section-fav-empty-group {
+  text-align: center;
+}
+.section-fav-empty-icon {
+  margin-bottom: 30px;
+}
+.section-fav-empty-icon img {
+  margin: 0 auto;
+}
+.section-fav-empty-text {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  text-align: center;
+  color: #a1a1a1;
+}
