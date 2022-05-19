@@ -29129,3 +29129,76 @@ a.warranty-email:hover {
   margin: 20px 0;
   background: #e1e1e1;
 }
+
+.section-fav-wrapper {
+  padding-bottom: 95px;
+}
+.section-fav-wrapper .pagination {
+  max-width: 815px;
+  margin: 0 auto;
+}
+.section-fav-caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 40px;
+}
+.section-fav-caption h1 {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #000000;
+}
+.section-fav-caption-number {
+  white-space: nowrap;
+  padding: 9px 0 0 14px;
+  font-size: 11px;
+  line-height: 1.55;
+  font-weight: 500;
+  color: #393939;
+}
+.section-fav-products {
+  margin-bottom: 50px;
+}
+.section-fav-products .row {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -8px;
+}
+.section-fav-products .col {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%;
+  max-width: 20%;
+  padding: 0 8px;
+}
+.section-fav-products .catalog-product {
+  padding-top: 8px;
+}
+.section-fav-products .catalog-product-bg {
+  bottom: -65px;
+  left: -8px;
+  right: -8px;
+}
+.section-fav-products .catalog-product-info {
+  padding-top: 4px;
+  padding-bottom: 8px;
+}
+.section-fav-products .catalog-product-title {
+  text-align: center;
+  padding-bottom: 8px;
+}
+.section-fav-products .catalog-product-price {
+  text-align: center;
+  padding-bottom: 4;
+}
+.section-fav-products .catalog-product-price-old {
+  font-size: 11px;
+  vertical-align: middle;
+}

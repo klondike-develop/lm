@@ -1,0 +1,74 @@
+.section-fav {
+	&-wrapper {
+		padding-bottom: 95px;
+
+		& .pagination {
+			max-width: 815px;
+			margin: 0 auto;
+		}
+	}
+
+	&-caption {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		margin-bottom: 40px;
+
+		& h1 {
+			font-weight: 900;
+			font-size: 30px;
+			line-height: 1.2;
+			color: #000000;
+		}
+		&-number {
+			white-space: nowrap;
+			padding: 9px 0 0 14px;
+			font-size: 11px;
+			line-height: 1.55;
+			font-weight: 500;
+			color: #393939;
+		}
+	}
+
+	&-products {
+		margin-bottom: 50px;
+		& .row {
+			flex-wrap: wrap;
+			margin: 0 -8px;
+		}
+
+		& .col {
+			flex: 0 0 20%;
+			max-width: 20%;
+			padding: 0 8px;
+		}
+
+		& .catalog-product {
+			padding-top: 8px;
+			&-bg {
+				bottom: -65px;
+				left: -8px;
+				right: -8px;
+			}
+
+			&-info {
+				padding-top: 4px;
+				padding-bottom: 8px;
+			}
+
+			&-title {
+				text-align: center;
+				padding-bottom: 8px;
+			}
+
+			&-price {
+				text-align: center;
+				padding-bottom: 4;
+				&-old {
+					font-size: 11px;
+					vertical-align: middle;
+				}
+			}
+		}
+	}
+}
