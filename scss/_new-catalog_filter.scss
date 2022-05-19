@@ -437,6 +437,11 @@
 				font-weight: 500;
 				color: $b;
 				padding: 7px 0;
+
+				&.--regular {
+					font-weight: 400;
+				}
+
 				.filter-item-hint {
 					margin-top: 3px;
 				}

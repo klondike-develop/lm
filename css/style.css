@@ -28790,6 +28790,9 @@ a.warranty-email:hover {
   color: #000000;
   padding: 7px 0;
 }
+.catalog-filter-sorting-panel-category.--regular {
+  font-weight: 400;
+}
 .catalog-filter-sorting-panel-category .filter-item-hint {
   margin-top: 3px;
 }
