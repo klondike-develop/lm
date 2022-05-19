@@ -28573,7 +28573,7 @@ a.warranty-email:hover {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  width: 300px;
+  width: 860px;
   background: #ffffff;
   -webkit-box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.3);
           box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.3);
@@ -28600,7 +28600,7 @@ a.warranty-email:hover {
   margin-bottom: 16px;
 }
 .catalog-filter-sorting-panel.narrow-4 {
-  width: 300px;
+  width: 460px;
 }
 .catalog-filter-sorting-panel.narrow-4 .catalog-filter-sorting-panel-content {
   max-height: 266px;
@@ -28612,7 +28612,7 @@ a.warranty-email:hover {
   margin-bottom: 16px;
 }
 .catalog-filter-sorting-panel.narrow-5 {
-  width: 300px;
+  width: 414px;
 }
 .catalog-filter-sorting-panel.narrow-5 .catalog-filter-sorting-panel-content {
   max-height: 282px;
@@ -28635,7 +28635,7 @@ a.warranty-email:hover {
   width: 776px;
 }
 .catalog-filter-sorting-panel.medium-2 {
-  width: 300px;
+  width: 660px;
 }
 .catalog-filter-sorting-panel.medium-2 .catalog-filter-sorting-panel-content {
   max-height: 266px;
@@ -28647,7 +28647,7 @@ a.warranty-email:hover {
   margin-bottom: 16px;
 }
 .catalog-filter-sorting-panel.medium-3 {
-  width: 300px;
+  width: 618px;
 }
 .catalog-filter-sorting-panel.medium-3 .catalog-filter-sorting-panel-content {
   max-height: 282px;
@@ -28747,10 +28747,6 @@ a.warranty-email:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -29097,7 +29093,11 @@ a.warranty-email:hover {
   }
 }
 @media (max-width: 1079px) {
-  .catalog-filter-sorting-panel-block-col {
+  .catalog-filter-category,
+.catalog-filter-sorting-panel-col,
+.catalog-filter-sorting-panel-block-col,
+.catalog-filter-sorting-panel-col-x3,
+.catalog-filter-sorting-panel-col-x4 {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 50%;
             flex: 0 0 50%;
@@ -29105,13 +29105,10 @@ a.warranty-email:hover {
   }
 
   .catalog-filter-sorting-panel {
-    width: 300px;
-  }
-  .catalog-filter-sorting-panel.medium {
     width: 518px;
   }
-  .catalog-filter-sorting-panel.medium-2, .catalog-filter-sorting-panel.medium-3 {
-    width: 300px;
+  .catalog-filter-sorting-panel.medium, .catalog-filter-sorting-panel.medium-2, .catalog-filter-sorting-panel.medium-3 {
+    width: 518px;
   }
   .catalog-filter-sorting-panel.narrow-3 .catalog-filter-sorting-panel-col,
 .catalog-filter-sorting-panel.narrow-3 .catalog-filter-sorting-panel-block-col, .catalog-filter-sorting-panel.narrow-6 .catalog-filter-sorting-panel-col,
