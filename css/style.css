@@ -5348,6 +5348,24 @@ a.catalog-product-fast-view {
     line-height: 1.25;
   }
 }
+.catalog-product-size {
+  margin-bottom: 14px;
+}
+.catalog-product-size-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.catalog-product-size-item {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 145%;
+  color: #686868;
+}
+.catalog-product-size-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .catalog-menu-v2 {
   display: block;
   margin-bottom: 40px;
