@@ -69,6 +69,48 @@
 					vertical-align: middle;
 				}
 			}
+
+			&-img-link-wrapper {
+				&:hover {
+					.catalog-product-img-swiper .swiper-pagination-bullet::before {
+						opacity: 1;
+					}
+				}
+			}
+
+			&-img-swiper {
+				& .swiper-pagination {
+					display: flex;
+					width: 100%;
+					height: 100%;
+					bottom: 0;
+					&-bullet {
+						position: relative;
+						width: 100%;
+						height: 100%;
+						margin: 0;
+						flex-grow: 1;
+						background: none;
+						&::before {
+							opacity: 0;
+							content: "";
+							position: absolute;
+							bottom: 2px;
+							height: 3px;
+							left: 1px;
+							right: 1px;
+							background: rgba(174, 184, 191, 0.6);
+							transition: background-color 0.2s;
+						}
+						&-active {
+							background: none;
+							&::before {
+								background: #83c150;
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 
