@@ -29274,7 +29274,7 @@ a.warranty-email:hover {
 }
 .section-fav-products .catalog-product-price {
   text-align: center;
-  padding-bottom: 4;
+  padding-bottom: 4px;
 }
 .section-fav-products .catalog-product-price-old {
   font-size: 11px;
