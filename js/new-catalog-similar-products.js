@@ -4,7 +4,7 @@ $(document).ready(function () {
 
 	if (newSimilarProductsSliderLength) {
 		newSimilarProductsSlider = new Swiper(".new-similar-products-slider-container", {
-			slidesPerView: 5,
+			slidesPerView: 4,
 			watchOverflow: true,
 			spaceBetween: 16,
 			speed: 500,
