@@ -29391,7 +29391,7 @@ a.warranty-email:hover {
 }
 .new-similar-products-card {
   position: relative;
-  padding: 48px 20px 47px 20px;
+  padding: 24px 20px 28px 20px;
   height: 100%;
   -webkit-box-shadow: inset 0 0 0 1px #e3e3e3;
           box-shadow: inset 0 0 0 1px #e3e3e3;
@@ -29404,6 +29404,9 @@ a.warranty-email:hover {
   background: rgba(131, 193, 80, 0.1);
   -webkit-box-shadow: inset 0 0 0 2px #83c150;
           box-shadow: inset 0 0 0 2px #83c150;
+}
+.new-similar-products-card.--catalog {
+  padding: 48px 20px 47px 20px;
 }
 .new-similar-products-card-link {
   position: absolute;
