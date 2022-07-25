@@ -29437,7 +29437,12 @@ a.warranty-email:hover {
   }
 }
 .logistic-main-sceen {
-  background: #F4F5F6;
+  background: #f4f5f6;
+}
+.logistic-main-sceen.--full-image .logistic-main-sceen-image img {
+  border-radius: 0;
+  -webkit-filter: none;
+          filter: none;
 }
 
 .logistic-main-sceen-wrap {
@@ -29463,8 +29468,8 @@ a.warranty-email:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background: -webkit-gradient(linear, left top, right top, color-stop(46.92%, #FFFFFF), color-stop(70.71%, rgba(255, 255, 255, 0)));
-  background: linear-gradient(90deg, #FFFFFF 46.92%, rgba(255, 255, 255, 0) 70.71%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(46.92%, #ffffff), color-stop(70.71%, rgba(255, 255, 255, 0)));
+  background: linear-gradient(90deg, #ffffff 46.92%, rgba(255, 255, 255, 0) 70.71%);
   border-radius: 32px;
   z-index: 2;
 }
@@ -29515,14 +29520,12 @@ a.warranty-email:hover {
 .logistic-main-sceen-text ul li::before {
   content: "";
   position: absolute;
-  top: 50%;
+  top: 5px;
   left: 0;
-  -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: #83C150;
+  background: #83c150;
 }
 
 @media (max-width: 1200px) {
@@ -29531,8 +29534,8 @@ a.warranty-email:hover {
     grid-template-columns: 1fr 0.9fr;
   }
   .logistic-main-sceen-row::before {
-    background: -webkit-gradient(linear, left top, right top, color-stop(60%, #FFFFFF), color-stop(80%, rgba(255, 255, 255, 0)));
-    background: linear-gradient(90deg, #FFFFFF 60%, rgba(255, 255, 255, 0) 80%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(60%, #ffffff), color-stop(80%, rgba(255, 255, 255, 0)));
+    background: linear-gradient(90deg, #ffffff 60%, rgba(255, 255, 255, 0) 80%);
   }
 
   .logistic-main-sceen-column:first-child {
@@ -29788,7 +29791,7 @@ a.button.primary.logistic-service-button {
 .logistic-order-form {
   position: relative;
   padding: 56px 20px;
-  background: #FFFFFF;
+  background: #ffffff;
   -webkit-box-shadow: 0px 8.60625px 64.5188px rgba(0, 0, 0, 0.0405), 0px 3.4px 24.05px rgba(0, 0, 0, 0.03), 0px 0.74375px 8.55625px rgba(0, 0, 0, 0.0195);
           box-shadow: 0px 8.60625px 64.5188px rgba(0, 0, 0, 0.0405), 0px 3.4px 24.05px rgba(0, 0, 0, 0.03), 0px 0.74375px 8.55625px rgba(0, 0, 0, 0.0195);
   border-radius: 32px;
