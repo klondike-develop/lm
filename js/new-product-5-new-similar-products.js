@@ -4,7 +4,7 @@ $(document).ready(function () {
 
 	if (newSimilarProductsSliderLength) {
 		newSimilarProductsSlider = new Swiper(".new-similar-products-slider-container", {
-			slidesPerView: 4,
+			slidesPerView: 5,
 			watchOverflow: true,
 			spaceBetween: 16,
 			speed: 500,
@@ -16,7 +16,7 @@ $(document).ready(function () {
 
 			breakpoints: {
 				1326: {
-					slidesPerView: 4,
+					slidesPerView: 5,
 				},
 			},
 
