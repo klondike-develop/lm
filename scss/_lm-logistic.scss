@@ -1,3 +1,11 @@
+@font-face {
+	font-family: "Nunito Sans";
+	src: url("../font/NunitoSans-Regular.eot");
+	src: local("Nunito Sans Regular"), local("NunitoSans-Regular"), url("../font/NunitoSans-Regular.eot?#iefix") format("embedded-opentype"), url("../font/NunitoSans-Regular.woff2") format("woff2"), url("../font/NunitoSans-Regular.woff") format("woff"), url("../font/NunitoSans-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
 .logistic-main-sceen {
 	background: #f4f5f6;
 	&.--full-image {
@@ -333,6 +341,10 @@ a.button.primary.logistic-service-button {
 	}
 
 	&__name {
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 140%;
+		color: #393939;
 		margin-bottom: 8px;
 	}
 
@@ -464,6 +476,20 @@ a.button.primary.logistic-service-button {
 
 .logistic-order-form .input-wrapper > label {
 	padding: 1px 0 8px;
+}
+
+.input-wrapper .err-mess {
+	float: left;
+}
+
+.err-mess {
+	margin-top: 5px;
+	font-family: "Nunito Sans";
+	margin-top: 10px;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 120%;
+	color: #f30000;
 }
 
 @media (max-width: 1200px) {
