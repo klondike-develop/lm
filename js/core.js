@@ -448,7 +448,6 @@ $(document).ready(function () {
         swipeToSlide: true,
       });
     });
-
     $(".remove-visible").removeClass("visible");
   }
   sliderJsReviews();
