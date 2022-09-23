@@ -398,7 +398,62 @@ $(document).ready(function () {
             });
         });
     }
+
     sliderJsOutsideNav();
+
+    //------------------------------------------------------------------------//
+
+    //slider outside navigation
+    function sliderJsReviews() {
+        var thisSlider = $(".slider-js-reviews");
+        thisSlider.each(function (index, el) {
+            $(el).slick({
+                dots: true,
+                arrows: true,
+                draggable: true,
+                infinite: false,
+                centerMode: false,
+                centerPadding: "0px",
+                autoplay: false,
+                autoplaySpeed: 5000,
+                speed: 500,
+                pauseOnHover: false,
+                pauseOnDotsHover: false,
+                slide: ".slide-js",
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                swipeToSlide: true,
+            });
+        });
+        $(".remove-visible").removeClass("visible");
+    }
+
+    sliderJsReviews();
+
+    //------------------------------------------------------------------------//
+
+    //slider youtube
+    function sliderJsYoutube() {
+        $(".slider-js-youtube").slick({
+            dots: true,
+            arrows: true,
+            draggable: true,
+            infinite: false,
+            centerMode: false,
+            centerPadding: "0px",
+            autoplay: false,
+            autoplaySpeed: 5000,
+            speed: 500,
+            pauseOnHover: false,
+            pauseOnDotsHover: false,
+            slide: ".slide-js",
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            swipeToSlide: true,
+        });
+    }
+
+    sliderJsYoutube();
 
     //------------------------------------------------------------------------//
 
