@@ -1,0 +1,14 @@
+<svg width="105" height="105" viewBox="0 0 105 105" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="52.5" cy="52.5" r="52.5" fill="#F4F5F6"/>
+    <path d="M33.6 50H70.4C70.7314 50 71 49.7314 71 49.4V47.3797C71 47.1478 70.8664 46.9367 70.6569 46.8375L52.2569 38.1217C52.0943 38.0447 51.9057 38.0447 51.7431 38.1217L33.3431 46.8375C33.1336 46.9367 33 47.1478 33 47.3797V49.4C33 49.7314 33.2686 50 33.6 50Z"
+          stroke="#393939" stroke-width="2" stroke-linecap="square"/>
+    <path d="M34.6 68H70.4C70.7314 68 71 67.7314 71 67.4V64.6C71 64.2686 70.7314 64 70.4 64H34.6C34.2686 64 34 64.2686 34 64.6V67.4C34 67.7314 34.2686 68 34.6 68Z"
+          stroke="#393939" stroke-width="2" stroke-linecap="square"/>
+    <path d="M38 50V64" stroke="#393939" stroke-width="2" stroke-linecap="square"/>
+    <path d="M52 50V64" stroke="#393939" stroke-width="2" stroke-linecap="square"/>
+    <path d="M45 50V64" stroke="#393939" stroke-width="2" stroke-linecap="square"/>
+    <path d="M59 50V64" stroke="#393939" stroke-width="2" stroke-linecap="square"/>
+    <path d="M66 50V64" stroke="#393939" stroke-width="2" stroke-linecap="square"/>
+    <circle cx="52" cy="43" r="1.5" stroke="#393939"/>
+    <path d="M33 47L71 47" stroke="#393939" stroke-linecap="square"/>
+</svg>
