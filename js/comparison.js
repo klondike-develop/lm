@@ -20,7 +20,7 @@ $(document).ready(function () {
         $fixedSliderPlaceholder = $('.box:visible .fixed-slider-placeholder');
         $fixedSliderPlaceholderH = $fixedSliderPlaceholder.height();
 
-        console.log($top, $fixedSliderInitTop);
+        //console.log($top, $fixedSliderInitTop);
 
         if ($top > $fixedSliderInitTop + $fixedSliderPlaceholderH) {
             $('.box:visible .fixed-slider').addClass('scrolled');
@@ -153,6 +153,13 @@ $(document).ready(function () {
                 $(this).closest('.fixed-slider').next('.fixed-slider-placeholder').height($tH);
             });
         }, 1);
+    });
+
+    $('body').on('click', '.product-comparison-remove', function () {
+        $elementId = $(this).data('id');
+        $elementIndex = $(this).closest('.slide-js').index();
+
+        $('.slider-js-comparison, .slider-js-comparison-linked').slick('slickRemove', $elementIndex);
     });
 
 });//document ready

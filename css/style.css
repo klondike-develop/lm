@@ -14862,175 +14862,145 @@ textarea.faq-feedback-question {
 .delivery-rate-item-footnote {
   font-size: 11px;
   line-height: 1.455;
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .delivery-rate-item-feature {
-    font-size: 11px;
-    line-height: 1.455;
-    color: #000000;
-    margin-bottom: 13px;
+  font-size: 11px;
+  line-height: 1.455;
+  color: #000000;
+  margin-bottom: 13px;
 }
 
 .delivery-page {
-    color: #000;
-    padding-top: 50px;
+  color: #000;
+  padding-top: 50px;
 }
-
 .delivery-page .bg-light {
-    background: #F4F5F6;
+  background: #F4F5F6;
 }
-
 .delivery-page .bg-green-light {
-    background: rgba(131, 193, 80, 0.1);
+  background: rgba(131, 193, 80, 0.1);
 }
-
 .delivery-page .text-center {
-    text-align: center;
+  text-align: center;
 }
-
 .delivery-page .ml-4 {
-    margin-left: 2rem;
+  margin-left: 2rem;
 }
-
 .delivery-page .d-flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-
 .delivery-page .delivery-text-block {
-    padding: 30px 45px;
-    margin-bottom: 20px;
+  padding: 30px 45px;
+  margin-bottom: 20px;
 }
-
 .delivery-page .delivery-text-block-2 {
-    position: relative;
-    padding: 50px 45px;
-    margin-bottom: 20px;
+  position: relative;
+  padding: 50px 45px;
+  margin-bottom: 20px;
 }
-
 .delivery-page .delivery-text-block-2 img {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
-
 .delivery-page .delivery-3cols-block {
-    gap: 20px;
-    margin-bottom: 20px;
+  gap: 20px;
+  margin-bottom: 20px;
 }
-
 .delivery-page .delivery-3cols-block.big-padding-vertical {
-    padding: 50px 0;
+  padding: 50px 0;
 }
-
 .delivery-page .delivery-3cols-block .col {
-    padding: 30px;
-    background-repeat: no-repeat;
+  padding: 30px;
+  background-repeat: no-repeat;
 }
-
 .delivery-page .delivery-3cols-block h3 {
-    font-size: 15px;
-    font-weight: 500;
-    margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
-
 .delivery-page .delivery-3cols-block h2 {
-    font-size: 20px;
-    font-weight: 500;
+  font-size: 20px;
+  font-weight: 500;
 }
-
 .delivery-page .delivery-3cols-block b {
-    font-weight: 500;
+  font-weight: 500;
 }
-
 .delivery-page .delivery-3cols-block .icon {
-    padding: 20px 0;
+  padding: 20px 0;
 }
-
 .delivery-page .delivery-3cols-block .icon img {
-    margin: 0 auto;
+  margin: 0 auto;
 }
-
 .delivery-page .delivery-3cols-block .price {
-    font-size: 20px;
-    font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
 }
-
 .delivery-page .delivery-3cols-block p {
-    padding-top: 20px;
+  padding-top: 20px;
 }
-
 .delivery-page .delivery-title, .delivery-page .delivery-detail-title {
-    padding-top: 90px;
-    padding-bottom: 50px;
+  padding-top: 90px;
+  padding-bottom: 50px;
 }
-
 .delivery-page .delivery-title h3, .delivery-page .delivery-detail-title h3 {
-    font-size: 20px;
-    font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
 }
-
 .delivery-page .delivery-detail-title {
-    padding-top: 50px;
-    text-align: center;
+  padding-top: 50px;
+  text-align: center;
 }
-
 .delivery-page .delivery-table {
-    margin-bottom: 50px;
-    width: 100%;
+  margin-bottom: 50px;
+  width: 100%;
 }
-
 .delivery-page .delivery-table tr {
-    vertical-align: bottom;
+  vertical-align: bottom;
 }
-
 .delivery-page .delivery-table th, .delivery-page .delivery-table td {
-    border-left: 30px solid #fff;
+  border-left: 30px solid #fff;
 }
-
 .delivery-page .delivery-table th:first-child, .delivery-page .delivery-table td:first-child {
-    border-left: none;
+  border-left: none;
 }
-
 .delivery-page .delivery-table thead th {
-    font-size: 15px;
-    font-weight: 500;
-    border-bottom: 1px solid #E3E3E3;
-    padding-bottom: 15px;
+  font-size: 15px;
+  font-weight: 500;
+  border-bottom: 1px solid #E3E3E3;
+  padding-bottom: 15px;
 }
-
 .delivery-page .delivery-table tbody td {
-    padding-top: 20px;
+  padding-top: 20px;
 }
-
 .delivery-page .delivery-table tbody td .price {
-    font-size: 20px;
-    font-weight: 700;
+  font-size: 20px;
+  font-weight: 700;
 }
-
 .delivery-page hr {
-    background: none;
-    border: none;
-    border-bottom: 1px solid #E3E3E3;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #E3E3E3;
 }
 
 .assembly {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
-
 .assembly-content {
-    -webkit-box-flex: 0;
+  -webkit-box-flex: 0;
       -ms-flex: 0 0 66.52%;
           flex: 0 0 66.52%;
   max-width: 66.52%;
@@ -26732,6 +26702,21 @@ a.new-product-brand-feature:hover .new-product-brand-feature-title {
   position: relative;
   z-index: 2;
 }
+.comparison-page .box .slider-js-comparison:after {
+  display: block;
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 1;
+  height: 100%;
+  width: 250px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background: -webkit-gradient(linear, right top, left top, from(rgb(255, 255, 255)), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+  pointer-events: none;
+}
 .comparison-page .box .slider-js-comparison .slide-js {
   width: 25%;
 }
@@ -26769,6 +26754,7 @@ a.new-product-brand-feature:hover .new-product-brand-feature-title {
   position: absolute;
   top: 10px;
   right: 20px;
+  cursor: pointer;
 }
 .comparison-page .box .product-thumb .product-thumb-caption {
   text-align: left;
