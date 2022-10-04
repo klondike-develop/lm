@@ -16238,24 +16238,28 @@ textarea.faq-feedback-question {
 }
 
 .home-comment {
-  padding: 4px 0 30px;
+    padding: 4px 0 30px;
 }
 
 .home-comments-all {
-  padding-top: 20px;
-  text-align: center;
+    padding-top: 20px;
+    text-align: center;
 }
 
 /*wejet changes*/
+.main-title {
+    font-weight: 900;
+}
+
 .youtube-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
           justify-content: center;
 }
 .youtube-title h3 {
@@ -16306,25 +16310,39 @@ textarea.faq-feedback-question {
 }
 .slider-js-youtube .slick-prev:after,
 .slider-js-youtube .slick-next:after {
-  width: 12px;
-  height: 20px;
-  margin-left: -6px;
-  margin-top: -10px;
+    width: 12px;
+    height: 20px;
+    margin-left: -6px;
+    margin-top: -10px;
 }
+
 .slider-js-youtube .slick-prev {
-  left: -25px;
+    left: -15px;
 }
+
 .slider-js-youtube .slick-next {
-  right: -25px;
+    right: -15px;
+}
+
+.slider-js-youtube .slide-js .tv-item {
+    margin: 0 10px;
+}
+
+.slider-js-youtube .slide-js .tv-item .tv-item-link .tv-item-content {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 80%;
 }
 
 /*-------------------- Begin marketplace --------------------*/
 .marketplace-hero {
-  background: #83C150 50% 50% no-repeat;
-  background-size: cover;
-  position: relative;
-  margin-bottom: 100px;
+    background: #83C150 50% 50% no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 100px;
 }
+
 .marketplace-hero .container {
   position: relative;
 }

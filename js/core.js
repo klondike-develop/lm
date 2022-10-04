@@ -437,7 +437,7 @@ $(document).ready(function () {
         $(".slider-js-youtube").slick({
             dots: true,
             arrows: true,
-            draggable: true,
+            draggable: false,
             infinite: false,
             centerMode: false,
             centerPadding: "0px",
@@ -449,7 +449,7 @@ $(document).ready(function () {
             slide: ".slide-js",
             slidesToShow: 3,
             slidesToScroll: 1,
-            swipeToSlide: true,
+            swipeToSlide: false,
         });
     }
 
