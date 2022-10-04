@@ -1,6 +1,11 @@
 .delivery-page {
   color: #000;
 
+  &.new-product-description {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
   .bg-light {
     background: #F4F5F6;
   }
@@ -94,6 +99,10 @@
       font-size: 20px;
       font-weight: bold;
     }
+  }
+
+  .delivery-detail-title:first-child {
+    padding-top: 0;
   }
 
   .delivery-detail-title {

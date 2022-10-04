@@ -14875,6 +14875,10 @@ textarea.faq-feedback-question {
 .delivery-page {
   color: #000;
 }
+.delivery-page.new-product-description {
+  padding-left: 150px;
+  padding-right: 150px;
+}
 .delivery-page .bg-light {
   background: #F4F5F6;
 }
@@ -14954,6 +14958,9 @@ textarea.faq-feedback-question {
 .delivery-page .delivery-title h3, .delivery-page .delivery-detail-title h3 {
   font-size: 20px;
   font-weight: bold;
+}
+.delivery-page .delivery-detail-title:first-child {
+  padding-top: 0;
 }
 .delivery-page .delivery-detail-title {
   padding-top: 50px;
@@ -16237,29 +16244,29 @@ textarea.faq-feedback-question {
 }
 
 .home-comment {
-    padding: 4px 0 30px;
+  padding: 4px 0 30px;
 }
 
 .home-comments-all {
-    padding-top: 20px;
-    text-align: center;
+  padding-top: 20px;
+  text-align: center;
 }
 
 /*wejet changes*/
 .main-title {
-    font-weight: 900;
+  font-weight: 900;
 }
 
 .youtube-title {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .youtube-title h3 {
   margin-left: 30px;
@@ -16309,33 +16316,33 @@ textarea.faq-feedback-question {
 }
 .slider-js-youtube .slick-prev:after,
 .slider-js-youtube .slick-next:after {
-    width: 12px;
-    height: 20px;
-    margin-left: -6px;
-    margin-top: -10px;
+  width: 12px;
+  height: 20px;
+  margin-left: -6px;
+  margin-top: -10px;
 }
 .slider-js-youtube .slick-prev {
-    left: -15px;
+  left: -15px;
 }
 .slider-js-youtube .slick-next {
-    right: -15px;
+  right: -15px;
 }
 .slider-js-youtube .slide-js .tv-item {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 .slider-js-youtube .slide-js .tv-item .tv-item-link .tv-item-content {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    width: 80%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
 }
 
 /*-------------------- Begin marketplace --------------------*/
 .marketplace-hero {
-    background: #83C150 50% 50% no-repeat;
-    background-size: cover;
-    position: relative;
-    margin-bottom: 100px;
+  background: #83C150 50% 50% no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 100px;
 }
 .marketplace-hero .container {
   position: relative;
