@@ -14874,7 +14874,6 @@ textarea.faq-feedback-question {
 
 .delivery-page {
   color: #000;
-  padding-top: 50px;
 }
 .delivery-page .bg-light {
   background: #F4F5F6;
@@ -16260,7 +16259,7 @@ textarea.faq-feedback-question {
     align-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-          justify-content: center;
+    justify-content: center;
 }
 .youtube-title h3 {
   margin-left: 30px;
@@ -16315,19 +16314,15 @@ textarea.faq-feedback-question {
     margin-left: -6px;
     margin-top: -10px;
 }
-
 .slider-js-youtube .slick-prev {
     left: -15px;
 }
-
 .slider-js-youtube .slick-next {
     right: -15px;
 }
-
 .slider-js-youtube .slide-js .tv-item {
     margin: 0 10px;
 }
-
 .slider-js-youtube .slide-js .tv-item .tv-item-link .tv-item-content {
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -16342,7 +16337,6 @@ textarea.faq-feedback-question {
     position: relative;
     margin-bottom: 100px;
 }
-
 .marketplace-hero .container {
   position: relative;
 }
