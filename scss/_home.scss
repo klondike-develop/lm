@@ -152,27 +152,29 @@
 .slider-js-youtube {
   .slick-prev,
   .slick-next {
-    width: 50px;
-    height: 50px;
+    width: 54px;
+    height: 54px;
     top: 50%;
     border-radius: 50%;
     transform: translateY(-50%);
     box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.15);
 
     &:after {
-      width: 12px;
+      width: 20px;
       height: 20px;
-      margin-left: -6px;
+      margin-left: -10px;
       margin-top: -10px;
+      background: transparent url("../upload/next.svg") 50% 50% no-repeat;
+      background-size: 20px 14px;
     }
   }
 
   .slick-prev {
-    left: -15px;
+    left: -17px;
   }
 
   .slick-next {
-    right: -15px;
+    right: -17px;
   }
 
   .slide-js {

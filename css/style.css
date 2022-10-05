@@ -16305,27 +16305,29 @@ textarea.faq-feedback-question {
 
 .slider-js-youtube .slick-prev,
 .slider-js-youtube .slick-next {
-  width: 50px;
-  height: 50px;
-  top: 50%;
-  border-radius: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    width: 54px;
+    height: 54px;
+    top: 50%;
+    border-radius: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 .slider-js-youtube .slick-prev:after,
 .slider-js-youtube .slick-next:after {
-  width: 12px;
-  height: 20px;
-  margin-left: -6px;
-  margin-top: -10px;
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+    margin-top: -10px;
+    background: transparent url("../upload/next.svg") 50% 50% no-repeat;
+    background-size: 20px 14px;
 }
 .slider-js-youtube .slick-prev {
-  left: -15px;
+    left: -17px;
 }
 .slider-js-youtube .slick-next {
-  right: -15px;
+    right: -17px;
 }
 .slider-js-youtube .slide-js .tv-item {
   margin: 0 10px;
