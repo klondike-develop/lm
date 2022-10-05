@@ -118,6 +118,7 @@
       &:before {
         left: 0;
         background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+        display: none !important;
       }
 
       &:after {
@@ -174,8 +175,12 @@
         box-shadow: none;
       }
 
-      .catalog-product-favorite.product-comparison-remove:before {
-        background: transparent url("../upload/trash-icon.svg") 50% 50% no-repeat;
+      .catalog-product-favorite.product-comparison-remove {
+        display: none;
+
+        &:before {
+          background: transparent url("../upload/trash-icon.svg") 50% 50% no-repeat;
+        }
       }
 
       .catalog-product-button {
