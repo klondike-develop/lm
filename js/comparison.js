@@ -64,13 +64,13 @@ $(document).ready(function () {
         $(".slider-js-comparison").each(function () {
             $th = 0;
 
-            $(this).find(".product-thumb-title").css('height', 'auto');
-            $(this).find(".product-thumb-title").each(function () {
+            $(this).find(".catalog-product-title").css('height', 'auto');
+            $(this).find(".catalog-product-title").each(function () {
                 if ($(this).height() > $th) {
                     $th = $(this).height();
                 }
             });
-            $(this).find(".product-thumb-title").css('height', $th);
+            $(this).find(".catalog-product-title").css('height', $th);
         });
 
         $(".slider-js-comparison").slick({
@@ -98,6 +98,7 @@ $(document).ready(function () {
                 },
             ]
         });
+        $(".slider-js-comparison").removeClass('fade-left').addClass('fade-right');
 
         $(".slider-js-comparison-linked").each(function () {
             $(this).slick({
@@ -131,8 +132,19 @@ $(document).ready(function () {
 
             $(this).closest('.box').find(".slider-js-comparison-linked").each(function () {
                 $(this).slick('slickGoTo', nextSlide);
-                console.log(event);
             });
+        });
+
+        $('.slider-js-comparison').on('afterChange', function (event, slick, currentSlide, nextSlide) {
+
+            $(this).addClass('fade-left').addClass('fade-right');
+
+            if ($(this).closest('.box').find('.slick-prev').hasClass('slick-disabled')) {
+                $(this).removeClass('fade-left');
+            }
+            if ($(this).closest('.box').find('.slick-next').hasClass('slick-disabled')) {
+                $(this).removeClass('fade-right');
+            }
         });
 
         $('.slider-js-comparison').each(function () {
