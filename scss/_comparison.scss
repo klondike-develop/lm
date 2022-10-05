@@ -176,7 +176,7 @@
       }
 
       .catalog-product-favorite.product-comparison-remove {
-        display: none;
+        display: block;
 
         &:before {
           background: transparent url("../upload/trash-icon.svg") 50% 50% no-repeat;

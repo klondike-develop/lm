@@ -26801,7 +26801,7 @@ a.new-product-brand-feature:hover .new-product-brand-feature-title {
           box-shadow: none;
 }
 .comparison-page .box .catalog-product .catalog-product-favorite.product-comparison-remove {
-  display: none;
+  display: block;
 }
 .comparison-page .box .catalog-product .catalog-product-favorite.product-comparison-remove:before {
   background: transparent url("../upload/trash-icon.svg") 50% 50% no-repeat;
