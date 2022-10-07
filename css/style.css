@@ -26717,7 +26717,8 @@ a.new-product-brand-feature:hover .new-product-brand-feature-title {
 .comparison-page .box .fixed-slider.scrolled .catalog-product-size,
 .comparison-page .box .fixed-slider.scrolled .catalog-product-title,
 .comparison-page .box .fixed-slider.scrolled .catalog-product-rating-wrapper,
-.comparison-page .box .fixed-slider.scrolled .catalog-product-button {
+.comparison-page .box .fixed-slider.scrolled .catalog-product-button,
+.comparison-page .box .fixed-slider.scrolled .catalog-product-favorite.product-comparison-remove {
   display: none;
 }
 .comparison-page .box .fixed-slider.scrolled .slick-prev,
