@@ -14872,6 +14872,27 @@ textarea.faq-feedback-question {
   margin-bottom: 13px;
 }
 
+.new-delivery .contact-caption-select-link {
+  position: relative;
+}
+.new-delivery .contact-caption-select-link:after {
+  display: block;
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 44px;
+  border-bottom: 1px solid #9ece76;
+}
+
+.weight-500 {
+  font-weight: 500;
+}
+
+.weight-900 {
+  font-weight: 900;
+}
+
 .delivery-page {
   color: #000;
 }
