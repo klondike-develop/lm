@@ -9186,6 +9186,10 @@ body.modal-open {
   margin-bottom: 35px;
 }
 
+.muted {
+  color: #a1a1a1;
+}
+
 .order-step {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 235px;
@@ -10256,6 +10260,10 @@ a.order-product-change-more-button {
   padding: 10px;
 }
 
+.order-delivery-map-toggle {
+  margin: 0 0 18px -10px;
+}
+
 .order-delivery-map-block {
   display: none;
   margin-bottom: 30px;
@@ -10419,6 +10427,12 @@ input.datepicker {
   background: #83C150;
   border-radius: 3px;
   cursor: default;
+}
+
+#order-delivery-time {
+  background-image: url("../upload/clock.svg");
+  background-position: right 10px center;
+  background-size: 20px 20px;
 }
 
 .order-payment {
@@ -10641,6 +10655,28 @@ a.order-completion-phone:hover {
 
 #map-pickup {
   height: 235px;
+}
+
+#delivery-stop.fancybox-content {
+  padding: 40px;
+  max-width: 630px;
+}
+#delivery-stop h3 {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+  padding: 30px 40px;
+  border-bottom: 1px solid #e1e1e1;
+  margin: -40px -24px 40px -40px;
+}
+#delivery-stop p {
+  font-size: 13px;
+}
+#delivery-stop .button {
+  margin-top: 40px;
+  font-size: 13px;
+  font-weight: 700;
+  width: 100%;
 }
 
 .search-results {

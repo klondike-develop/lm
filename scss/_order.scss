@@ -9,6 +9,11 @@
     align-items: flex-start;
     margin-bottom: 35px;
 }
+
+.muted {
+    color: #a1a1a1;
+}
+
 .order-step {
     flex: 0 0 235px;
     max-width: 235px;
@@ -18,6 +23,7 @@
     text-align: center;
     border-radius: 3px;
     border: 1px solid #E1E1E1;
+
     &.active {
         color: $b;
         padding-top: 8px;
@@ -907,6 +913,7 @@ a.order-product-change-more-button {
         }
     }
 }
+
 .order-delivery-map-toggle,
 .order-delivery-map-hide {
     display: inline-block;
@@ -915,6 +922,11 @@ a.order-product-change-more-button {
     font-weight: 500;
     padding: 10px;
 }
+
+.order-delivery-map-toggle {
+    margin: 0 0 18px -10px;
+}
+
 .order-delivery-map-block {
     display: none;
     margin-bottom: 30px;
@@ -1050,6 +1062,7 @@ input.datepicker {
         &:hover {
             color: $p;
         }
+
         &.ui-state-active {
             color: $w;
             background: $p;
@@ -1058,6 +1071,13 @@ input.datepicker {
         }
     }
 }
+
+#order-delivery-time {
+    background-image: url("../upload/clock.svg");
+    background-position: right 10px center;
+    background-size: 20px 20px;
+}
+
 .order-payment {
     padding: 21px 0 20px;
 }
@@ -1225,11 +1245,42 @@ a.order-completion-phone {
         padding-right: 35px;
     }
 }
-.order-completion-show-on-map {}
+
+.order-completion-show-on-map {
+}
+
 .order-completion-map {
     margin-left: -35px;
     background: $s;
 }
+
 #map-pickup {
     height: 235px;
+}
+
+#delivery-stop {
+    &.fancybox-content {
+        padding: 40px;
+        max-width: 630px;
+    }
+
+    h3 {
+        font-size: 20px;
+        color: #000;
+        font-weight: bold;
+        padding: 30px 40px;
+        border-bottom: 1px solid #e1e1e1;
+        margin: -40px -24px 40px -40px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .button {
+        margin-top: 40px;
+        font-size: 13px;
+        font-weight: 700;
+        width: 100%;
+    }
 }
