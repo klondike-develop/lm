@@ -74,8 +74,14 @@
       }
 
       &.scrolled {
+        padding: 10px 0;
+
         .product-subtitle {
           display: block;
+        }
+
+        .col-12 {
+          padding-top: 15px;
         }
 
         &:after {
@@ -94,6 +100,7 @@
 
         .catalog-product-img {
           width: 70%;
+          margin-bottom: 10px;
         }
 
         .catalog-product-favorite,
