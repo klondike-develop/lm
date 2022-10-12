@@ -1,4 +1,18 @@
 .comparison-page {
+  .radio label {
+    padding-left: 30px;
+  }
+
+  .catalog-product-price {
+    display: flex;
+    align-items: end;
+  }
+
+  .catalog-product-price-old {
+    font-size: 11px;
+    margin-left: 5px;
+  }
+
   .global-title {
     position: relative;
 
@@ -16,6 +30,7 @@
       top: 50%;
       right: 0;
       transform: translateY(-50%);
+      font-size: 15px;
       font-weight: 500;
     }
   }
@@ -30,6 +45,12 @@
 
         b {
           color: $primary;
+          font-weight: normal;
+        }
+      }
+
+      &.active {
+        span {
           font-weight: normal;
         }
       }
@@ -178,6 +199,8 @@
 
       .catalog-product-favorite.product-comparison-remove {
         display: block;
+        width: 40px;
+        height: 40px;
 
         &:before {
           background: transparent url("../upload/trash-icon.svg") 50% 50% no-repeat;
@@ -188,7 +211,7 @@
         padding-top: 20px;
 
         .button.warning {
-          background: $warning;
+          background: #FFA22A;
           color: white;
         }
       }
