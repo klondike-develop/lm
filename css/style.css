@@ -15029,13 +15029,18 @@ textarea.faq-feedback-question {
   padding-top: 0;
 }
 .delivery-page .delivery-detail-title {
-  padding-top: 50px;
-  text-align: center;
+    padding-top: 50px;
+    text-align: center;
 }
+
+.delivery-page .br-5 {
+    border-radius: 5px;
+}
+
 .delivery-page .delivery-table {
-  margin-bottom: 50px;
-  margin-top: -10px;
-  width: 100%;
+    margin-bottom: 50px;
+    margin-top: -10px;
+    width: 100%;
 }
 .delivery-page .delivery-table tr {
   vertical-align: bottom;
