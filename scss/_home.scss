@@ -132,7 +132,7 @@
     height: 50px;
     top: -50px;
     border-radius: 50%;
-    transform: translateY(-50%);
+    margin-top: -10px;
     border: 1px solid #e1e1e1;
     background: none;
 
@@ -147,9 +147,19 @@
   .slick-dots {
     bottom: -10px;
   }
+
+  .home-comment {
+    padding-top: 15px;
+  }
+}
+
+.home-comments-all {
+  padding-top: 30px;
 }
 
 .slider-js-youtube {
+  margin-top: 55px;
+
   .slick-prev,
   .slick-next {
     width: 50px;
