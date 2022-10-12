@@ -15029,18 +15029,16 @@ textarea.faq-feedback-question {
   padding-top: 0;
 }
 .delivery-page .delivery-detail-title {
-    padding-top: 50px;
-    text-align: center;
+  padding-top: 50px;
+  text-align: center;
 }
-
 .delivery-page .br-5 {
-    border-radius: 5px;
+  border-radius: 5px;
 }
-
 .delivery-page .delivery-table {
-    margin-bottom: 50px;
-    margin-top: -10px;
-    width: 100%;
+  margin-bottom: 50px;
+  margin-top: -10px;
+  width: 100%;
 }
 .delivery-page .delivery-table tr {
   vertical-align: bottom;
@@ -26764,10 +26762,10 @@ a.new-product-brand-feature:hover .new-product-brand-feature-title {
   top: 2px;
 }
 .comparison-page .radio label:after {
-  width: 4px;
-  height: 4px;
-  left: 8px;
-  top: 8px;
+  width: 6px;
+  height: 6px;
+  left: 7px;
+  top: 7px;
 }
 .comparison-page .global-title {
   position: relative;
