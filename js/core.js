@@ -425,7 +425,9 @@ $(document).ready(function () {
                 swipeToSlide: true,
             });
         });
-        $(".remove-visible").removeClass("visible");
+        setTimeout(function () {
+            $(".remove-visible").removeClass("visible");
+        }, 300);
     }
 
     sliderJsReviews();
