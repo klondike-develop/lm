@@ -14987,6 +14987,7 @@ textarea.faq-feedback-question {
 .delivery-page .delivery-3cols-block .col {
   position: relative;
   padding: 30px;
+  padding-top: 40px;
   overflow: hidden;
 }
 .delivery-page .delivery-3cols-block h3 {
