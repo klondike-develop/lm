@@ -405,7 +405,7 @@ $(document).ready(function () {
 
     //slider outside navigation
     function sliderJsReviews() {
-        var thisSlider = $(".slider-js-reviews");
+        var thisSlider = $(".slider-js-reviews:visible");
         thisSlider.each(function (index, el) {
             $(el).slick({
                 dots: true,
@@ -425,12 +425,17 @@ $(document).ready(function () {
                 swipeToSlide: true,
             });
         });
-        setTimeout(function () {
-            $(".remove-visible").removeClass("visible");
-        }, 300);
     }
 
     sliderJsReviews();
+
+    $('.reviews-tabs li').click(function () {
+        var thisSlider = $(".slider-js-reviews:visible");
+        thisSlider.each(function (index, el) {
+            $(el).slick('unslick');
+        });
+        setTimeout(sliderJsReviews, 10);
+    });
 
     //------------------------------------------------------------------------//
 
@@ -439,7 +444,7 @@ $(document).ready(function () {
         $(".slider-js-youtube").slick({
             dots: true,
             arrows: true,
-            draggable: false,
+            draggable: true,
             infinite: false,
             centerMode: false,
             centerPadding: "0px",
@@ -451,7 +456,7 @@ $(document).ready(function () {
             slide: ".slide-js",
             slidesToShow: 3,
             slidesToScroll: 1,
-            swipeToSlide: false,
+            swipeToSlide: true,
         });
     }
 

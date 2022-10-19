@@ -30,9 +30,9 @@
 .delivery-page {
   color: #000;
 
-  &.new-product-description {
-    padding-left: 150px;
-    padding-right: 150px;
+  .new-product-description-wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
   }
 
   .bg-light {
@@ -48,7 +48,7 @@
   }
 
   .ml-4 {
-    margin-left: 2rem;
+    margin-left: 32px;
   }
 
   .d-flex {
@@ -59,6 +59,7 @@
   .delivery-text-block {
     padding: 30px 45px;
     margin-bottom: 20px;
+    line-height: 20px;
   }
 
   .delivery-text-block-2 {
@@ -83,8 +84,9 @@
     }
 
     .col {
+      position: relative;
       padding: 30px;
-      background-repeat: no-repeat;
+      overflow: hidden;
     }
 
     h3 {
@@ -123,12 +125,35 @@
 
     p {
       padding-top: 20px;
+
+      &.last {
+        padding-top: 5px;
+      }
+    }
+
+    .badge {
+      position: absolute;
+      top: 25px;
+      left: -37px;
+      background: black;
+      width: 160px;
+      height: 36px;
+      color: #fff;
+      font-weight: 700;
+      font-size: 11px;
+      line-height: 36px;
+      transform: rotate(-45deg);
+      box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
     }
   }
 
   .delivery-title, .delivery-detail-title {
     padding-top: 70px;
     padding-bottom: 50px;
+
+    &.first {
+      padding-bottom: 40px;
+    }
 
     h3 {
       font-size: 20px;
@@ -200,4 +225,31 @@
 
 .contact-caption-select-link {
   background-image: url("../upload/select.svg");
+}
+
+.sidebar .sidebar-menu {
+  padding-bottom: 0;
+}
+
+.sidebar .sidebar-menu li {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 160%;
+}
+
+.sidebar .sidebar-menu li a {
+  padding: 5px 0px 7px;
+}
+
+.sidebar .sidebar-menu li a:hover {
+  color: #83C150;
+}
+
+.sidebar .sidebar-menu li.active a {
+  background: none;
+  color: #83C150;
+}
+
+.sidebar .sidebar-menu:not(:last-child) {
+  margin-bottom: 20px;
 }

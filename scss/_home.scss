@@ -150,6 +150,21 @@
 
   .home-comment {
     padding-top: 15px;
+    padding-right: 40px;
+
+    .comment-date {
+      color: #686868;
+    }
+
+    .comment-person {
+      color: #393939;
+    }
+
+    p {
+      font-size: 13px;
+      line-height: 20px;
+      color: #393939;
+    }
   }
 }
 
