@@ -112,7 +112,7 @@ $(document).ready(function () {
         $(".slider-js-comparison").slick({
             dots: false,
             arrows: true,
-            draggable: false,
+            draggable: true,
             infinite: false,
             centerMode: false,
             centerPadding: "0px",
@@ -124,7 +124,7 @@ $(document).ready(function () {
             slide: ".slide-js",
             slidesToShow: 4,
             slidesToScroll: 1,
-            swipeToSlide: false,
+            swipeToSlide: true,
             responsive: [
                 {
                     breakpoint: 1280,
