@@ -246,15 +246,23 @@ $(document).ready(function () {
 
     $('body').on('click', '.comparison-remove-all', function () {
         $next = $('.global-tabs .active').next('li');
+        $prev = $('.global-tabs .active').prev('li');
         $('.global-tabs .active').remove();
 
         $nextBox = $('.box[style*=block]').next('.box');
+        $prevBox = $('.box[style*=block]').prev('.box');
         $('.box[style*=block]').remove();
 
-        $nextBox.show();
+        if ($nextBox.length) {
+            $nextBox.show();
+        } else if ($prevBox.length) {
+            $prevBox.show();
+        }
 
         if ($next.length) {
             $next.trigger('click');
+        } else if ($prev.length) {
+            $prev.trigger('click');
         } else {
             $('.comparison-total-cnt').text(0);
             $('.comparison-remove-all').remove();
