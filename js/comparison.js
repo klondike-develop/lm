@@ -31,13 +31,49 @@ $(document).ready(function () {
         }
     }
 
-    scrolling();
+    //scrolling();
     $(window).on("scroll", scrolling);
+
+    function findDifferent() {
+        $(".box[style*=block] .options-list").each(function () {
+            $this = $(this);
+
+            //Find different
+            $this.find('.col-3 .comparison-option').each(function () {
+                $index = $(this).data('option');
+
+                $text = '';
+                $different = false;
+                $(this).closest('.options-list').find('.col-13 .comparison-option[data-option=' + $index + ']').each(function () {
+                    if ($text == '') {
+                        $text = $(this).text();
+                    } else if ($text != $(this).text()) {
+                        $different = true;
+                        return false;
+                    }
+                });
+
+                if (!$different) {
+                    $(this).closest('.options-list').find('.comparison-option[data-option=' + $index + ']').addClass('non-different');
+                } else {
+                    $(this).closest('.options-list').find('.comparison-option[data-option=' + $index + ']').removeClass('non-different');
+                }
+            });
+
+            if ($(this).find('.comparison-option').length == $(this).find('.comparison-option.non-different').length) {
+                $(this).prev('.row').addClass('non-different');
+            } else {
+                $(this).prev('.row').removeClass('non-different');
+            }
+        });
+    }
 
     function sliderJsComparison() {
 
-        $(".options-list").each(function () {
+        $(".box[style*=block] .options-list").each(function () {
             $this = $(this);
+
+            //Set height
             $options = [];
 
             $this.find(".comparison-option").css('height', 'auto');
@@ -104,7 +140,7 @@ $(document).ready(function () {
             $(this).slick({
                 dots: false,
                 arrows: false,
-                draggable: true,
+                draggable: false,
                 infinite: false,
                 centerMode: false,
                 centerPadding: "0px",
@@ -116,7 +152,7 @@ $(document).ready(function () {
                 slide: ".slide-js",
                 slidesToShow: 4,
                 slidesToScroll: 1,
-                swipeToSlide: true,
+                swipeToSlide: false,
                 responsive: [
                     {
                         breakpoint: 1280,
@@ -154,24 +190,75 @@ $(document).ready(function () {
     }
 
     sliderJsComparison();
+    findDifferent();
 
     $('.comparison-page .global-tabs').click(function () {
         setTimeout(function () {
             $('.slider-js-comparison, .slider-js-comparison-linked').slick('unslick');
             sliderJsComparison();
+            findDifferent();
 
             $('.slider-js-comparison').each(function () {
                 $tH = $(this).closest('.fixed-slider').height();
                 $(this).closest('.fixed-slider').next('.fixed-slider-placeholder').height($tH);
             });
+
+            $cnt = $('.box[style*=block] .slider-js-comparison').find('.slide-js').length;
+            $('.comparison-cnt').text($cnt);
+
+            $cntTotal = 0;
+            $('.global-tabs li b').each(function () {
+                $cntTotal += $(this).text() * 1;
+            });
+            $('.comparison-total-cnt').text($cntTotal);
         }, 1);
+    });
+
+    $('body').on('click', '.comparison-type label', function () {
+        if ($(this).hasClass('different')) {
+            $(this).closest('.box').find('.non-different').hide();
+        } else {
+            $(this).closest('.box').find('.non-different').show();
+        }
     });
 
     $('body').on('click', '.product-comparison-remove', function () {
         $elementId = $(this).data('id');
         $elementIndex = $(this).closest('.slide-js').index();
 
-        $('.slider-js-comparison, .slider-js-comparison-linked').slick('slickRemove', $elementIndex);
+        $cnt = $(this).closest('.slider-js-comparison').find('.slide-js').length - 1;
+        $('.comparison-cnt, .global-tabs .active b').text($cnt);
+
+        if ($cnt < 5) {
+            $('.box[style*=block] .slider-js-comparison').removeClass('fade-right');
+        }
+
+        $cntTotal = 0;
+        $('.global-tabs li b').each(function () {
+            $cntTotal += $(this).text() * 1;
+        });
+        $('.comparison-total-cnt').text($cntTotal);
+
+        $('.box[style*=block] .slider-js-comparison, .box[style*=block] .slider-js-comparison-linked').slick('slickRemove', $elementIndex);
+
+        findDifferent();
+    });
+
+    $('body').on('click', '.comparison-remove-all', function () {
+        $next = $('.global-tabs .active').next('li');
+        $('.global-tabs .active').remove();
+
+        $nextBox = $('.box[style*=block]').next('.box');
+        $('.box[style*=block]').remove();
+
+        $nextBox.show();
+
+        if ($next.length) {
+            $next.trigger('click');
+        } else {
+            $('.comparison-total-cnt').text(0);
+            $('.comparison-remove-all').remove();
+        }
     });
 
 });//document ready

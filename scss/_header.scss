@@ -180,19 +180,28 @@
         }
     }
 }
+
 .header-products {
     float: right;
     position: relative;
 }
+
 .header-favorite {
     display: inline-block;
     vertical-align: top;
 }
+
+.header-comparison {
+    display: inline-block;
+    vertical-align: top;
+}
+
 .header-favorite-toggle {
     display: block;
     position: relative;
-    padding: 30px 10px 31px 54px;
+    padding: 30px 0 31px 54px;
     color: $text;
+
     &:before {
         content: "";
         position: absolute;
@@ -204,6 +213,7 @@
         background: $tr url('../upload/favorite.svg') 0 0 no-repeat;
         background-size: 100% 100%;
     }
+
     &:hover {
         color: $t;
     }
@@ -225,11 +235,53 @@
     background: $p;
     border-radius: 50%;
 }
+
+.header-comparison-toggle {
+    display: block;
+    position: relative;
+    padding: 30px 0 31px 54px;
+    color: $text;
+
+    &:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        margin-top: -12px;
+        left: 10px;
+        width: 24px;
+        height: 22px;
+        background: $tr url('../upload/comparison.svg') center no-repeat;
+    }
+
+    &:hover {
+        color: $t;
+    }
+}
+
+.header-comparison-number {
+    position: absolute;
+    left: 24px;
+    top: 50%;
+    margin-top: -24px;
+    padding: 0 2px;
+    min-width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.75;
+    font-weight: bold;
+    color: $w;
+    border: 2px solid $w;
+    background: $p;
+    border-radius: 50%;
+}
+
 .header-cart {
     display: inline-block;
     vertical-align: top;
-    margin: 0 -10px 0 17px;
+    margin: 0 -10px 0 0;
 }
+
 .header-cart-toggle {
     display: block;
     position: relative;
@@ -239,6 +291,7 @@
     letter-spacing: -0.5px;
     color: $b;
     white-space: nowrap;
+
     &:before {
         content: "";
         position: absolute;
