@@ -291,11 +291,9 @@ $(document).ready(function () {
         }
 
         if ($next.length) {
-            $next.addClass('active');
-            $nextBox.css('display', 'block');
+            $next.trigger('click');
         } else if ($prev.length) {
-            $prev.addClass('active');
-            $prevBox.css('display', 'block');
+            $prev.trigger('click');
         } else {
             $('.comparison-total-cnt').text(0);
             $('.comparison-remove-all').remove();
