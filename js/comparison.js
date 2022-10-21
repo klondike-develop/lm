@@ -216,17 +216,25 @@ $(document).ready(function () {
     findDifferent();
 
     $('.comparison-page .global-tabs').click(function () {
+
         setTimeout(function () {
-            $('.slider-js-comparison, .slider-js-comparison-linked').slick('unslick');
+
+            $sliderComparison = $('.box[style*=block] .slider-js-comparison');
+            $sliderComparisonLinked = $('.box[style*=block] .slider-js-comparison-linked');
+
+            if ($sliderComparison.find('.slick-track').length) {
+                $sliderComparison.slick('unslick');
+                $sliderComparisonLinked.slick('unslick');
+            }
             sliderJsComparison();
             findDifferent();
 
-            $('.slider-js-comparison').each(function () {
+            $sliderComparison.each(function () {
                 $tH = $(this).closest('.fixed-slider').height();
                 $(this).closest('.fixed-slider').next('.fixed-slider-placeholder').height($tH);
             });
 
-            $cnt = $('.box[style*=block] .slider-js-comparison').find('.slide-js').length;
+            $cnt = $sliderComparison.find('.slide-js').length;
             $('.comparison-cnt').text($cnt);
 
             $cntTotal = 0;
@@ -283,13 +291,31 @@ $(document).ready(function () {
         }
 
         if ($next.length) {
-            $next.trigger('click');
+            $next.addClass('active');
+            $nextBox.css('display', 'block');
         } else if ($prev.length) {
-            $prev.trigger('click');
+            $prev.addClass('active');
+            $prevBox.css('display', 'block');
         } else {
             $('.comparison-total-cnt').text(0);
             $('.comparison-remove-all').remove();
         }
+
+        $sliderComparison = $('.box[style*=block] .slider-js-comparison');
+        $sliderComparisonLinked = $('.box[style*=block] .slider-js-comparison-linked');
+
+        if ($sliderComparison.find('.slick-track').length) {
+            $sliderComparison.slick('unslick');
+            $sliderComparisonLinked.slick('unslick');
+        }
+        sliderJsComparison();
+        findDifferent();
+
+        $cntTotal = 0;
+        $('.global-tabs li b').each(function () {
+            $cntTotal += $(this).text() * 1;
+        });
+        $('.comparison-total-cnt').text($cntTotal);
     });
 
 });//document ready
