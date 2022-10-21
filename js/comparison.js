@@ -68,7 +68,26 @@ $(document).ready(function () {
         });
     }
 
+    var $intervalSlider;
+
+    function intervalSlider() {
+        $sliderComparison = $('.box[style*=block] .slider-js-comparison');
+        $sliderComparisonLinked = $('.box[style*=block] .slider-js-comparison-linked');
+
+        clearInterval($intervalSlider);
+
+        $intervalSlider = setInterval(function () {
+            $thisStyle = $sliderComparison.find('.slick-track').css('transform');
+            $sliderComparisonLinked.find('.slick-track').css('transform', $thisStyle);
+        }, 1);
+    }
+
     function sliderJsComparison() {
+
+        $sliderComparison = $('.box[style*=block] .slider-js-comparison');
+        $sliderComparisonLinked = $('.box[style*=block] .slider-js-comparison-linked');
+
+        intervalSlider();
 
         $(".box[style*=block] .options-list").each(function () {
             $this = $(this);
@@ -97,7 +116,7 @@ $(document).ready(function () {
             });
         });
 
-        $(".slider-js-comparison").each(function () {
+        $sliderComparison.each(function () {
             $th = 0;
 
             $(this).find(".catalog-product-title").css('height', 'auto');
@@ -109,7 +128,7 @@ $(document).ready(function () {
             $(this).find(".catalog-product-title").css('height', $th);
         });
 
-        $(".slider-js-comparison").slick({
+        $sliderComparison.slick({
             dots: false,
             arrows: true,
             draggable: true,
@@ -134,9 +153,9 @@ $(document).ready(function () {
                 },
             ]
         });
-        $(".slider-js-comparison").removeClass('fade-left').addClass('fade-right');
+        $sliderComparison.removeClass('fade-left').addClass('fade-right');
 
-        $(".slider-js-comparison-linked").each(function () {
+        $sliderComparisonLinked.each(function () {
             $(this).slick({
                 dots: false,
                 arrows: false,
@@ -164,14 +183,16 @@ $(document).ready(function () {
             });
         });
 
-        $('.slider-js-comparison').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+        $sliderComparison.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+
+            clearInterval($intervalSlider);
 
             $(this).closest('.box').find(".slider-js-comparison-linked").each(function () {
                 $(this).slick('slickGoTo', nextSlide);
             });
         });
 
-        $('.slider-js-comparison').on('afterChange', function (event, slick, currentSlide, nextSlide) {
+        $sliderComparison.on('afterChange', function (event, slick, currentSlide, nextSlide) {
 
             $(this).addClass('fade-left').addClass('fade-right');
 
@@ -181,9 +202,11 @@ $(document).ready(function () {
             if ($(this).closest('.box').find('.slick-next').hasClass('slick-disabled')) {
                 $(this).removeClass('fade-right');
             }
+
+            intervalSlider();
         });
 
-        $('.slider-js-comparison').each(function () {
+        $sliderComparison.each(function () {
             $tH = $(this).closest('.fixed-slider').height();
             $(this).closest('.fixed-slider').next('.fixed-slider-placeholder').height($tH);
         });
