@@ -113,6 +113,10 @@
           margin-bottom: 0;
         }
 
+        .catalog-product {
+          padding-top: 16px;
+        }
+
         .col-13 {
           padding-top: 15px;
         }
@@ -265,6 +269,7 @@
 
     .catalog-product {
       margin: 0 10px;
+      padding-top: 0;
 
       &:hover {
         box-shadow: none;

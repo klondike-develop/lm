@@ -26931,16 +26931,24 @@ a.new-product-brand-feature:hover .new-product-brand-feature-title {
 .comparison-page .box .fixed-slider.scrolled {
   padding: 10px 0;
 }
+
 .comparison-page .box .fixed-slider.scrolled .slider-js-comparison:before, .comparison-page .box .fixed-slider.scrolled .slider-js-comparison:after {
   height: 100%;
 }
+
 .comparison-page .box .fixed-slider.scrolled .product-subtitle {
   display: block;
   margin-bottom: 0;
 }
+
+.comparison-page .box .fixed-slider.scrolled .catalog-product {
+  padding-top: 16px;
+}
+
 .comparison-page .box .fixed-slider.scrolled .col-13 {
   padding-top: 15px;
 }
+
 .comparison-page .box .fixed-slider.scrolled:after {
   display: block;
   content: " ";
@@ -27063,6 +27071,7 @@ a.new-product-brand-feature:hover .new-product-brand-feature-title {
 }
 .comparison-page .box .catalog-product {
   margin: 0 10px;
+  padding-top: 0;
 }
 .comparison-page .box .catalog-product:hover {
   -webkit-box-shadow: none;
