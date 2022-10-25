@@ -242,7 +242,7 @@ $(document).ready(function () {
                 $cntTotal += $(this).text() * 1;
             });
             $('.comparison-total-cnt').text($cntTotal);
-        }, 1);
+        }, 10);
     });
 
     $('body').on('click', '.comparison-type label', function () {

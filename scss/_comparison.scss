@@ -208,6 +208,8 @@
         width: 25%;
 
         .catalog-product-img {
+          position: relative;
+
           &:after {
             display: block;
             content: ' ';
@@ -223,8 +225,35 @@
             background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
           }
 
-          img {
-            z-index: 1;
+          .catalog-product-img-link-wrapper {
+            &:after {
+              position: absolute;
+              left: 0;
+              top: 0;
+              content: "";
+              width: 100%;
+              height: 100%;
+              background-color: rgba(0, 26, 52, .05);
+              pointer-events: none;
+            }
+
+            picture {
+              display: block;
+              position: relative;
+              height: 0;
+              overflow: hidden;
+              padding-top: 73.61%;
+
+              img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                /* height: 100%; */
+                height: auto;
+                max-width: inherit;
+              }
+            }
           }
         }
       }
