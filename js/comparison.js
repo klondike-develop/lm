@@ -34,6 +34,8 @@ $(document).ready(function () {
     //scrolling();
     $(window).on("scroll", scrolling);
 
+    setTimeout(scrolling, 100);
+
     function findDifferent() {
         $(".box[style*=block] .options-list").each(function () {
             $this = $(this);
