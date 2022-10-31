@@ -14996,49 +14996,43 @@ textarea.faq-feedback-question {
   margin-left: 32px;
 }
 .delivery-page .d-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
-
 .delivery-page .delivery-text-block {
   padding: 30px 45px;
   margin-bottom: 20px;
   line-height: 20px;
 }
-
 .delivery-page .delivery-text-block .text {
   font-size: 13px;
   line-height: 20px;
 }
-
 .delivery-page .delivery-text-block .text h4 {
   font-size: 13px;
   line-height: 20px;
   font-weight: bold;
   margin-bottom: 10px;
 }
-
 .delivery-page .delivery-text-block .text .last {
   padding-top: 5px;
   color: #393939;
 }
-
 .delivery-page .delivery-text-block-2 {
   position: relative;
   padding: 50px 45px;
   margin-bottom: 20px;
 }
-
 .delivery-page .delivery-text-block-2 img {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 .delivery-page .delivery-3cols-block {
   gap: 20px;
@@ -15080,37 +15074,33 @@ textarea.faq-feedback-question {
   font-size: 20px;
   font-weight: bold;
 }
-
 .delivery-page .delivery-3cols-block p {
   padding-top: 20px;
   font-size: 13px;
   line-height: 20px;
 }
-
 .delivery-page .delivery-3cols-block p.last {
   padding-top: 5px;
 }
-
 .delivery-page .delivery-3cols-block p small {
   font-size: 11px;
   line-height: 16px;
 }
-
 .delivery-page .delivery-3cols-block .badge {
   position: absolute;
-  top: 25px;
-  left: -37px;
-  background: black;
-  width: 160px;
-  height: 36px;
-  color: #fff;
-  font-weight: 700;
-  font-size: 11px;
-  line-height: 36px;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    top: 25px;
+    left: -37px;
+    background: black;
+    width: 160px;
+    height: 36px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 36px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 .delivery-page .delivery-title, .delivery-page .delivery-detail-title {
   padding-top: 70px;
@@ -26950,26 +26940,40 @@ a.new-product-brand-feature:hover .new-product-brand-feature-title {
 .comparison-page .box .fixed-slider {
   position: absolute;
   top: 0;
-  left: 0;
-  background: white;
-  z-index: 9;
-  width: 100%;
+    left: 0;
+    background: white;
+    z-index: 9;
+    width: 100%;
 }
+
 .comparison-page .box .fixed-slider .product-subtitle {
-  display: none;
+    display: none;
 }
+
 .comparison-page .box .fixed-slider.scrolled {
-  padding: 10px 0;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
 }
+
+.comparison-page .box .fixed-slider.scrolled .row {
+    padding-left: 39px;
+    padding-right: 39px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .comparison-page .box .fixed-slider.scrolled .slider-js-comparison:before, .comparison-page .box .fixed-slider.scrolled .slider-js-comparison:after {
-  height: 100%;
+    height: 100%;
 }
+
 .comparison-page .box .fixed-slider.scrolled .product-subtitle {
-  display: block;
-  margin-bottom: 0;
+    display: block;
+    margin-bottom: 0;
 }
+
 .comparison-page .box .fixed-slider.scrolled .catalog-product {
-  padding-top: 16px;
+    padding-top: 16px;
 }
 .comparison-page .box .fixed-slider.scrolled .col-13 {
   padding-top: 15px;
@@ -27034,21 +27038,17 @@ a.new-product-brand-feature:hover .new-product-brand-feature-title {
   background: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0));
   display: none !important;
 }
-
 .comparison-page .box .slider-js-comparison:after {
   right: 0;
   background: -webkit-gradient(linear, right top, left top, from(rgb(255, 255, 255)), to(rgba(255, 255, 255, 0)));
   background: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 255, 255, 0));
 }
-
 .comparison-page .box .slider-js-comparison .slide-js {
   width: 25%;
 }
-
 .comparison-page .box .slider-js-comparison .slide-js .catalog-product-img {
   position: relative;
 }
-
 .comparison-page .box .slider-js-comparison .slide-js .catalog-product-img:after {
   display: block;
   content: " ";
@@ -27065,7 +27065,6 @@ a.new-product-brand-feature:hover .new-product-brand-feature-title {
   background: -webkit-gradient(linear, right top, left top, from(rgb(255, 255, 255)), to(rgba(255, 255, 255, 0)));
   background: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 255, 255, 0));
 }
-
 .comparison-page .box .slider-js-comparison .slide-js .catalog-product-img .catalog-product-img-link-wrapper:after {
   position: absolute;
   left: 0;
@@ -27076,7 +27075,6 @@ a.new-product-brand-feature:hover .new-product-brand-feature-title {
   background-color: rgba(0, 26, 52, 0.05);
   pointer-events: none;
 }
-
 .comparison-page .box .slider-js-comparison .slide-js .catalog-product-img .catalog-product-img-link-wrapper picture {
   display: block;
   position: relative;
@@ -27084,7 +27082,6 @@ a.new-product-brand-feature:hover .new-product-brand-feature-title {
   overflow: hidden;
   padding-top: 73.61%;
 }
-
 .comparison-page .box .slider-js-comparison .slide-js .catalog-product-img .catalog-product-img-link-wrapper picture img {
   position: absolute;
   top: 0;
@@ -27094,17 +27091,16 @@ a.new-product-brand-feature:hover .new-product-brand-feature-title {
   height: auto;
   max-width: inherit;
 }
-
 .comparison-page .box .slider-js-comparison .slick-prev,
 .comparison-page .box .slider-js-comparison .slick-next {
-  width: 54px;
-  height: 54px;
-  top: 30%;
-  border-radius: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    width: 54px;
+    height: 54px;
+    top: 30%;
+    border-radius: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 .comparison-page .box .slider-js-comparison .slick-prev:after,
 .comparison-page .box .slider-js-comparison .slick-next:after {

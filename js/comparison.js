@@ -29,10 +29,10 @@ $(document).ready(function () {
 
         if ($top > $fixedSliderInitTop + $fixedSliderPlaceholderH) {
             $('.box:visible .fixed-slider').addClass('scrolled');
-            $('.box:visible .fixed-slider').css('top', $top - $fixedSliderInitTop);
+            //$('.box:visible .fixed-slider').css('top', $top - $fixedSliderInitTop);
         } else {
             $('.box:visible .fixed-slider').removeClass('scrolled');
-            $('.box:visible .fixed-slider').css('top', 0);
+            //$('.box:visible .fixed-slider').css('top', 0);
         }
     }
 
