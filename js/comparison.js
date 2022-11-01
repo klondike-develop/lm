@@ -235,6 +235,7 @@ $(document).ready(function () {
             }
             sliderJsComparison();
             findDifferent();
+            stripped($('.box[style*=block]'));
 
             $sliderComparison.each(function () {
                 $tH = $(this).closest('.fixed-slider').height();
@@ -252,11 +253,37 @@ $(document).ready(function () {
         }, 10);
     });
 
+    function stripped(el) {
+        el.find('.options-list').each(function () {
+            $(this).find('.col-3, .slide-js').each(function () {
+                $odd = true;
+                $(this).find('.comparison-option:visible').each(function () {
+                    if ($odd) {
+                        $(this).addClass('odd');
+                    } else {
+                        $(this).removeClass('odd');
+                    }
+                    $odd = $odd ? false : true;
+                });
+            });
+        });
+    }
+
+    stripped($('.box[style*=block]'));
+
     $('body').on('click', '.comparison-type label', function () {
         if ($(this).hasClass('different')) {
             $(this).closest('.box').find('.non-different').hide();
         } else {
             $(this).closest('.box').find('.non-different').show();
+        }
+
+        stripped($(this).closest('.box'));
+    });
+
+    $('body').on('click', '.catalog-product .button', function () {
+        if ($(this).hasClass('primary')) {
+            $(this).text('Перейти корзину').removeClass('primary').addClass('warning');
         }
     });
 
@@ -280,6 +307,8 @@ $(document).ready(function () {
         $('.box[style*=block] .slider-js-comparison, .box[style*=block] .slider-js-comparison-linked').slick('slickRemove', $elementIndex);
 
         findDifferent();
+
+        $('.box[style*=block] .comparison-type .radio:first label').trigger('click');
     });
 
     $('body').on('click', '.comparison-remove-all', function () {

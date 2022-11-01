@@ -349,6 +349,10 @@
         .button.warning {
           background: #FFA22A;
           color: white;
+
+          &:hover {
+            background: #F7CC00;
+          }
         }
       }
     }
@@ -358,7 +362,7 @@
     }
 
     .slider-js-comparison-linked .slide-js:first-child {
-      .comparison-option:nth-child(odd):before {
+      .comparison-option.odd:before {
         display: block;
         content: ' ';
         position: absolute;
@@ -392,7 +396,7 @@
           margin-left: 5px;
         }
 
-        &:nth-child(odd) {
+        &.odd {
           background: #F4F5F6;
 
           .colors {
@@ -428,4 +432,12 @@
       }
     }
   }
+}
+
+.slick-slider {
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
 }

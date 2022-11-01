@@ -15087,7 +15087,7 @@ textarea.faq-feedback-question {
   line-height: 16px;
 }
 .delivery-page .delivery-3cols-block .badge {
-  position: absolute;
+    position: absolute;
     top: 25px;
     left: -37px;
     background: black;
@@ -26938,40 +26938,34 @@ a.new-product-brand-feature:hover .new-product-brand-feature-title {
   padding: 20px 0;
 }
 .comparison-page .box .fixed-slider {
-  position: absolute;
-  top: 0;
+    position: absolute;
+    top: 0;
     left: 0;
     background: white;
     z-index: 9;
     width: 100%;
 }
-
 .comparison-page .box .fixed-slider .product-subtitle {
     display: none;
 }
-
 .comparison-page .box .fixed-slider.scrolled {
     padding: 10px 0;
     position: fixed;
     width: 100%;
 }
-
 .comparison-page .box .fixed-slider.scrolled .row {
     padding-left: 39px;
     padding-right: 39px;
     max-width: 1440px;
     margin: 0 auto;
 }
-
 .comparison-page .box .fixed-slider.scrolled .slider-js-comparison:before, .comparison-page .box .fixed-slider.scrolled .slider-js-comparison:after {
     height: 100%;
 }
-
 .comparison-page .box .fixed-slider.scrolled .product-subtitle {
     display: block;
     margin-bottom: 0;
 }
-
 .comparison-page .box .fixed-slider.scrolled .catalog-product {
     padding-top: 16px;
 }
@@ -27159,23 +27153,31 @@ a.new-product-brand-feature:hover .new-product-brand-feature-title {
 .comparison-page .box .catalog-product .catalog-product-button {
   padding-top: 15px;
 }
+
 .comparison-page .box .catalog-product .catalog-product-button .button.warning {
-  background: #FFA22A;
-  color: white;
+    background: #FFA22A;
+    color: white;
 }
+
+.comparison-page .box .catalog-product .catalog-product-button .button.warning:hover {
+    background: #F7CC00;
+}
+
 .comparison-page .box .product-subtitle {
-  padding: 30px 0 20px 0;
+    padding: 30px 0 20px 0;
 }
-.comparison-page .box .slider-js-comparison-linked .slide-js:first-child .comparison-option:nth-child(odd):before {
-  display: block;
-  content: " ";
-  position: absolute;
-  top: 0;
-  right: 100%;
-  height: 100%;
-  width: 500px;
-  background: inherit;
+
+.comparison-page .box .slider-js-comparison-linked .slide-js:first-child .comparison-option.odd:before {
+    display: block;
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 100%;
+    height: 100%;
+    width: 500px;
+    background: inherit;
 }
+
 .comparison-page .box .options-list {
   padding-bottom: 20px;
 }
@@ -27187,26 +27189,29 @@ a.new-product-brand-feature:hover .new-product-brand-feature-title {
 .comparison-page .box .options-list .comparison-option a {
   display: inline-block;
   width: 14px;
-  height: 14px;
-  text-align: center;
-  line-height: 10px;
-  border: 2px solid #A1A1A1;
-  color: #A1A1A1;
-  font-size: 11px;
-  font-weight: bold;
-  border-radius: 50%;
-  margin-left: 5px;
+    height: 14px;
+    text-align: center;
+    line-height: 10px;
+    border: 2px solid #A1A1A1;
+    color: #A1A1A1;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-left: 5px;
 }
-.comparison-page .box .options-list .comparison-option:nth-child(odd) {
-  background: #F4F5F6;
+
+.comparison-page .box .options-list .comparison-option.odd {
+    background: #F4F5F6;
 }
-.comparison-page .box .options-list .comparison-option:nth-child(odd) .colors .color {
-  background: white;
+
+.comparison-page .box .options-list .comparison-option.odd .colors .color {
+    background: white;
 }
+
 .comparison-page .box .options-list .comparison-option .colors {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
 .comparison-page .box .options-list .comparison-option .colors .color {
   display: block;
@@ -27217,25 +27222,33 @@ a.new-product-brand-feature:hover .new-product-brand-feature-title {
   margin-right: 10px;
   background: #F4F5F6;
   text-align: center;
-  line-height: 22px;
+    line-height: 22px;
 }
+
 .comparison-page .box .options-list .comparison-option .colors .color.more {
-  border: none;
-  width: 24px;
-  height: 24px;
-  font-size: 11px;
-  color: #A1A1A1;
+    border: none;
+    width: 24px;
+    height: 24px;
+    font-size: 11px;
+    color: #A1A1A1;
+}
+
+.slick-slider {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
 }
 
 /* responsive */
 @media (max-width: 1399px) {
-  .thumb-caption-v12 .thumb-title,
-.thumb-caption-v13 .thumb-title,
-.thumb-caption-v14 .thumb-title,
-.thumb-caption-v15 .thumb-title,
-.thumb-caption-v16 .thumb-title,
-.thumb-caption-v17 .thumb-title,
-.thumb-caption-v18 .thumb-title,
+    .thumb-caption-v12 .thumb-title,
+    .thumb-caption-v13 .thumb-title,
+    .thumb-caption-v14 .thumb-title,
+    .thumb-caption-v15 .thumb-title,
+    .thumb-caption-v16 .thumb-title,
+    .thumb-caption-v17 .thumb-title,
+    .thumb-caption-v18 .thumb-title,
 .thumb-caption-v22 .thumb-title {
     font-size: 36px;
     line-height: 1;
